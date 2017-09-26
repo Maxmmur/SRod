@@ -192,9 +192,9 @@ public class U {
 	}
 
 	public static int getForegroundColorOnDarkBackgroundByBookId(int bookId) {
-		if (bookId >= 0 && bookId < 39) { // OT
+		if (bookId >= 0 && bookId < 31) { // OT
 			return 0xff_ef5350; // Pink
-		} else if (bookId >= 39 && bookId < 66) { // NT
+		} else if (bookId >= 31 && bookId < 135) { // NT
 			return 0xff_42a5f5; // Blue 400
 		} else { // others
 			return 0xff_eeeeee; // Grey 200
