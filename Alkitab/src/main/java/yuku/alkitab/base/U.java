@@ -202,9 +202,9 @@ public class U {
 	}
 
 	public static int getBackgroundColorByBookId(int bookId) {
-		if (bookId >= 0 && bookId < 39) { // OT
+		if (bookId >= 0 && bookId < 31) { // OT
 			return 0xff_e53935; // Red 600
-		} else if (bookId >= 39 && bookId < 66) { // NT
+		} else if (bookId >= 31 && bookId < 135) { // NT
 			return 0xff_1e88e5; // Blue 600
 		} else { // others
 			return 0xff_212121; // Grey 900
