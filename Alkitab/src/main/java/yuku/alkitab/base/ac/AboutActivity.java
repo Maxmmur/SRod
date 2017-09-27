@@ -131,7 +131,7 @@ public class AboutActivity extends BaseActivity {
 		bHelp = V.get(this, R.id.bHelp);
 		bHelp.setOnClickListener(v -> {
 			App.trackEvent("help_button_announcement");
-			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bibleforandroid.com/guide?utm_source=app&utm_medium=button&utm_campaign=help")));
+			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.gadsda.com/charts-of-the-shepherds-rod/")));
 		});
 
 		bMaterialSources = V.get(this, R.id.bMaterialSources);
