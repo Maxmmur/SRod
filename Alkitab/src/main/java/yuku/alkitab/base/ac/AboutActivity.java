@@ -146,34 +146,6 @@ public class AboutActivity extends BaseActivity {
 			startActivity(HelpActivity.createIntent("help/credits.html", getString(R.string.about_credits)));
 		});
 
-		bFeedback = V.get(this, R.id.bFeedback);
-		bFeedback.setOnClickListener(v -> {
-			App.trackEvent("help_button_feedback");
-			startActivity(new Intent(App.context, com.example.android.wizardpager.MainActivity.class));
-		});
-
-		bEnableBeta = V.get(this, R.id.bEnableBeta);
-		bEnableBeta.setOnClickListener(v -> {
-				App.trackEvent("help_button_enable_beta");
-				new MaterialDialog.Builder(this)
-					.content(R.string.about_enable_beta_confirmation)
-					.positiveText(R.string.ok)
-					.negativeText(R.string.cancel)
-					.onPositive((dialog, which) -> {
-						try {
-							startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/apps/testing/" + getPackageName())));
-						} catch (Exception ignored) {
-						}
-					})
-					.show();
-			}
-		);
-
-		// already in beta?
-		if (App.getVersionName().contains("beta")) {
-			bEnableBeta.setVisibility(View.GONE);
-		}
-
 		bAnnouncements = V.get(this, R.id.bAnnouncements);
 		bAnnouncements.setOnClickListener(v -> bAnnouncements_click());
 
