@@ -39,16 +39,17 @@
 
 	<TextView
 		android:id="@+id/bReadingPlan"
-        style="?buttonBarButtonStyle"
-		android:textColor="?android:textColorPrimary"
+		style="?buttonBarButtonStyle"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
 		android:drawableLeft="@drawable/ic_drawer_reading_plan"
 		android:drawablePadding="16dp"
-        android:textSize="16sp"
 		android:gravity="left|center_vertical"
-		android:text="@string/rp_menuReadingPlan" />
+		android:text="@string/rp_menuReadingPlan"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="?android:textColorPrimary"
+		android:textSize="16sp"
+		android:visibility="gone" />
 
 	<TextView
 		android:id="@+id/bSongs"
