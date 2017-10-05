@@ -4,7 +4,7 @@
 	<item
 		android:id="@+id/menuMigrateFromV3"
 		android:title="@string/marker_migrate_title"
-		app:showAsAction="never"/>
+		android:visible="false" />
 	<item
 		android:id="@+id/menuLabelSort"
 		android:title="@string/menuLabelSort"
