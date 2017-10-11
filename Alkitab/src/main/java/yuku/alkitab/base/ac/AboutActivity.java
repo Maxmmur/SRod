@@ -46,10 +46,10 @@ public class AboutActivity extends BaseActivity {
 	View bHelp;
 	View bMaterialSources;
 	View bCredits;
-	View bFeedback;
-	View bEnableBeta;
-	View bAnnouncements;
-	TextView tAnnouncements;
+	// View bFeedback;
+	// View bEnableBeta;
+	// View bAnnouncements;
+	// TextView tAnnouncements;
 	ContentLoadingProgressBar progressAnnouncements;
 
 	final AtomicBoolean backgroundAnimationStarted = new AtomicBoolean(false);
@@ -146,10 +146,10 @@ public class AboutActivity extends BaseActivity {
 			startActivity(HelpActivity.createIntent("help/credits.html", getString(R.string.about_credits)));
 		});
 
-		bAnnouncements = V.get(this, R.id.bAnnouncements);
-		bAnnouncements.setOnClickListener(v -> bAnnouncements_click());
+		// bAnnouncements = V.get(this, R.id.bAnnouncements);
+		// bAnnouncements.setOnClickListener(v -> bAnnouncements_click());
 
-		tAnnouncements = V.get(this, R.id.tAnnouncements);
+		// tAnnouncements = V.get(this, R.id.tAnnouncements);
 		progressAnnouncements = V.get(this, R.id.progressAnnouncements);
 
 		setAnnouncementState(AnnouncementState.init);
@@ -202,23 +202,23 @@ public class AboutActivity extends BaseActivity {
 
 		switch (state) {
 			case init:
-				tAnnouncements.setText(R.string.about_announcements);
+				// tAnnouncements.setText(R.string.about_announcements);
 				progressAnnouncements.hide();
 				break;
 			case loading:
-				tAnnouncements.setText(R.string.about_announcements);
+				// tAnnouncements.setText(R.string.about_announcements);
 				progressAnnouncements.show();
 				break;
 			case has_none:
-				tAnnouncements.setText(R.string.about_announcements_none);
+				// tAnnouncements.setText(R.string.about_announcements_none);
 				progressAnnouncements.hide();
 				break;
 			case has_few:
-				tAnnouncements.setText(getString(R.string.about_announcements_number, announcementIds.length));
+				// tAnnouncements.setText(getString(R.string.about_announcements_number, announcementIds.length));
 				progressAnnouncements.hide();
 				break;
 			case error:
-				tAnnouncements.setText(R.string.about_announcements);
+				// tAnnouncements.setText(R.string.about_announcements);
 				progressAnnouncements.hide();
 				break;
 		}
