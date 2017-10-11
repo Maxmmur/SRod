@@ -141,7 +141,7 @@ public class VersionsActivity extends BaseActivity {
 		processIntent(getIntent(), "onCreate");
 
 		// try to auto-update version list
-		VersionConfigUpdaterService.checkUpdate(true);
+		// VersionConfigUpdaterService.checkUpdate(true);
 	}
 
 	private void processIntent(Intent intent, String via) {
@@ -829,13 +829,13 @@ public class VersionsActivity extends BaseActivity {
 			if (swiper != null) { // Can be null, if the layout used is fragment_versions_downloaded.
 				final int accentColor = ResourcesCompat.getColor(getResources(), R.color.accent, null);
 				swiper.setColorSchemeColors(accentColor, 0xffcbcbcb);
-				swiper.setOnRefreshListener(swiper_refresh);
+				// swiper.setOnRefreshListener(swiper_refresh);
 			}
 
 			return rootView;
 		}
 
-		final SwipeRefreshLayout.OnRefreshListener swiper_refresh = () -> VersionConfigUpdaterService.checkUpdate(false);
+		// final SwipeRefreshLayout.OnRefreshListener swiper_refresh = () -> VersionConfigUpdaterService.checkUpdate(false);
 
 		Map<String, String> cache_displayLanguage = new HashMap<>();
 
