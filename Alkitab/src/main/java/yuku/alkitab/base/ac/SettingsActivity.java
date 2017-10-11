@@ -214,6 +214,7 @@ public class SettingsActivity extends BaseActivity {
 			// only show dictionary auto-lookup when enabled in app_config
 			if (!AppConfig.get().menuDictionary) {
 				getPreferenceScreen().removePreference(findPreference(getString(R.string.pref_autoDictionaryAnalyze_key)));
+				getPreferenceScreen().removePreference(findPreference(getString(R.string.pref_showHiddenVersion_key)));
 			}
 		}
 	}
