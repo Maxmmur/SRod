@@ -6,6 +6,7 @@
 		android:id="@+id/menuAdd"
 		android:icon="@drawable/ic_menu_add_light"
 		android:title="@string/tambah"
+		android:visible="false"
 		app:showAsAction="always">
 
 		<menu>
