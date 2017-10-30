@@ -14,6 +14,7 @@ import android.widget.TextView;
 import yuku.afw.storage.Preferences;
 import yuku.alkitab.base.S;
 import yuku.alkitab.base.U;
+import yuku.alkitab.base.util.AppLog;
 import yuku.alkitab.base.util.Appearances;
 import yuku.alkitab.base.util.Highlights;
 import yuku.alkitab.base.util.TargetDecoder;
@@ -110,7 +111,7 @@ public class SingleViewVerseAdapter extends VerseAdapter {
 			}
 
 			final AttributeView attributeView = res.attributeView;
-			attributeView.setScale(scaleForAttributeView(S.applied.fontSize2dp * textSizeMult_));
+			attributeView.setScale(scaleForAttributeView(S.applied().fontSize2dp * textSizeMult_));
 			attributeView.setBookmarkCount(bookmarkCountMap_ == null ? 0 : bookmarkCountMap_[id]);
 			attributeView.setNoteCount(noteCountMap_ == null ? 0 : noteCountMap_[id]);
 			attributeView.setProgressMarkBits(progressMarkBitsMap_ == null ? 0 : progressMarkBitsMap_[id]);
@@ -142,7 +143,7 @@ public class SingleViewVerseAdapter extends VerseAdapter {
 				try {
 					c = cr.query(uri, null, null, null, null);
 				} catch (Exception e) {
-					Log.e(TAG, "Error when querying dictionary content provider", e);
+					AppLog.e(TAG, "Error when querying dictionary content provider", e);
 				}
 
 				if (c != null) {
@@ -207,10 +208,10 @@ public class SingleViewVerseAdapter extends VerseAdapter {
 			if (position == 0 || itemPointer_[position - 1] < 0) {
 				paddingTop = 0;
 			} else {
-				paddingTop = S.applied.pericopeSpacingTop;
+				paddingTop = S.applied().pericopeSpacingTop;
 			}
 
-			res.setPadding(0, paddingTop, 0, S.applied.pericopeSpacingBottom);
+			res.setPadding(0, paddingTop, 0, S.applied().pericopeSpacingBottom);
 
 			Appearances.applyPericopeTitleAppearance(lCaption, textSizeMult_);
 

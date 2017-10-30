@@ -33,14 +33,14 @@ public class FontManager {
 				}
 			}
 
-			Log.d(TAG, "TypefaceCreateFromFileCacher creating entry for " + path);
+			AppLog.d(TAG, "TypefaceCreateFromFileCacher creating entry for " + path);
 			Typeface typeface = Typeface.createFromFile(path);
 
 			// cache too full?
 			if (keys.size() >= max) {
 				keys.remove(0);
 				values.remove(0);
-				Log.d(TAG, "TypefaceCreateFromFileCacher removed entry from cache because cache is too full");
+				AppLog.d(TAG, "TypefaceCreateFromFileCacher removed entry from cache because cache is too full");
 			}
 			keys.add(path);
 			values.add(typeface);
@@ -74,7 +74,8 @@ public class FontManager {
 		return new File(getFontsDir(), name);
 	}
 
-	@Nullable private static File getRegularFontFile(String name) {
+	@Nullable
+	private static File getRegularFontFile(String name) {
 		final String dfn = getRegularFilename(name);
 		{
 			final File res = new File(getFontsDir(), dfn);
@@ -130,7 +131,7 @@ public class FontManager {
 			final String basename = pathname.getName();
 			final File file = new File(fontsDir, getRegularFilename(basename));
 			if (!file.exists()) {
-				Log.d(TAG, "Font dir " + pathname.getAbsolutePath() + " exists but " + file.getAbsolutePath() + " doesn't");
+				AppLog.d(TAG, "Font dir " + pathname.getAbsolutePath() + " exists but " + file.getAbsolutePath() + " doesn't");
 				return false;
 			} else {
 				return true;
@@ -148,7 +149,7 @@ public class FontManager {
 		else {
 			res = getRegular(name);
 			if (res == null) {
-				Log.w(TAG, "Failed to load font named " + name + " fallback to SANS_SERIF");
+				AppLog.w(TAG, "Failed to load font named " + name + " fallback to SANS_SERIF");
 				res = Typeface.SANS_SERIF;
 			}
 		}
@@ -159,8 +160,11 @@ public class FontManager {
 		return !(name == null || name.equals("DEFAULT") || name.equals("SANS_SERIF") || name.equals("SERIF") || name.equals("MONOSPACE"));
 	}
 
+	@Nullable
 	public static String getCustomFontUri(String name) {
-		File path = getRegularFontFile(name);
+		final File path = getRegularFontFile(name);
+		if (path == null) return null;
+
 		return Uri.fromFile(path).toString();
 	}
 }

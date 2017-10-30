@@ -9,7 +9,6 @@ import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Menu;
@@ -35,6 +34,7 @@ import yuku.alkitab.base.U;
 import yuku.alkitab.base.ac.base.BaseActivity;
 import yuku.alkitab.base.dialog.LabelEditorDialog;
 import yuku.alkitab.base.sync.SyncSettingsActivity;
+import yuku.alkitab.base.util.AppLog;
 import yuku.alkitab.base.util.BookmarkImporter;
 import yuku.alkitab.debug.R;
 import yuku.alkitab.model.Label;
@@ -49,6 +49,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.List;
+import java.util.Locale;
 
 public class MarkersActivity extends BaseActivity {
 	public static final String TAG = MarkersActivity.class.getSimpleName();
@@ -435,9 +436,9 @@ public class MarkersActivity extends BaseActivity {
 			labels = S.getDb().listAllLabels();
 			
 			if (D.EBUG) {
-				Log.d(TAG, "_id  title                ordering backgroundColor");
+				AppLog.d(TAG, "_id  title                ordering backgroundColor");
 				for (Label label: labels) {
-					Log.d(TAG, String.format("%4d %20s %8d %s", label._id, label.title, label.ordering, label.backgroundColor));
+					AppLog.d(TAG, String.format(Locale.US, "%4d %20s %8d %s", label._id, label.title, label.ordering, label.backgroundColor));
 				}
 			}
 			

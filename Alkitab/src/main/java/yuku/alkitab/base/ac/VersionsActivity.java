@@ -1,5 +1,6 @@
 package yuku.alkitab.base.ac;
 
+import android.annotation.TargetApi;
 import android.app.DownloadManager;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
@@ -11,6 +12,7 @@ import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -35,7 +37,6 @@ import android.text.style.ForegroundColorSpan;
 import android.text.style.ImageSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -66,6 +67,7 @@ import yuku.alkitab.base.pdbconvert.ConvertPdbToYes2;
 import yuku.alkitab.base.storage.YesReaderFactory;
 import yuku.alkitab.base.sv.VersionConfigUpdaterService;
 import yuku.alkitab.base.util.AddonManager;
+import yuku.alkitab.base.util.AppLog;
 import yuku.alkitab.base.util.DownloadMapper;
 import yuku.alkitab.base.util.QueryTokenizer;
 import yuku.alkitab.debug.BuildConfig;
@@ -145,23 +147,12 @@ public class VersionsActivity extends BaseActivity {
 	}
 
 	private void processIntent(Intent intent, String via) {
-		Log.d(TAG, "Got intent via " + via);
-		Log.d(TAG, "  action: " + intent.getAction());
-		Log.d(TAG, "  data uri: " + intent.getData());
-		Log.d(TAG, "  component: " + intent.getComponent());
-		Log.d(TAG, "  flags: 0x" + Integer.toHexString(intent.getFlags()));
-		Log.d(TAG, "  mime: " + intent.getType());
-		Bundle extras = intent.getExtras();
-		Log.d(TAG, "  extras: " + (extras == null ? "null" : extras.size()));
-		if (extras != null) {
-			for (String key : extras.keySet()) {
-				Log.d(TAG, "    " + key + " = " + extras.get(key));
-			}
-		}
+		U.dumpIntent(intent, via);
 
 		checkAndProcessOpenFileIntent(intent);
 	}
 
+	@TargetApi(Build.VERSION_CODES.KITKAT)
 	private void checkAndProcessOpenFileIntent(Intent intent) {
 		if (!U.equals(intent.getAction(), Intent.ACTION_VIEW)) return;
 
@@ -186,43 +177,49 @@ public class VersionsActivity extends BaseActivity {
 			filelastname = uri.getLastPathSegment();
 		} else {
 			// try to read display name from content
-			final Cursor c = getContentResolver().query(uri, null, null, null, null);
-			if (c == null) {
+			try (Cursor c = getContentResolver().query(uri, null, null, null, null)) {
+				if (c == null || !c.moveToNext()) {
+					new MaterialDialog.Builder(this)
+						.content(TextUtils.expandTemplate(getString(R.string.open_yes_error_read), uri.toString()))
+						.positiveText(R.string.ok)
+						.show();
+					return;
+				}
+
+				String[] cns = c.getColumnNames();
+				AppLog.d(TAG, Arrays.toString(cns));
+				for (int i = 0, len = c.getColumnCount(); i < len; i++) {
+					AppLog.d(TAG, cns[i] + ": " + c.getString(i));
+				}
+
+				int col = c.getColumnIndex(MediaStore.MediaColumns.DISPLAY_NAME);
+				if (col != -1) {
+					String name = c.getString(col);
+					if (name == null) {
+						isYesFile = null;
+					} else {
+						final String namelc = name.toLowerCase(Locale.US);
+						if (namelc.endsWith(".yes")) {
+							isYesFile = true;
+						} else if (namelc.endsWith(".pdb")) {
+							isYesFile = false;
+						} else {
+							isYesFile = null;
+						}
+					}
+					filelastname = name;
+				} else {
+					isYesFile = null;
+					filelastname = null;
+				}
+
+			} catch (SecurityException e) {
 				new MaterialDialog.Builder(this)
 					.content(TextUtils.expandTemplate(getString(R.string.open_yes_error_read), uri.toString()))
 					.positiveText(R.string.ok)
 					.show();
 				return;
 			}
-
-			String[] cns = c.getColumnNames();
-			Log.d(TAG, Arrays.toString(cns));
-			c.moveToNext();
-			for (int i = 0, len = c.getColumnCount(); i < len; i++) {
-				Log.d(TAG, cns[i] + ": " + c.getString(i));
-			}
-
-			int col = c.getColumnIndex(MediaStore.MediaColumns.DISPLAY_NAME);
-			if (col != -1) {
-				String name = c.getString(col);
-				if (name == null) {
-					isYesFile = null;
-				} else {
-					final String namelc = name.toLowerCase(Locale.US);
-					if (namelc.endsWith(".yes")) {
-						isYesFile = true;
-					} else if (namelc.endsWith(".pdb")) {
-						isYesFile = false;
-					} else {
-						isYesFile = null;
-					}
-				}
-				filelastname = name;
-			} else {
-				isYesFile = null;
-				filelastname = null;
-			}
-			c.close();
 		}
 
 		try {
@@ -508,13 +505,13 @@ public class VersionsActivity extends BaseActivity {
 						converter.setConvertProgressListener(new ConvertPdbToYes2.ConvertProgressListener() {
 							@Override
 							public void onProgress(int at, String message) {
-								Log.d(TAG, "Progress " + at + ": " + message);
+								AppLog.d(TAG, "Progress " + at + ": " + message);
 								publishProgress(at, message);
 							}
 
 							@Override
 							public void onFinish() {
-								Log.d(TAG, "Finish");
+								AppLog.d(TAG, "Finish");
 								publishProgress(null, null);
 							}
 						});
@@ -701,7 +698,7 @@ public class VersionsActivity extends BaseActivity {
 							} catch (Exception e) {
 								return null;
 							} finally {
-								Log.d(TAG, "menghapus tmpfile3: " + tmpfile3);
+								AppLog.d(TAG, "menghapus tmpfile3: " + tmpfile3);
 								//noinspection ResultOfMethodCallIgnored
 								new File(tmpfile3).delete();
 							}
@@ -1028,7 +1025,7 @@ public class VersionsActivity extends BaseActivity {
 				try {
 					enabled = App.context.getPackageManager().getApplicationEnabledSetting("com.android.providers.downloads");
 				} catch (Exception e) {
-					Log.d(TAG, "getting app enabled setting", e);
+					AppLog.d(TAG, "getting app enabled setting", e);
 				}
 
 				if (enabled == -1
@@ -1041,7 +1038,7 @@ public class VersionsActivity extends BaseActivity {
 							try {
 								startActivity(new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse("package:com.android.providers.downloads")));
 							} catch (ActivityNotFoundException e) {
-								Log.e(TAG, "opening apps setting", e);
+								AppLog.e(TAG, "opening apps setting", e);
 							}
 						})
 						.negativeText(R.string.cancel)
@@ -1182,10 +1179,10 @@ public class VersionsActivity extends BaseActivity {
 					Collections.sort(items, (a, b) -> a.mv.ordering - b.mv.ordering);
 
 					if (BuildConfig.DEBUG) {
-						Log.d(TAG, "ordering   type                   versionId");
-						Log.d(TAG, "========   ===================    =================");
+						AppLog.d(TAG, "ordering   type                   versionId");
+						AppLog.d(TAG, "========   ===================    =================");
 						for (final Item item : items) {
-							Log.d(TAG, String.format("%8d   %-20s   %s", item.mv.ordering, item.mv.getClass().getSimpleName(), item.mv.getVersionId()));
+							AppLog.d(TAG, String.format(Locale.US, "%8d   %-20s   %s", item.mv.ordering, item.mv.getClass().getSimpleName(), item.mv.getVersionId()));
 						}
 					}
 				}

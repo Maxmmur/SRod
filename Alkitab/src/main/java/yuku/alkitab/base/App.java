@@ -7,8 +7,8 @@ import android.support.annotation.NonNull;
 import android.support.multidex.MultiDex;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.preference.PreferenceManager;
-import android.util.Log;
 import android.view.ViewConfiguration;
+import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
@@ -16,6 +16,7 @@ import com.google.gson.Gson;
 import com.jakewharton.picasso.OkHttp3Downloader;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.picasso.Picasso;
+import io.fabric.sdk.android.Fabric;
 import okhttp3.Cache;
 import okhttp3.Call;
 import okhttp3.Interceptor;
@@ -23,18 +24,16 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.internal.Version;
 import yuku.afw.storage.Preferences;
-import yuku.alkitab.base.model.MVersionInternal;
 import yuku.alkitab.base.model.SyncShadow;
-import yuku.alkitab.base.model.VersionImpl;
 import yuku.alkitab.base.storage.Prefkey;
 import yuku.alkitab.base.sync.Gcm;
 import yuku.alkitab.base.sync.Sync;
+import yuku.alkitab.base.util.AppLog;
 import yuku.alkitab.debug.BuildConfig;
 import yuku.alkitab.debug.R;
 import yuku.alkitab.reminder.util.DevotionReminder;
 import yuku.alkitabfeedback.FeedbackSender;
 import yuku.alkitabintegration.display.Launcher;
-import yuku.kirimfidbek.CrashReporter;
 import yuku.stethoshim.StethoShim;
 
 import java.io.File;
@@ -102,6 +101,8 @@ public class App extends yuku.afw.App {
 	public void onCreate() {
 		super.onCreate();
 
+		staticInit();
+
 		{ // LeakCanary, also we need the Application instance.
 			if (LeakCanary.isInAnalyzerProcess(this)) {
 				// This process is dedicated to LeakCanary for heap analysis.
@@ -110,8 +111,6 @@ public class App extends yuku.afw.App {
 			}
 			LeakCanary.install(this);
 		}
-
-		staticInit();
 
 		{ // Google Analytics V4
 			// This can't be in staticInit because we need the Application instance.
@@ -128,17 +127,19 @@ public class App extends yuku.afw.App {
 		}
 	}
 
+	/**
+	 * {@link yuku.afw.App#context} must have been set via {@link #initWithAppContext(Context)}
+	 * before calling this method.
+	 */
 	public synchronized static void staticInit() {
 		if (initted) return;
 		initted = true;
 
-		final CrashReporter cr = new CrashReporter();
-		if (BuildConfig.DEBUG) {
-			Log.d(TAG, "Not activating crash reporter because we are in debug build.");
-		} else {
-			cr.activateDefaultUncaughtExceptionHandler();
+		if (context == null) {
+			throw new RuntimeException("yuku.afw.App.context must have been set via initWithAppContext(Context) before calling this method.");
 		}
-		cr.trySend();
+
+		Fabric.with(context, new Crashlytics());
 
 		final FeedbackSender fs = FeedbackSender.getInstance(context);
 		fs.trySend();
@@ -152,17 +153,6 @@ public class App extends yuku.afw.App {
 		}) {
 			PreferenceManager.setDefaultValues(context, preferenceResId, false);
 		}
-
-		// all activities need at least the activeVersion from S, so initialize it here.
-		synchronized (S.class) {
-			if (S.activeVersion == null) {
-				S.activeVersion = VersionImpl.getInternalVersion();
-				S.activeVersionId = MVersionInternal.getVersionInternalId();
-			}
-		}
-
-		// also pre-calculate calculated preferences value here
-		S.calculateAppliedValuesBasedOnPreferences();
 
 		{ // GCM
 			Gcm.renewGcmRegistrationIdIfNeeded(Sync::notifyNewGcmRegistrationId);
@@ -179,10 +169,6 @@ public class App extends yuku.afw.App {
 		if (Preferences.contains(Prefkey.sync_simpleToken)) {
 			Sync.notifySyncNeeded(SyncShadow.ALL_SYNC_SET_NAMES);
 		}
-
-		if (BuildConfig.DEBUG) {
-			Log.d(TAG, "Font scale: " + context.getResources().getConfiguration().fontScale);
-		}
 	}
 
 	private static void forceOverflowMenu() {
@@ -196,7 +182,7 @@ public class App extends yuku.afw.App {
 			sHasPermanentMenuKey.setAccessible(true);
 			sHasPermanentMenuKey.setBoolean(config, false);
 		} catch (Exception e) {
-			Log.w(TAG, "ViewConfiguration has no sHasPermanentMenuKey field", e);
+			AppLog.w(TAG, "ViewConfiguration has no sHasPermanentMenuKey field", e);
 		}
 
 		try {
@@ -204,7 +190,7 @@ public class App extends yuku.afw.App {
 			sHasPermanentMenuKeySet.setAccessible(true);
 			sHasPermanentMenuKeySet.setBoolean(config, true);
 		} catch (Exception e) {
-			Log.w(TAG, "ViewConfiguration has no sHasPermanentMenuKeySet field", e);
+			AppLog.w(TAG, "ViewConfiguration has no sHasPermanentMenuKeySet field", e);
 		}
 	}
 

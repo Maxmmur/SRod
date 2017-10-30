@@ -1,4 +1,19 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
 apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
 
 apply plugin: 'me.tatarka.retrolambda'
 
@@ -17,11 +32,11 @@ android {
         applicationId 'yuku.alkitab.debug'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 14000310
-        versionName '4.4.1'
+        versionCode 14000330
+        versionName '4.4.3'
         multiDexEnabled true
         // Keep this synced with integrate_translations.sh!
-        resConfigs 'af', 'bg', 'cs', 'da', 'de', 'es', 'fr', 'in', 'ja', 'lv', 'ms', 'nl', 'pl', 'pt', 'ro', 'ru', 'th', 'uk', 'vi', 'zh-rCN', 'zh-rTW'
+        resConfigs 'af', 'bg', 'cs', 'da', 'de', 'es', 'fr', 'in', 'ja', 'ko', 'lv', 'ms', 'nl', 'pl', 'pt', 'ro', 'ru', 'th', 'uk', 'vi', 'zh-rCN', 'zh-rTW'
         buildConfigField 'String', 'SERVER_HOST', "\"$SERVER_HOST\""
     }
     buildTypes {
@@ -46,11 +61,6 @@ android {
     }
     productFlavors {
         // Use this for development
-        emulator_v21 {
-            minSdkVersion 21
-        }
-
-        // Use this for development testing on Android < 5.0
         plain {
         }
 
@@ -105,4 +115,7 @@ dependencies {
     compile "com.android.support:design:$supportLibVersion"
     compile "com.android.support:percent:$supportLibVersion"
     compile "com.takisoft.fix:preference-v7:24.2.0.0"
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
+        transitive = true;
+    }
 }

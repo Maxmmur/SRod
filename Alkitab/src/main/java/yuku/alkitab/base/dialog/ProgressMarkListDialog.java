@@ -36,8 +36,8 @@ public class ProgressMarkListDialog extends DialogFragment {
 
 	Listener progressMarkListener;
 
-	Version version = S.activeVersion;
-	String versionId = S.activeVersionId;
+	Version version = S.activeVersion();
+	String versionId = S.activeVersionId();
 	float textSizeMult = S.getDb().getPerVersionSettings(versionId).fontSizeMultiplier;
 
 	@Override
@@ -58,7 +58,7 @@ public class ProgressMarkListDialog extends DialogFragment {
 		final ListView lsProgressMark = V.get(view, R.id.lsProgressMark);
 		final ProgressMarkAdapter adapter = new ProgressMarkAdapter();
 		lsProgressMark.setAdapter(adapter);
-		lsProgressMark.setBackgroundColor(S.applied.backgroundColor);
+		lsProgressMark.setBackgroundColor(S.applied().backgroundColor);
 		lsProgressMark.setOnItemClickListener((parent, view1, position, id) -> {
 			final ProgressMark progressMark = adapter.progressMarks.get(position);
 			progressMarkListener.onProgressMarkSelected(progressMark.preset_id);
