@@ -59,7 +59,7 @@ android {
             applicationId 'yuku.alkitab'
         }
         yuku_quick_bible {
-            applicationId 'yuku.alkitab.kjv'
+            applicationId 'com.gadsda.shepherdsrod.davidian'
         }
         sabda_alkitab {
             applicationId 'org.sabda.alkitab'
