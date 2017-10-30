@@ -109,7 +109,8 @@
 					android:text="@string/sync_login_form_optional_header"
 					android:textAllCaps="true"
 					android:textSize="14sp"
-					android:textStyle="bold" />
+					android:textStyle="bold"
+					android:visibility="gone" />
 
 				<ImageView
 					android:layout_width="match_parent"
@@ -122,20 +123,23 @@
 					android:layout_width="match_parent"
 					android:layout_height="48dp"
 					android:hint="@string/sync_login_form_church"
-					android:inputType="textPersonName" />
+					android:inputType="textPersonName"
+					android:visibility="gone" />
 
 				<EditText
 					android:id="@+id/tCity"
 					android:layout_width="match_parent"
 					android:layout_height="48dp"
 					android:hint="@string/sync_login_form_city"
-					android:inputType="textPersonName" />
+					android:inputType="textPersonName"
+					android:visibility="gone" />
 
 				<Spinner
 					android:id="@+id/cbReligion"
 					android:layout_width="match_parent"
 					android:layout_height="48dp"
 					android:spinnerMode="dropdown"
+					android:visibility="gone"
 					tools:listitem="@android:layout/simple_dropdown_item_1line" />
 			</LinearLayout>
 

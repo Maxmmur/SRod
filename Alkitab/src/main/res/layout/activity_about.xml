@@ -265,7 +265,7 @@ tools:ignore="HardcodedText" />
                     android:layout_height="wrap_content"
                     android:autoLink="web"
                     android:gravity="center_horizontal"
-                    android:text="https://www.gadsda.com/calendar/"
+                    android:text="https://www.gadsda.com/corrections/"
                     android:textSize="16sp"
                     tools:ignore="HardcodedText" />
 
