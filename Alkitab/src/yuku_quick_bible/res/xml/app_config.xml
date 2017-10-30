@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
 	<menu
-		devotion="true"
-		songs="true"
+		devotion="false"
+		songs="false"
 		dictionary="false"
 		guide="false"
 		commentary="false"
@@ -12,5 +12,5 @@
 		<devotion name="me-en" />
 	</devotions>
 
-	<internal locale="en" shortName="KJV"     longName="King James" prefix="kjv" preset_name='en-kjv' />
+	<internal locale="en" shortName="MENU"     longName="User's Guide" prefix="int" preset_name='en-int' />
 </config>
