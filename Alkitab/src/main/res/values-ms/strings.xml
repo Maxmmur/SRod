@@ -29,12 +29,8 @@
   <string name="menuShare">Kongsi</string>
   <string name="tulis_catatan">Tulis nota</string>
   <string name="tambah_pembatas_buku">Tambah penanda buku</string>
-  <string name="salin_ayat">Salinan ayat</string>
-  <string name="perj_baru">Ujian Baru.</string>
-  <string name="perj_lama">Ujian Lama.</string>
   <string name="search_bookname_only">%s hanya</string>
   <string name="ayat_sebelumangka">Ayat</string>
-  <string name="pasal_sebelumangka">Bab</string>
   <string name="jump_to_prompt"><b>LOMPAT KE</b> — Contoh: ^1</string>
   <string name="belum_ada_pembatas_buku">Tiada penanda halaman lagi.\nPilih ayat untuk menambah penanda buku.</string>
   <string name="judul_titikdua">TAJUK</string>
@@ -48,7 +44,6 @@
   <string name="hari_senin">Isn</string>
   <string name="hari_minggu">Aha</string>
   <string name="size_hasil">%d keputusan</string>
-  <string name="search_searching_tokens">Mencari untuk ayat mengadungi %s...</string>
   <string name="pilih_setidaknya_satu_kitab">Pilih sekurang-kurangnya satu buku untuk mencari.</string>
   <string name="pengunduhan_dibatalkan">Muat turun dibatalkan.</string>
   <string name="sedang_mendekompres_harap_tunggu">Decompressing. Sila tunggu...</string>
@@ -72,7 +67,6 @@
   <string name="tidak_bisa_membuat_folder">Tidak dapat mencipta folder %s</string>
   <string name="menuPengaturan">Tetapan</string>
   <string name="menuTentang">Mengenai</string>
-  <string name="pengaturan_alkitab">Tetapan Alkitab</string>
   <string name="kelola_versi">Mrnguruskan versi</string>
   <string name="tambah">Tambah</string>
   <string name="versi_lainnya">Versi-versi lain</string>
@@ -133,7 +127,6 @@
   <string name="menuSort">Susun</string>
   <string name="menuSortCreateTime">Tarikh dicipta</string>
   <string name="menuSortModifyTime">Tarikh diedit</string>
-  <string name="menuSortAri">Alamat ayat</string>
   <string name="menuSortCaption">Tajuk</string>
   <string name="menuSortCaption_color">Warna sorotan</string>
   <string name="create_edited_modified_time">%1$s\n(diedit %2$s)</string>
@@ -192,8 +185,6 @@
   <string name="text_appearance_bold">Berani</string>
   <string name="devotion_change_date">Perubahan tarikh</string>
   <string name="bookmark_search">Carian</string>
-  <string name="verse_select_one_verse_selected">1 ayat dilih</string>
-  <string name="verse_select_multiple_verse_selected">%s ayat dipilih</string>
   <string name="google_play_store_not_installed">Gedung Play Google tidak dipasang.</string>
   <string name="pref_language_label_default">Lalai</string>
   <!-- Goto tabs -->
@@ -246,10 +237,7 @@
   <string name="desc_progress_3">Kemajuan ketiga</string>
   <string name="desc_progress_4">Kemajuan keempat</string>
   <string name="desc_progress_5">Kemajuan kelima</string>
-  <string name="desc_verse_attribute_one_bookmark">Satu penanda buku telah dilampirkan pada ayat ini.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">%s penanda buku telah dilampirkan pada ayat ini.</string>
-  <string name="desc_verse_attribute_one_note">Satu nota telah dilampirkan pada ayat ini.</string>
-  <string name="desc_verse_attribute_multiple_notes">%s nota telah dilampirkan pada ayat ini.</string>
+    <string name="desc_verse_attribute_one_note">Satu nota telah dilampirkan pada ayat ini.</string>
   <string name="desc_verse_attribute_progress_mark">%s sedang berada di sini.</string>
   <string name="desc_progress_mark_list">Senarai tanda</string>
   <string name="intent_filter_open_yes_file">Buka fail YES</string>
@@ -279,19 +267,16 @@
   <string name="pm_progress_4">Kemajuan 4</string>
   <string name="pm_progress_5">Kemajuan 5</string>
   <string name="pm_progress_name">Nama Kemajuan</string>
-  <string name="pm_activate_tutorial">Tekan lama dan seret untuk meletakkan kemajuan ayat.</string>
   <string name="pm_delete_progress_confirm">Buang <b>^1</b>?</string>
   <string name="copy_share">Salin atau kongsi</string>
   <string name="backup_last_time">Sandaran terakhir: %s</string>
   <string name="backup_selection_autobackup_at">Sandaran auto pada %s</string>
   <string name="backup_selection_manualbackup_at">Sandaran pada %s</string>
   <string name="backup_select_file">Pilih fail sandaran</string>
-  <string name="recentverses_not_available">Tiada ayat baru-baru ini lagi.</string>
   <string name="recentverses_just_now">Tadi</string>
   <string name="recentverses_min_plural_ago">%s minit lalu</string>
   <string name="recentverses_today_time">Hari ini, %s</string>
   <string name="recentverses_yesterday_time">Semalam, %s</string>
-  <string name="recentverses_button_hint">(Tekan lama untuk ayat baru-baru ini)</string>
   <string name="dr_reminder">Peringatan</string>
   <string name="dr_error_contact_reminder">Ralat semasa menghubungi aplikasi Peringatan.</string>
   <string name="dv_option_transparent_background">Latar belakang telus</string>
@@ -345,7 +330,6 @@
   <string name="song_player_error_description">Ralat berlaku semasa bermain lagu ini: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Cari dalam %s</string>
   <string name="search_syntax_tips"><i>Tips carian:</i>\n\n<b>+perkataan</b>untuk perkataan yang tepat\n<b>[q]tuan tuhan[q]</b> untuk frasa tepat itu</string>
-  <string name="search_no_result">Tiada ayat-ayat dijumpai untuk <b>^1</b>.</string>
   <string name="search_no_result_fallback">Ketik disini untuk pergi ke <u>^1</u>.</string>
   <string name="marker_transfer_to_device_title">Pemindahan ke peranti lain</string>
   <string name="marker_transfer_to_device_description">Pindah semua penanda buku, nota, dan sorotan ke telefon lain atau tablet. Kami mengesyorkan menggunakan Gmail / E-mel.</string>
@@ -355,24 +339,11 @@
   <string name="drawer_open">Laci terbuka</string>
   <string name="drawer_close">Tutup laci</string>
   <string name="menuSplitVersion">Split</string>
-  <string name="menuBible">Alkitab</string>
   <string name="menuProgress">Kemajuan</string>
   <string name="sn_menu_copy">Salin lagu</string>
   <string name="menuPlay">Main</string>
   <string name="menuPause">Jeda</string>
   <string name="left_drawer_current_reading_title">Pembacaan terkini</string>
-  <string name="book_filter_old_testament">Perjanjian Lama</string>
-  <string name="book_filter_old_pentateuch">Pentateuch</string>
-  <string name="book_filter_old_history">Sejarah</string>
-  <string name="book_filter_old_wisdom">Kebijaksanaan</string>
-  <string name="book_filter_old_major_prophets">Nabi Utama</string>
-  <string name="book_filter_old_minor_prophets">Nabi-nabi Kecil</string>
-  <string name="book_filter_new_testament">Perjanjian Baru</string>
-  <string name="book_filter_new_gospels">Injil</string>
-  <string name="book_filter_new_acts">Sejarah Kerasulan</string>
-  <string name="book_filter_new_pauline_epistles">Pauline Epistles</string>
-  <string name="book_filter_new_general_epistles">Ketua Epistles</string>
-  <string name="book_filter_new_apocalypse">Apokalips</string>
   <string name="search_filter_multiple_books_selected">%s buku dipilih</string>
   <string name="search_version_select_label">Cari dalam:</string>
   <string name="version_config_updater_error_download_modify_time">Gagal untuk memeriksa senarai versi.</string>
@@ -395,7 +366,6 @@
   <string name="note_actionbar_edit">Sunting</string>
   <string name="note_actionbar_delete">Padam</string>
   <string name="note_actionbar_ok">Selesai</string>
-  <string name="note_activity_cannot_parse_verse">Maaf, kami tidak faham pautan ayat ini.</string>
   <string name="sync_account_not_selected">Tidak didaftar masuk</string>
   <string name="pref_syncAccountName_title">Akaun</string>
   <string name="sync_logout_warning">Adakah anda ingin melog keluar? Penanda semasa anda dan data tempatan yang lain tidak akan dipadam.</string>
@@ -410,7 +380,6 @@
   <string name="sync_category_title_data_types">Jenis data</string>
   <string name="pref_syncSet_mabel_enabled_title">Penanda dan label</string>
   <string name="pref_syncSet_rp_enabled_title">Kemajuan rancangan pembacaan</string>
-  <string name="pref_syncSet_history_enabled_title">Ayat terkini</string>
   <string name="pref_syncSet_pins_enabled_title">Tanda</string>
   <string name="sync_menu_item_sync_now">Segerak sekarang</string>
   <string name="sync_menu_item_sync_log">Lihat log</string>
@@ -472,7 +441,7 @@
   <string name="about_beta_feedback">Maklum Balas Versi Beta</string>
   <string name="about_version_name">versi %s</string>
   <string name="about_material_sources">Sumber Bahan</string>
-  <string name="about_credits">Kredit</string>
+  <string name="about_credits">Pautan Berguna</string>
   <string name="about_announcements">Pengumuman</string>
   <string name="about_announcements_none">Pengumuman (0)</string>
   <string name="about_announcements_number">Pengumuman (%s)</string>
@@ -502,6 +471,27 @@
   <string name="menuGuide">Panduan</string>
   <!-- Commentary -->
   <string name="menuCommentary">Komen</string>
+  <string name="menuSortAri"></string>
+  <string name="pengaturan_alkitab"></string>
+  <string name="pm_activate_tutorial"></string>
+  <string name="pref_bottomToolbarOnText_summary"></string>
+  <string name="pref_bottomToolbarOnText_title"></string>
+  <string name="pref_copyWithVerseNumbers_summary"></string>
+  <string name="pref_copyWithVerseNumbers_title"></string>
+  <string name="pref_copyWithVersionName_summary"></string>
+  <string name="pref_layar_tidak_akan_padam_ketika_membaca_teks_alkitab"></string>
+  <string name="pref_selectedVerseBgColor_title"></string>
+  <string name="pref_syncSet_history_enabled_title"></string>
+  <string name="pref_warna_nomor_ayat"></string>
+  <string name="recentverses_button_hint"></string>
+  <string name="recentverses_not_available"></string>
+  <string name="salin_ayat"></string>
+  <string name="search_copy_selected_verses"></string>
+  <string name="search_no_result"></string>
+  <string name="search_searching_tokens"></string>
+  <string name="search_selected_verse_copied"></string>
+  <string name="verse_select_multiple_verse_selected"></string>
+  <string name="verse_select_one_verse_selected"></string>
   <!-- Maps -->
   <!-- File chooser -->
 </resources>

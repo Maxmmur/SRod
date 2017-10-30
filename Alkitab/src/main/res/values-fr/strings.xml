@@ -32,16 +32,16 @@
   <string name="menuShareBothSplits">Partager les deux versions</string>
   <string name="tulis_catatan">Créer une note</string>
   <string name="tambah_pembatas_buku">Ajouter un marque-page</string>
-  <string name="salin_ayat">Copie du verset</string>
+  <string name="salin_ayat">Copie du paragraphe</string>
   <string name="copy_split0">Copier la version principale</string>
   <string name="copy_split1">Copier la seconde version</string>
   <string name="copy_both_splits">Copier les deux versions</string>
-  <string name="search_copy_selected_verses">Copier les vers séléctionnés</string>
-  <string name="perj_baru">NT.</string>
-  <string name="perj_lama">AT.</string>
+  <string name="search_copy_selected_verses">Copier les paragraphes séléctionnés</string>
+  <string name="perj_baru">Périodiques</string>
+  <string name="perj_lama">Livres</string>
   <string name="search_bookname_only">%s seulement</string>
-  <string name="ayat_sebelumangka">Verset</string>
-  <string name="pasal_sebelumangka">Chapitre</string>
+  <string name="ayat_sebelumangka">Paragraphe</string>
+  <string name="pasal_sebelumangka">Page</string>
   <string name="jump_to_prompt"><b>ALLER A</b> — Exemple : ^1</string>
   <string name="belum_ada_pembatas_buku">Il n\'y a aucun marque-page.\nChoisissez un verset pour ajouter un marque-page.</string>
   <string name="judul_titikdua">TITRE</string>
@@ -59,7 +59,7 @@
   <string name="hari_senin">Lun.</string>
   <string name="hari_minggu">Dim.</string>
   <string name="size_hasil">%d résultats</string>
-  <string name="search_searching_tokens">Recherche de versets contenant %s&#8230;</string>
+  <string name="search_searching_tokens">Recherche de paragraphes contenant %s&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">Choisir au moins un livre pour la recherhe.</string>
   <string name="pengunduhan_dibatalkan">Téléchargement abandonné.</string>
   <string name="sedang_mendekompres_harap_tunggu">Décompression en cours. Merci de Patienter&#8230;</string>
@@ -70,7 +70,7 @@
   <string name="mengunduh_nama">Téléchargement de %s</string>
   <string name="tuju_v">Aller à</string>
   <string name="bagikan_alamat">Partager %s</string>
-  <string name="search_selected_verse_copied">Les vers sélectionnés ont été copiés.</string>
+  <string name="search_selected_verse_copied">Les paragraphe sélectionnés ont été copiés.</string>
   <string name="alamat_sudah_disalin">%s a été copié.</string>
   <string name="alamat_tidak_sah_alamat">Adresse erronée : %s</string>
   <string name="no">Non</string>
@@ -84,7 +84,7 @@
   <string name="tidak_bisa_membuat_folder">Impossible de créer le dossier %s</string>
   <string name="menuPengaturan">Paramètres</string>
   <string name="menuTentang">À propos</string>
-  <string name="pengaturan_alkitab">Paramètres de la Bible</string>
+  <string name="pengaturan_alkitab">Paramètres de la Verge</string>
   <string name="kelola_versi">Gérer les versions</string>
   <string name="tambah">Ajout</string>
   <string name="versi_lainnya">Autres versions</string>
@@ -146,7 +146,7 @@
   <string name="menuSort">Tri</string>
   <string name="menuSortCreateTime">Date création</string>
   <string name="menuSortModifyTime">Date Edition</string>
-  <string name="menuSortAri">Localiser le verset</string>
+  <string name="menuSortAri">Localiser le paragraphe</string>
   <string name="menuSortCaption">Intitulé</string>
   <string name="menuSortCaption_color">Couleur surligné</string>
   <string name="create_edited_modified_time">%1$s\n(édité %2$s)</string>
@@ -207,8 +207,8 @@
   <string name="text_appearance_bold">En Gras</string>
   <string name="devotion_change_date">Changement de date</string>
   <string name="bookmark_search">Rechercher</string>
-  <string name="verse_select_one_verse_selected">1 verset sélectionné</string>
-  <string name="verse_select_multiple_verse_selected">%s versets sélectionnés</string>
+  <string name="verse_select_one_verse_selected">1 paragraphe sélectionné</string>
+  <string name="verse_select_multiple_verse_selected">%s paragraphes sélectionnés</string>
   <string name="google_play_store_not_installed">Google Play Store n\'est pas installé.</string>
   <string name="pref_language_label_default">Défaut</string>
   <string name="market_short_desc">Une Bible rapide, fiable et riche en fonctionnalités, qui fonctionne sans connexion Internet.</string>
@@ -219,7 +219,7 @@
   <string name="goto_tab_dialer_label">Appeler</string>
   <string name="goto_tab_direct_label">Direct</string>
   <string name="goto_tab_grid_label">Réseau</string>
-  <string name="menuAskForVerse">Demandez le numéro du verset</string>
+  <string name="menuAskForVerse">Demandez le numéro du paragraphe</string>
   <!-- Font Manager -->
   <string name="fm_activity_title">Gestion des Fontes</string>
   <string name="fm_need_to_log_in_to_wifi">Vous devez d\'abord vous connecter à votre réseau WiFi.</string>
@@ -270,10 +270,10 @@
   <string name="desc_progress_3">3ème Suivi</string>
   <string name="desc_progress_4">Quatrième Suivi</string>
   <string name="desc_progress_5">Cinquième Suivi</string>
-  <string name="desc_verse_attribute_one_bookmark">Un signet est attaché à ce verset.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">%s  signets sont attachés à ce verset.</string>
+  <string name="desc_verse_attribute_one_bookmark">Un signet est attaché à ce paragraphe.</string>
+  <string name="desc_verse_attribute_multiple_bookmarks">%s  signets sont attachés à ce paragraphe.</string>
   <string name="desc_verse_attribute_one_note">Une note est attachée à ce verset.</string>
-  <string name="desc_verse_attribute_multiple_notes">%s notes sont attachées à ce verset.</string>
+  <string name="desc_verse_attribute_multiple_notes">%s notes sont attachées à ce paragraphe.</string>
   <string name="desc_verse_attribute_progress_mark">%s est actuellement ici.</string>
   <string name="desc_progress_mark_list">Liste des favoris</string>
   <string name="desc_backspace">Retour arrière</string>
@@ -305,19 +305,19 @@
   <string name="pm_progress_4">Progression 4</string>
   <string name="pm_progress_5">Progression 5</string>
   <string name="pm_progress_name">Nom de la Progression</string>
-  <string name="pm_activate_tutorial">Appui-Long et Tiré pour mettre un témoin de progression sur un verset.</string>
+  <string name="pm_activate_tutorial">Appui-Long et Tiré pour mettre un témoin de progression sur un paragraphe.</string>
   <string name="pm_delete_progress_confirm">Effacer <b>^1</b> ?</string>
   <string name="copy_share">Copier ou partager</string>
   <string name="backup_last_time">Dernière sauvegarde : %s</string>
   <string name="backup_selection_autobackup_at">Sauvegarde automatique à %s</string>
   <string name="backup_selection_manualbackup_at">Sauvegarde à %s</string>
   <string name="backup_select_file">Choisir le fichier de sauvegarde</string>
-  <string name="recentverses_not_available">Aucun verset récent.</string>
+  <string name="recentverses_not_available">Aucun paragraphe récent.</string>
   <string name="recentverses_just_now">Seulement maintenant</string>
   <string name="recentverses_min_plural_ago">%s minutes plus tôt</string>
   <string name="recentverses_today_time">Aujourd\'hui, %s</string>
   <string name="recentverses_yesterday_time">Hier, %s</string>
-  <string name="recentverses_button_hint">(Appui long pour lister les versets récents)</string>
+  <string name="recentverses_button_hint">(Appui long pour lister les paragraphes récents)</string>
   <string name="dr_reminder">Pense-bête</string>
   <string name="dr_error_contact_reminder">Erreur lors de l\'accès à l\'application pense-bête.</string>
   <string name="dr_timepicker_set">Sertir</string>
@@ -376,8 +376,8 @@
   <string name="menu_compare">Comparer</string>
   <string name="song_player_error_description">Erreur lors de l\'écoute de ce chant : %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Retrouver dans %s</string>
-  <string name="search_syntax_tips"><i>Conseils d\'utilisation :</i>\n\n<b>+mot</b> pour ce mot exact\n<b>[q]ville de David[q]</b> pour cette phrase exacte</string>
-  <string name="search_no_result">Aucun verset trouvé pour <b>^1</b>.</string>
+  <string name="search_syntax_tips"><i>Conseils d\'utilisation :</i>\n\n<b>+mot</b> pour ce mot exact\n<b>[q]David antitypique[q]</b> pour cette phrase exacte</string>
+  <string name="search_no_result">Aucun paragraphe trouvé pour <b>^1</b>.</string>
   <string name="search_no_result_fallback">Cliquer ici pour aller à  <u>^1</u>.</string>
   <string name="search_clear_history">Effacer l\'historique de recherches</string>
   <string name="marker_transfer_to_device_title">Transfert sur un autre support</string>
@@ -388,24 +388,22 @@
   <string name="drawer_open">Ouvrir le dessinateur</string>
   <string name="drawer_close">Fermer le dessinateur</string>
   <string name="menuSplitVersion">Scinder</string>
-  <string name="menuBible">Bible</string>
   <string name="menuProgress">Progrès</string>
   <string name="sn_menu_copy">Copie d\'un Chant</string>
   <string name="menuPlay">Jouer</string>
   <string name="menuPause">Mettre en Pause</string>
   <string name="left_drawer_current_reading_title">Lecture en cours</string>
-  <string name="book_filter_old_testament">Ancien Testament</string>
-  <string name="book_filter_old_pentateuch">Pentateuque</string>
-  <string name="book_filter_old_history">Historique</string>
-  <string name="book_filter_old_wisdom">Sagesse</string>
-  <string name="book_filter_old_major_prophets">Grands Prophètes</string>
-  <string name="book_filter_old_minor_prophets">Petits Prophètes</string>
-  <string name="book_filter_new_testament">Nouveau Testament</string>
-  <string name="book_filter_new_gospels">Evangiles</string>
-  <string name="book_filter_new_acts">Histoire Apostolique</string>
-  <string name="book_filter_new_pauline_epistles">Epitres de Paul</string>
-  <string name="book_filter_new_general_epistles">Epitres généraux</string>
-  <string name="book_filter_new_apocalypse">Apocalypse</string>
+  <string name="book_filter_old_testament">Livres</string>
+  <string name="book_filter_old_pentateuch">La Verge, Vol. 1</string>
+  <string name="book_filter_old_history">La Verge, Vol. 2</string>
+  <string name="book_filter_old_wisdom">Tracks</string>
+  <string name="book_filter_old_major_prophets">Reponses</string>
+  <string name="book_filter_old_minor_prophets">Divers</string>
+  <string name="book_filter_new_testament">Périodiques</string>
+  <string name="book_filter_new_gospels">VPs, Vol. 1</string>
+  <string name="book_filter_new_acts">VPs, Vol. 2</string>
+  <string name="book_filter_new_pauline_epistles">Codes Symboliques</string>
+  <string name="book_filter_new_general_epistles">Lettres de Jizreel</string>
   <string name="search_filter_multiple_books_selected">%s de livres sélectionnés</string>
   <string name="search_version_select_label">Rechercher dans :</string>
   <string name="show_hidden_version_warning">L\'activation de cette option vous permet de télécharger des versions de la Bible qui peuvent être soumises à certaines exigences régionales ou monétaires . Avant de les télécharger , s\'il vous plaît assurez-vous que vous êtes autorisé à le faire. Vous êtes entièrement responsable du téléchargement et de l\'utilisation de ces versions et je ne puis en être tenu pour responsable. Appuyez sur OK si vous acceptez les termes ci-dessus .</string>
@@ -430,7 +428,7 @@
   <string name="note_actionbar_edit">éditer</string>
   <string name="note_actionbar_delete">Supprimer</string>
   <string name="note_actionbar_ok">Terminé</string>
-  <string name="note_activity_cannot_parse_verse">Désolé, nous ne comprenons pas le lien ver ce verset.</string>
+  <string name="note_activity_cannot_parse_verse">Désolé, nous ne comprenons pas le lien ver ce paragraphe.</string>
   <string name="sync_account_not_selected">Non connecté</string>
   <string name="pref_syncAccountName_title">Compte</string>
   <string name="sync_logout_warning">Voulez-vous vous déconnecter ? Vos marqueurs actuels et les autres données locales ne seront pas supprimés.</string>
@@ -445,7 +443,7 @@
   <string name="sync_category_title_data_types">Types de données</string>
   <string name="pref_syncSet_mabel_enabled_title">Marque-pages et étiquettes</string>
   <string name="pref_syncSet_rp_enabled_title">Progrès du plan de lecture</string>
-  <string name="pref_syncSet_history_enabled_title">Versets récents</string>
+  <string name="pref_syncSet_history_enabled_title">Paragraphes récents</string>
   <string name="pref_syncSet_pins_enabled_title">Favoris</string>
   <string name="sync_menu_item_sync_now">Synchroniser maintenant</string>
   <string name="sync_menu_item_sync_log">Afficher le journal</string>
@@ -476,7 +474,7 @@
   <string name="sync_login_form_error_required">Veuillez remplir ceci.</string>
   <string name="sync_login_form_password_hint">Mot de passe</string>
   <string name="sync_login_form_new_password_hint">Nouveau mot de passe</string>
-  <string name="sync_login_form_intro_text">La synchronisation protège vos marqueurs et vos autres données.\n<a href="http://www.bibleforandroid.com/guide/sync"> plus d\'informations</a></string>
+  <string name="sync_login_form_intro_text">La synchronisation protège vos marqueurs et vos autres données.</string>
   <string name="sync_login_form_email_hint">Courriel</string>
   <string name="sync_login_form_forgot_button">Oubli ?</string>
   <string name="sync_login_form_optional_header">Optionnnel</string>
@@ -484,7 +482,7 @@
   <string name="sync_login_form_city">Ville</string>
   <string name="sync_login_form_register_button">S\'enregistrer</string>
   <string name="sync_login_form_login_button">Se connecter</string>
-  <string name="sync_login_form_privacy_text">En appuyant sur un des boutons ci-dessous, vous acceptez la <a href="http://www.bibleforandroid.com/privacy_policy">politique de confidentialité</a>.</string>
+  <string name="sync_login_form_privacy_text">En appuyant sur un des boutons ci-dessous, vous acceptez la <a href="https://www.gadsda.com/privacy_statement/">politique de confidentialité</a>.</string>
   <string name="sync_login_form_error_email_pattern">Adresse courriel incorrecte.</string>
   <string name="sync_login_form_passwords_do_not_match">S\'il vous plaît entrez le même mot de passe dans la zone de confirmation.</string>
   <string name="sync_login_dialog_confirm_password_hint">Confirmez le mot de passe</string>
@@ -492,8 +490,8 @@
   <string name="sync_login_form_change_password_success">Votre mot de passe a été modifié.</string>
   <string name="pref_textPadding_title">Marges autour du texte</string>
   <string name="pref_textPadding_summary">Réduire le texte pour en faciliter la lecture</string>
-  <string name="pref_bottomToolbarOnText_title">Navigation de verset en bas</string>
-  <string name="pref_bottomToolbarOnText_summary">Mettre barre d\'outil de navigation de verset en bas sur l\'écran de la Bible</string>
+  <string name="pref_bottomToolbarOnText_title">Navigation de paragraphe en bas</string>
+  <string name="pref_bottomToolbarOnText_summary">Mettre barre d\'outil de navigation de paragraphe en bas sur l\'écran de la Verge</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Rappel</string>
   <string name="dr_notification_title">Méditation quotidienne</string>
@@ -512,7 +510,7 @@
   <string name="about_enable_beta_confirmation">Connectez-vous sur votre compte Google et appuyez sur le bouton DEVENIR TESTEUR pour essayer la version bêta avec les nouvelles fonctionnalités et améliorations!</string>
   <string name="about_version_name">version %s</string>
   <string name="about_material_sources">Sources matérielles</string>
-  <string name="about_credits">Remerciements</string>
+  <string name="about_credits">Liens utiles</string>
   <string name="about_announcements">Annonces</string>
   <string name="about_announcements_none">Annonces (0)</string>
   <string name="about_announcements_number">Annonces (%s)</string>
@@ -547,4 +545,5 @@
   <string name="maps_could_not_open">N\'a pas pu ouvrir l\'application Bible Maps.</string>
   <!-- File chooser -->
   <string name="filechooser_parent_folder">Dossier parent</string>
+  <string name="menuBible">La Verge</string>
 </resources>

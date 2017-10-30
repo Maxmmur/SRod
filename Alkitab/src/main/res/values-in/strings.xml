@@ -37,11 +37,11 @@
   <string name="copy_split1">Salin versi belah</string>
   <string name="copy_both_splits">Salin keduanya</string>
   <string name="search_copy_selected_verses">Salin ayat-ayat yang dipilih</string>
-  <string name="perj_baru">Perj. Baru</string>
-  <string name="perj_lama">Perj. Lama</string>
+  <string name="perj_baru">Majalah</string>
+  <string name="perj_lama">Buku</string>
   <string name="search_bookname_only">%s saja</string>
   <string name="ayat_sebelumangka">Ayat</string>
-  <string name="pasal_sebelumangka">Pasal</string>
+  <string name="pasal_sebelumangka">Halaman</string>
   <string name="jump_to_prompt"><b>LONCAT KE</b> — Contoh: ^1</string>
   <string name="belum_ada_pembatas_buku">Belum ada pembatas buku.\nPilih satu ayat untuk menambah pembatas buku.</string>
   <string name="judul_titikdua">JUDUL</string>
@@ -84,7 +84,7 @@
   <string name="tidak_bisa_membuat_folder">Tidak bisa membuat folder %s</string>
   <string name="menuPengaturan">Pengaturan</string>
   <string name="menuTentang">Tentang</string>
-  <string name="pengaturan_alkitab">Pengaturan Alkitab</string>
+  <string name="pengaturan_alkitab">Pengaturan Tongkat Gembala</string>
   <string name="kelola_versi">Kelola Versi</string>
   <string name="tambah">Tambah</string>
   <string name="versi_lainnya">Versi lainnya</string>
@@ -376,7 +376,7 @@
   <string name="menu_compare">Bandingkan</string>
   <string name="song_player_error_description">Ada kesalahan ketika memainkan lagu ini: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Temukan dalam %s</string>
-  <string name="search_syntax_tips"><i>Tip pencarian:</i>\n\n<b>+kata</b> untuk kata itu sendiri\n<b>[q]kota daud[q]</b> untuk urutan kata persis seperti itu</string>
+  <string name="search_syntax_tips"><i>Tip pencarian:</i>\n\n<b>+kata</b> untuk kata itu sendiri\n<b>[q]Daud contoh[q]</b> untuk urutan kata persis seperti itu</string>
   <string name="search_no_result"><b>^1</b> tidak ditemukan.</string>
   <string name="search_no_result_fallback">Tap di sini untuk membuka <u>^1</u>.</string>
   <string name="search_clear_history">Hapus riwayat pencarian</string>
@@ -388,24 +388,22 @@
   <string name="drawer_open">Buka laci</string>
   <string name="drawer_close">Tutup laci</string>
   <string name="menuSplitVersion">Belah</string>
-  <string name="menuBible">Alkitab</string>
+  <string name="menuBible">Tongkat Gembala</string>
   <string name="menuProgress">Jejak</string>
   <string name="sn_menu_copy">Salin lagu</string>
   <string name="menuPlay">Putar</string>
   <string name="menuPause">Istirahat</string>
   <string name="left_drawer_current_reading_title">Bacaan saat ini</string>
-  <string name="book_filter_old_testament">Perjanjian Lama</string>
-  <string name="book_filter_old_pentateuch">Pentateukh</string>
-  <string name="book_filter_old_history">Sejarah</string>
-  <string name="book_filter_old_wisdom">Puisi</string>
-  <string name="book_filter_old_major_prophets">Nabi-nabi Besar</string>
-  <string name="book_filter_old_minor_prophets">Nabi-nabi Kecil</string>
-  <string name="book_filter_new_testament">Perjanjian Baru</string>
-  <string name="book_filter_new_gospels">Injil</string>
-  <string name="book_filter_new_acts">Sejarah Rasul</string>
-  <string name="book_filter_new_pauline_epistles">Surat-surat Paulus</string>
-  <string name="book_filter_new_general_epistles">Surat-surat Umum</string>
-  <string name="book_filter_new_apocalypse">Apokalips</string>
+  <string name="book_filter_old_testament">Buku</string>
+  <string name="book_filter_old_pentateuch">Tongkat Gembala, 1</string>
+  <string name="book_filter_old_history">Tongkat Gembala, 2</string>
+  <string name="book_filter_old_wisdom">Traktat</string>
+  <string name="book_filter_old_major_prophets">Jawab</string>
+  <string name="book_filter_new_testament">Periodicals</string>
+  <string name="book_filter_new_gospels">AS, Jilid 1</string>
+  <string name="book_filter_new_acts">AS, Jilid 2</string>
+  <string name="book_filter_new_pauline_epistles">Kode Simbolis</string>
+  <string name="book_filter_new_general_epistles">Surat - Surat Yizreel</string>
   <string name="search_filter_multiple_books_selected">%s kitab dipilih</string>
   <string name="search_version_select_label">Temukan dalam:</string>
   <string name="show_hidden_version_warning">Menyalakan pilihan ini memungkinkan Anda mengunduh versi Alkitab yang mungkin memerlukan persyaratan regional atau pembayaran. Sebelum mengunduh versi-versi Alkitab tersebut, pastikan Anda diperbolehkan melakukannya. Anda sepenuhnya bertanggung jawab dalam mengunduh dan menggunakan versi-versi tersebut dan saya tidak dapat bertanggung jawab untuk hal ini. Tekan OK jika Anda setuju dengan ketentuan di atas.</string>
@@ -476,7 +474,7 @@
   <string name="sync_login_form_error_required">Harap isi.</string>
   <string name="sync_login_form_password_hint">Password</string>
   <string name="sync_login_form_new_password_hint">Password baru</string>
-  <string name="sync_login_form_intro_text">Sync melindungi data marka dan lainnya.\n<a href="http://www.bibleforandroid.com/guide/sync">Informasi lebih lanjut</a></string>
+  <string name="sync_login_form_intro_text">Sync melindungi data marka dan lainnya.</string>
   <string name="sync_login_form_email_hint">Email</string>
   <string name="sync_login_form_forgot_button">Lupa?</string>
   <string name="sync_login_form_optional_header">Tidak wajib</string>
@@ -484,7 +482,7 @@
   <string name="sync_login_form_city">Kota</string>
   <string name="sync_login_form_register_button">Buat akun</string>
   <string name="sync_login_form_login_button">Login</string>
-  <string name="sync_login_form_privacy_text">Menekan tombol di bawah berarti Anda setuju dengan <a href="http://www.bibleforandroid.com/privacy_policy">kebijakan privasi</a>.</string>
+  <string name="sync_login_form_privacy_text">Menekan tombol di bawah berarti Anda setuju dengan <a href="https://www.gadsda.com/privacy_statement/">kebijakan privasi</a>.</string>
   <string name="sync_login_form_error_email_pattern">Alamat email tidak sah.</string>
   <string name="sync_login_form_passwords_do_not_match">Tuliskan password yang sama pada dialog konfirmasi.</string>
   <string name="sync_login_dialog_confirm_password_hint">Ketik ulang password</string>
@@ -493,7 +491,7 @@
   <string name="pref_textPadding_title">Beri jarak sekitar teks</string>
   <string name="pref_textPadding_summary">Lebih sedikit teks per barisnya agar mudah dibaca</string>
   <string name="pref_bottomToolbarOnText_title">Navigasi ayat di bawah</string>
-  <string name="pref_bottomToolbarOnText_summary">Letakkan navigasi ayat di bagian bawah layar Alkitab</string>
+  <string name="pref_bottomToolbarOnText_summary">Letakkan navigasi ayat di bagian bawah layar Tongkat Gembala</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Pengingat</string>
   <string name="dr_notification_title">Renungan harian</string>
@@ -512,7 +510,7 @@
   <string name="about_enable_beta_confirmation">Login ke Google dan klik tombol JADI PENGUJI untuk mencoba versi Beta dengan fitur lebih lengkap dan canggih!</string>
   <string name="about_version_name">versi %s</string>
   <string name="about_material_sources">Sumber Bahan</string>
-  <string name="about_credits">Kredit / Terima Kasih</string>
+  <string name="about_credits">Link Berguna</string>
   <string name="about_announcements">Pengumuman</string>
   <string name="about_announcements_none">Pengumuman (0)</string>
   <string name="about_announcements_number">Pengumuman (%s)</string>
@@ -547,4 +545,5 @@
   <string name="maps_could_not_open">Tidak bisa membuka aplikasi Peta Alkitab.</string>
   <!-- File chooser -->
   <string name="filechooser_parent_folder">Folder induk</string>
+  <string name="book_filter_old_minor_prophets">Miscellaneous</string>
 </resources>

@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">Deel beide weergawes</string>
   <string name="tulis_catatan">Skryf nota</string>
   <string name="tambah_pembatas_buku">Voeg boekmerk by</string>
-  <string name="salin_ayat">Kopiëer vers</string>
   <string name="copy_split0">Kopieer primêre weergawe</string>
   <string name="copy_split1">Kopieer sekondêre weergawe</string>
   <string name="copy_both_splits">Kopieer beide weergawes</string>
-  <string name="search_copy_selected_verses">Kopieer geselekteerde verse</string>
-  <string name="perj_baru">Nuwe Test.</string>
-  <string name="perj_lama">Ou Test.</string>
-  <string name="search_bookname_only">%s alleenlik </string>
-  <string name="ayat_sebelumangka">Vers</string>
-  <string name="pasal_sebelumangka">Hoofstuk</string>
+    <string name="search_bookname_only">%s alleenlik </string>
+  <string name="ayat_sebelumangka">paragraaf</string>
   <string name="jump_to_prompt"><b>SPRING NA</b> - Voorbeeld: ^1</string>
   <string name="belum_ada_pembatas_buku">Tans geen boekmerke.\nKies \'n vers om by boekmerk te voeg.</string>
   <string name="judul_titikdua">Titel</string>
@@ -56,7 +51,6 @@
   <string name="hari_senin">Maan</string>
   <string name="hari_minggu">Son</string>
   <string name="size_hasil">%d resultate</string>
-  <string name="search_searching_tokens">Soek verse wat %s... bevat</string>
   <string name="pilih_setidaknya_satu_kitab">Kies ten minste een boek om te soek.</string>
   <string name="pengunduhan_dibatalkan">Aflaai gekanselleer.</string>
   <string name="sedang_mendekompres_harap_tunggu">Dekompressie. Wag asseblief</string>
@@ -67,7 +61,6 @@
   <string name="mengunduh_nama">Besig met aflaai %s</string>
   <string name="tuju_v">Gaan na</string>
   <string name="bagikan_alamat">Deel%s</string>
-  <string name="search_selected_verse_copied">Die geselekteerde verse is gekopieer.</string>
   <string name="alamat_sudah_disalin">%s is gekopiëer.</string>
   <string name="alamat_tidak_sah_alamat">Ongeldige adres: %s</string>
   <string name="no">Nee</string>
@@ -81,7 +74,6 @@
   <string name="tidak_bisa_membuat_folder">Kon nie lêer skep %s</string>
   <string name="menuPengaturan">Instellings</string>
   <string name="menuTentang">Omtrent</string>
-  <string name="pengaturan_alkitab">Bybel instellings</string>
   <string name="kelola_versi">Bestuur weergawes</string>
   <string name="tambah">Voeg by</string>
   <string name="versi_lainnya">Ander weergawes</string>
@@ -143,7 +135,6 @@
   <string name="menuSort">Sorteer</string>
   <string name="menuSortCreateTime">Datum geskep</string>
   <string name="menuSortModifyTime">Datum geredigeer</string>
-  <string name="menuSortAri">Vers adres</string>
   <string name="menuSortCaption">Titel</string>
   <string name="menuSortCaption_color">Beklemtoon kleur</string>
   <string name="create_edited_modified_time">%1$s\n(geredigeer %2$s)</string>
@@ -204,8 +195,6 @@
   <string name="text_appearance_bold">Vetdruk</string>
   <string name="devotion_change_date">Verander datum</string>
   <string name="bookmark_search">Soek</string>
-  <string name="verse_select_one_verse_selected">1 vers gekies</string>
-  <string name="verse_select_multiple_verse_selected">%s verse gekies</string>
   <string name="google_play_store_not_installed">Google Play Store is nie geïnstalleer nie.</string>
   <string name="pref_language_label_default">Verstek</string>
   <string name="market_short_desc">Vinnig, betroubaar en eienskap ryk aflyn Bybel.</string>
@@ -215,8 +204,7 @@
   <string name="goto_tab_dialer_label">Skakelaar</string>
   <string name="goto_tab_direct_label">Direk</string>
   <string name="goto_tab_grid_label">Ruit</string>
-  <string name="menuAskForVerse">Vra vir vers nommer</string>
-  <!-- Font Manager -->
+    <!-- Font Manager -->
   <string name="fm_activity_title">Skrif Bestuurder</string>
   <string name="fm_need_to_log_in_to_wifi">U moet eers op U netwerk (Wi-Fi) inskakel.</string>
   <string name="fm_do_you_want_to_delete">Vee lettertipe uit %s?</string>
@@ -265,11 +253,8 @@
   <string name="desc_progress_3">Derde vordering</string>
   <string name="desc_progress_4">Vierde vordering</string>
   <string name="desc_progress_5">Vyfde vordering</string>
-  <string name="desc_verse_attribute_one_bookmark">Hierdie vers het \'n boekmerk.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">%s hierdie verse het boekmerke.</string>
   <string name="desc_verse_attribute_one_note">Hierdie vers het \'n nota by.</string>
-  <string name="desc_verse_attribute_multiple_notes">%s hierdie verse het notas by.</string>
-  <string name="desc_verse_attribute_progress_mark">%s is huidiglik hier.</string>
+    <string name="desc_verse_attribute_progress_mark">%s is huidiglik hier.</string>
   <string name="desc_progress_mark_list">Lys van vorderings merkers</string>
   <string name="desc_backspace">Back Space</string>
   <string name="intent_filter_open_yes_file">Maak Yes leêr oop</string>
@@ -299,19 +284,16 @@
   <string name="pm_progress_4">Vordering 4</string>
   <string name="pm_progress_5">Vordering 5</string>
   <string name="pm_progress_name">Vordering naam</string>
-  <string name="pm_activate_tutorial">Lang druk en trek om vordering op vers te plaas.</string>
   <string name="pm_delete_progress_confirm">Verwyder <b>^1</b>?</string>
   <string name="copy_share">Kopieer of deel</string>
   <string name="backup_last_time">Laaste rugsteun:%s</string>
   <string name="backup_selection_autobackup_at">Outomatiese rugsteun op %s</string>
   <string name="backup_selection_manualbackup_at">Rugsteun op %s</string>
   <string name="backup_select_file">Kies rugsteun lêer</string>
-  <string name="recentverses_not_available">Geen onlangse lêers nie.</string>
   <string name="recentverses_just_now">So pas</string>
   <string name="recentverses_min_plural_ago">%s minute gelede</string>
   <string name="recentverses_today_time">Vandag, %s</string>
   <string name="recentverses_yesterday_time">Gister, %s</string>
-  <string name="recentverses_button_hint">(Lang druk vir onlangse verse)</string>
   <string name="dr_reminder">Herinner</string>
   <string name="dr_error_contact_reminder">Fout met kontak van herinner applikasie.</string>
   <string name="dr_timepicker_off">Skakel af</string>
@@ -369,7 +351,6 @@
   <string name="song_player_error_description">\'n Fout het ontstaan met die speel van die lied:%1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Vind in %s</string>
   <string name="search_syntax_tips"><i>Soek wenke:</i>\n\n<b>+woord</b> vir die presiese woord\n<b>[q]stad van Dawid[q]</b>vir die presiese frase</string>
-  <string name="search_no_result">Geen verse gevind vir <b>^1</b>.</string>
   <string name="search_no_result_fallback">Tik hier om na <u>^1</u> te gaan.</string>
   <string name="search_clear_history">Verwyder soek geskiedenis</string>
   <string name="marker_transfer_to_device_title">Stuur na ander toestel</string>
@@ -380,24 +361,11 @@
   <string name="drawer_open">Maak laai oop</string>
   <string name="drawer_close">Maak laai toe</string>
   <string name="menuSplitVersion">Verdeel</string>
-  <string name="menuBible">Bybel</string>
   <string name="menuProgress">Vordering</string>
   <string name="sn_menu_copy">Kopieer lied/musiek</string>
   <string name="menuPlay">Speel</string>
   <string name="menuPause">Wag</string>
   <string name="left_drawer_current_reading_title">Huidige leesstuk</string>
-  <string name="book_filter_old_testament">Ou Testament</string>
-  <string name="book_filter_old_pentateuch">Pentateug</string>
-  <string name="book_filter_old_history">Geskiedenis</string>
-  <string name="book_filter_old_wisdom">Wysheid</string>
-  <string name="book_filter_old_major_prophets">Primêre Profete </string>
-  <string name="book_filter_old_minor_prophets">Sekondêre Profete</string>
-  <string name="book_filter_new_testament">Nuwe Testament</string>
-  <string name="book_filter_new_gospels">Evangelies</string>
-  <string name="book_filter_new_acts">Apostoliese Geskiedenis</string>
-  <string name="book_filter_new_pauline_epistles">Pauliniese Briewe </string>
-  <string name="book_filter_new_general_epistles">Algemene Sendbriewe</string>
-  <string name="book_filter_new_apocalypse">Openbaring/Apokalips</string>
   <string name="search_filter_multiple_books_selected">%s boeke geselekteer</string>
   <string name="search_version_select_label">Vind in:</string>
   <string name="show_hidden_version_warning">Deur hierdie opsie te aktiveer laat jou toe om weergawes wat moontlik sekere beperkinge het in jou area/streek het af te laai. Voordat jy dit aflaai maak asseblief seker dat jy die nodige toestemming het. U is alleen verantwoordelik vir die aflaai en gebruik van sulke weergawes, en ek kan nie daarvoor verantwoordelik gehou word nie. Klik op OK indien jy saamstem met die voorafgaande.</string>
@@ -422,7 +390,6 @@
   <string name="note_actionbar_edit">Redigeer</string>
   <string name="note_actionbar_delete">Vee uit</string>
   <string name="note_actionbar_ok">Klaar</string>
-  <string name="note_activity_cannot_parse_verse">Jammer, ons verstaan nie die vers skakel nie.</string>
   <string name="sync_account_not_selected">Nie aangeteken nie</string>
   <string name="pref_syncAccountName_title">Rekening</string>
   <string name="sync_logout_warning">Wil jy uitteken? Jou huidige merkers en ander lokale data sal nie uitgevee word nie.</string>
@@ -437,7 +404,6 @@
   <string name="sync_category_title_data_types">Data tipes</string>
   <string name="pref_syncSet_mabel_enabled_title">Merkers en etikette</string>
   <string name="pref_syncSet_rp_enabled_title">Leesplan vordering</string>
-  <string name="pref_syncSet_history_enabled_title">Onlangse verse</string>
   <string name="pref_syncSet_pins_enabled_title">Vorderings merke</string>
   <string name="sync_menu_item_sync_now">Synch nou</string>
   <string name="sync_menu_item_sync_log">Sien log</string>
@@ -483,8 +449,6 @@
   <string name="sync_login_form_change_password_success">Jou wagwoord het verander.</string>
   <string name="pref_textPadding_title">Marges rondom teks</string>
   <string name="pref_textPadding_summary">Maak teks inlyn smaller om lees te vergemaklik</string>
-  <string name="pref_bottomToolbarOnText_title">Onderste vers navigasie</string>
-  <string name="pref_bottomToolbarOnText_summary">Plaas vers navigasie balk onderaan die Bybel skerm</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Herinnering</string>
   <string name="dr_notification_title">Daaglikse toewyding</string>
@@ -502,8 +466,7 @@
   <string name="about_enable_beta">Probeer Beta Weergawe</string>
   <string name="about_enable_beta_confirmation">Teken aan by Google en klik op die \"BECOME A TESTER\" knoppie, om die Beta weergawe met die nuutste funksies en verbeteringe te toets!</string>
   <string name="about_version_name">weergawe %s</string>
-  <string name="about_material_sources">Materiaal Bronne</string>
-  <string name="about_credits">Krediete</string>
+  <string name="about_credits">Nuttige skakels</string>
   <string name="about_announcements">Aankondigings</string>
   <string name="about_announcements_none">Aankondigings (0)</string>
   <string name="about_announcements_number">Aankondigings (%s)</string>
@@ -538,4 +501,5 @@
   <string name="maps_could_not_open">Kon nie die Bybel Kaarte program oopmaak nie.</string>
   <!-- File chooser -->
   <string name="filechooser_parent_folder">Primêre lêer</string>
+  <string name="about_material_sources" translatable="false">Ons doel</string>
 </resources>

@@ -32,16 +32,15 @@
   <string name="menuShareBothSplits">Deel beide versies</string>
   <string name="tulis_catatan">Schrijf notitie</string>
   <string name="tambah_pembatas_buku">Voeg bladwijzer toe</string>
-  <string name="salin_ayat">Kopiëer vers</string>
+  <string name="salin_ayat">Kopiëer paragraaf</string>
   <string name="copy_split0">Kopieer primaire versie</string>
   <string name="copy_split1">Kopieer secundaire versie</string>
   <string name="copy_both_splits">Kopieer beide versies</string>
-  <string name="search_copy_selected_verses">Kopieer geselecteerde verzen</string>
-  <string name="perj_baru">Nieuwe Test.</string>
-  <string name="perj_lama">Oude Test.</string>
+  <string name="search_copy_selected_verses">Kopieer geselecteerde paragrafen</string>
+  <string name="perj_baru">Tijdschriften</string>
+  <string name="perj_lama">Boeken</string>
   <string name="search_bookname_only">Alleen in %s</string>
-  <string name="ayat_sebelumangka">Vers</string>
-  <string name="pasal_sebelumangka">Hoofdstuk</string>
+  <string name="ayat_sebelumangka">paragraaf</string>
   <string name="jump_to_prompt"><b>GA NAAR</b> — Voorbeeld: ^1</string>
   <string name="belum_ada_pembatas_buku">Er zijn nog geen bladwijzers.\nSelecteer een vers om een bladwijzer toe te voegen.</string>
   <string name="judul_titikdua">TITEL</string>
@@ -59,7 +58,7 @@
   <string name="hari_senin">Ma</string>
   <string name="hari_minggu">Zo</string>
   <string name="size_hasil">%d resultaten</string>
-  <string name="search_searching_tokens">Zoeken naar verzen met %s...</string>
+  <string name="search_searching_tokens">Zoeken naar paragrafen met %s...</string>
   <string name="pilih_setidaknya_satu_kitab">Kies tenminste één Bijbelboek om te zoeken.</string>
   <string name="pengunduhan_dibatalkan">Download geannuleerd.</string>
   <string name="sedang_mendekompres_harap_tunggu">Uitpakken. Even geduld&#8230;</string>
@@ -70,7 +69,7 @@
   <string name="mengunduh_nama">Downloaden van %s</string>
   <string name="tuju_v">Ga naar</string>
   <string name="bagikan_alamat">Deel %s</string>
-  <string name="search_selected_verse_copied">De geselecteerde verzen zijn gekopieerd.</string>
+  <string name="search_selected_verse_copied">De geselecteerde paragrafen zijn gekopieerd.</string>
   <string name="alamat_sudah_disalin">%s is gekopiëerd.</string>
   <string name="alamat_tidak_sah_alamat">Ongeldig adres: %s</string>
   <string name="no">Nee</string>
@@ -84,7 +83,7 @@
   <string name="tidak_bisa_membuat_folder">Kan map %s niet aanmaken</string>
   <string name="menuPengaturan">Instellingen</string>
   <string name="menuTentang">Over</string>
-  <string name="pengaturan_alkitab">Bijbel instellingen</string>
+  <string name="pengaturan_alkitab">HStaf instellingen</string>
   <string name="kelola_versi">Beheer versies</string>
   <string name="tambah">Toevoegen</string>
   <string name="versi_lainnya">Andere versies</string>
@@ -146,7 +145,7 @@
   <string name="menuSort">Sorteren</string>
   <string name="menuSortCreateTime">Aanmaakdatum</string>
   <string name="menuSortModifyTime">Wijzigdatum</string>
-  <string name="menuSortAri">Bijbelboek</string>
+  <string name="menuSortAri">HStafboek</string>
   <string name="menuSortCaption">Titel</string>
   <string name="menuSortCaption_color">Kleur</string>
   <string name="create_edited_modified_time">%1$s\n(bewerkt %2$s)</string>
@@ -207,8 +206,8 @@
   <string name="text_appearance_bold">Vet</string>
   <string name="devotion_change_date">Wijzig datum</string>
   <string name="bookmark_search">Zoeken</string>
-  <string name="verse_select_one_verse_selected">1 vers geselecteerd</string>
-  <string name="verse_select_multiple_verse_selected">%s verzen geselecteerd</string>
+  <string name="verse_select_one_verse_selected">1 paragraaf geselecteerd</string>
+  <string name="verse_select_multiple_verse_selected">%s paragrafen geselecteerd</string>
   <string name="google_play_store_not_installed">Google Play Store is niet geïnstalleerd.</string>
   <string name="pref_language_label_default">Standaard</string>
   <string name="market_short_desc">Snel, betrouwbaar en veel functies offline Bijbel.</string>
@@ -219,7 +218,7 @@
   <string name="goto_tab_dialer_label">Kiezer</string>
   <string name="goto_tab_direct_label">Direct</string>
   <string name="goto_tab_grid_label">Tabel</string>
-  <string name="menuAskForVerse">Vraag het vers nummer</string>
+  <string name="menuAskForVerse">Vraag het paragraaf nummer</string>
   <!-- Font Manager -->
   <string name="fm_activity_title">Lettertype Manager</string>
   <string name="fm_need_to_log_in_to_wifi">Je dient eerst in te loggen op een (Wifi) netwerk.</string>
@@ -270,10 +269,9 @@
   <string name="desc_progress_3">Derde voortgang</string>
   <string name="desc_progress_4">Vierde voortgang</string>
   <string name="desc_progress_5">Vijfde voortgang</string>
-  <string name="desc_verse_attribute_one_bookmark">Een markering is gekoppeld aan dit vers.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">%s markeringen zijn aan dit vers gekoppeld.</string>
-  <string name="desc_verse_attribute_one_note">Er is een notitie andere dit vers gekoppeld.</string>
-  <string name="desc_verse_attribute_multiple_notes">%s notities zijn gekoppeld aan dit vers.</string>
+  <string name="desc_verse_attribute_one_bookmark">Een markering is gekoppeld aan dit paragraaf.</string>
+    <string name="desc_verse_attribute_one_note">Er is een notitie andere dit vers gekoppeld.</string>
+  <string name="desc_verse_attribute_multiple_notes">%s notities zijn gekoppeld aan dit paragraaf.</string>
   <string name="desc_verse_attribute_progress_mark">%s is op dit moment hier.</string>
   <string name="desc_progress_mark_list">Lijst over pins</string>
   <string name="desc_backspace">Backspace</string>
@@ -305,19 +303,19 @@
   <string name="pm_progress_4">Voortgang 4</string>
   <string name="pm_progress_5">Voortgang 5</string>
   <string name="pm_progress_name">Naam voortgang</string>
-  <string name="pm_activate_tutorial">Ingedrukt houden en slepen om een voortgangsindicator op een vers te plaatsen.</string>
+  <string name="pm_activate_tutorial">Ingedrukt houden en slepen om een voortgangsindicator op een paragraaf te plaatsen.</string>
   <string name="pm_delete_progress_confirm"><b>^1</b> verwijderen?</string>
   <string name="copy_share">Kopiëer of deel</string>
   <string name="backup_last_time">Laatst reservekopie: %s</string>
   <string name="backup_selection_autobackup_at">Auto reservekopie op %s</string>
   <string name="backup_selection_manualbackup_at">Reservekopie op %s</string>
   <string name="backup_select_file">Selecteer een reservekopie</string>
-  <string name="recentverses_not_available">Er zijn nog geen recente versies.</string>
+  <string name="recentverses_not_available">Er zijn nog geen recente paragrafen.</string>
   <string name="recentverses_just_now">Nu</string>
   <string name="recentverses_min_plural_ago">%s minuten geleden</string>
   <string name="recentverses_today_time">Vandaag, %s</string>
   <string name="recentverses_yesterday_time">Gisteren, %s</string>
-  <string name="recentverses_button_hint">(Ingedrukt houden voor recente verzen)</string>
+  <string name="recentverses_button_hint">(Ingedrukt houden voor recente paragrafen)</string>
   <string name="dr_reminder">Herinnering</string>
   <string name="dr_error_contact_reminder">Fout bij verbinden met Herinnering app.</string>
   <string name="dr_timepicker_set">Stellen</string>
@@ -376,8 +374,8 @@
   <string name="menu_compare">Vergelijken</string>
   <string name="song_player_error_description">Er is een fout opgetreden bij het afspelen van dit lied: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Zoeken in %s</string>
-  <string name="search_syntax_tips"><i>Zoektips:</i>\n\n<b>+woord</b> voor dit exacte woord\n<b>[q]stad van David[q]</b> voor deze exacte zin</string>
-  <string name="search_no_result">Geen verzen gevonden voor <b>^1</b>.</string>
+  <string name="search_syntax_tips"><i>Zoektips:</i>\n\n<b>+woord</b> voor dit exacte woord\n<b>[q]antitypische David[q]</b> voor deze exacte zin</string>
+  <string name="search_no_result">Geen paragrafen gevonden voor <b>^1</b>.</string>
   <string name="search_no_result_fallback">Klik hier om naar <u>^1</u> te gaan.</string>
   <string name="search_clear_history">Verwijder zoek geschiedenis</string>
   <string name="marker_transfer_to_device_title">Verplaats naar een ander apparaat</string>
@@ -388,24 +386,23 @@
   <string name="drawer_open">Open de lade</string>
   <string name="drawer_close">Sluit de lade</string>
   <string name="menuSplitVersion">Gedeelde weergave</string>
-  <string name="menuBible">Bijbel</string>
+  <string name="menuBible">HStaf</string>
   <string name="menuProgress">Voortgang</string>
   <string name="sn_menu_copy">Kopieer lied</string>
   <string name="menuPlay">Afspelen</string>
   <string name="menuPause">Pauze</string>
   <string name="left_drawer_current_reading_title">Huidig aan het lezen</string>
-  <string name="book_filter_old_testament">Oude Testament</string>
-  <string name="book_filter_old_pentateuch">Pentateuch</string>
-  <string name="book_filter_old_history">Geschiedenis</string>
-  <string name="book_filter_old_wisdom">Wijsheid</string>
-  <string name="book_filter_old_major_prophets">Grote profeten</string>
-  <string name="book_filter_old_minor_prophets">Kleine profeten</string>
-  <string name="book_filter_new_testament">Nieuwe Testament</string>
-  <string name="book_filter_new_gospels">Evangeliën</string>
-  <string name="book_filter_new_acts">Apostolische geschiedenis</string>
-  <string name="book_filter_new_pauline_epistles">Brieven van Paulus</string>
-  <string name="book_filter_new_general_epistles">Algemene brieven</string>
-  <string name="book_filter_new_apocalypse">Openbaring</string>
+  <string name="book_filter_old_testament">Boeken</string>
+  <string name="book_filter_old_pentateuch">HStaf, Deel 1</string>
+  <string name="book_filter_old_history">HStaf, Deel 2</string>
+  <string name="book_filter_old_wisdom">Traktaat</string>
+  <string name="book_filter_old_major_prophets">Beantwoorder</string>
+  <string name="book_filter_old_minor_prophets">Diversen</string>
+  <string name="book_filter_new_testament">periodieken</string>
+  <string name="book_filter_new_gospels">TGs, Deel 1</string>
+  <string name="book_filter_new_acts">TGs, Deel 2</string>
+  <string name="book_filter_new_pauline_epistles">Symbolische Code</string>
+  <string name="book_filter_new_general_epistles">Jizreël Brieven</string>
   <string name="search_filter_multiple_books_selected">%s boeken geselecteerd</string>
   <string name="search_version_select_label">Zoeken in:</string>
   <string name="show_hidden_version_warning">Inschakelen van deze optie geeft je de mogelijkheid om Bijbelversies te downloaden die onderworpen kunnen zijn aan bepaalde regionale beperkingen. Voordat je ze download, controleer of je de nodige toestemming hebt. Je bent volledig verantwoordelijk voor het downloaden en gebruiken van deze versies, ik kan hier niet verantwoordelijk voor worden gehouden. Klik op OK als je akkoord gaat met bovenstaande.</string>
@@ -430,7 +427,7 @@
   <string name="note_actionbar_edit">Wijzigen</string>
   <string name="note_actionbar_delete">Verwijder</string>
   <string name="note_actionbar_ok">Klaar</string>
-  <string name="note_activity_cannot_parse_verse">Sorry, we begrijpen deze vers-link niet.</string>
+  <string name="note_activity_cannot_parse_verse">Sorry, we begrijpen deze paragraaf-link niet.</string>
   <string name="sync_account_not_selected">Niet ingelogd</string>
   <string name="pref_syncAccountName_title">Account</string>
   <string name="sync_logout_warning">Wil je uitloggen? Je huidige bladwijzers, notities en andere lokale gegevens zullen niet worden verwijderd.</string>
@@ -445,7 +442,7 @@
   <string name="sync_category_title_data_types">Datatypen</string>
   <string name="pref_syncSet_mabel_enabled_title">Markeringen en labels</string>
   <string name="pref_syncSet_rp_enabled_title">Leesplan is actief</string>
-  <string name="pref_syncSet_history_enabled_title">Recente verzen</string>
+  <string name="pref_syncSet_history_enabled_title">Recente paragrafen</string>
   <string name="pref_syncSet_pins_enabled_title">Pins</string>
   <string name="sync_menu_item_sync_now">Synchroniseer nu</string>
   <string name="sync_menu_item_sync_log">Bekijk log</string>
@@ -476,7 +473,7 @@
   <string name="sync_login_form_error_required">Vul dit alsjeblieft in.</string>
   <string name="sync_login_form_password_hint">Wachtwoord</string>
   <string name="sync_login_form_new_password_hint">Nieuw wachtwoord</string>
-  <string name="sync_login_form_intro_text">Bescherm je bladwijzers, notities en andere gegevens door ze te synchroniseren.\n<a href="http://www.bibleforandroid.com/guide/sync">Meer informatie</a></string>
+  <string name="sync_login_form_intro_text">Bescherm je bladwijzers, notities en andere gegevens door ze te synchroniseren.</string>
   <string name="sync_login_form_email_hint">E-mail</string>
   <string name="sync_login_form_forgot_button">Vergeten?</string>
   <string name="sync_login_form_optional_header">Optioneel</string>
@@ -484,7 +481,7 @@
   <string name="sync_login_form_city">Stad</string>
   <string name="sync_login_form_register_button">Registreren</string>
   <string name="sync_login_form_login_button">Login</string>
-  <string name="sync_login_form_privacy_text">Bij klikken op één van de onderstaande knoppen ga je akkoord met het <a href="http://www.bibleforandroid.com/privacy_policy">privacybeleid</a>.</string>
+  <string name="sync_login_form_privacy_text">Bij klikken op één van de onderstaande knoppen ga je akkoord met het <a href="https://www.gadsda.com/privacy_statement/">privacybeleid</a>.</string>
   <string name="sync_login_form_error_email_pattern">Ongeldig e-mailadres.</string>
   <string name="sync_login_form_passwords_do_not_match">Type alsjeblieft hetzelfde wachtwoord in het bevestigingsvenster.</string>
   <string name="sync_login_dialog_confirm_password_hint">Bevestig wachtwoord</string>
@@ -492,8 +489,8 @@
   <string name="sync_login_form_change_password_success">Je wachtwoord is gewijzigd.</string>
   <string name="pref_textPadding_title">Marges rondom de tekst</string>
   <string name="pref_textPadding_summary">Maak tekst in een regel smaller voor de leesbaarheid</string>
-  <string name="pref_bottomToolbarOnText_title">Onderste vers navigatie</string>
-  <string name="pref_bottomToolbarOnText_summary">Zet de vers navigatie toolbar beneden op het Bijbel scherm</string>
+  <string name="pref_bottomToolbarOnText_title">Onderste paragraaf navigatie</string>
+  <string name="pref_bottomToolbarOnText_summary">Zet de paragraaf navigatie toolbar beneden op het HStaf scherm</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Herinnering</string>
   <string name="dr_notification_title">Dagelijkse overdenking</string>
@@ -512,7 +509,7 @@
   <string name="about_enable_beta_confirmation">Log in bij Google en klik op de WORDT EEN TESTER knop en probeer de bèta versie met nieuwe mogelijkheden en verbeteringen!</string>
   <string name="about_version_name">versie %s</string>
   <string name="about_material_sources">Bronmateriaal</string>
-  <string name="about_credits">Credits</string>
+  <string name="about_credits">handige links</string>
   <string name="about_announcements">Mededelingen</string>
   <string name="about_announcements_none">Mededelingen (0)</string>
   <string name="about_announcements_number">Mededelingen (%s)</string>
@@ -547,4 +544,6 @@
   <string name="maps_could_not_open">Kan de Bijbel kaarten app niet openen.</string>
   <!-- File chooser -->
   <string name="filechooser_parent_folder">Begin map</string>
+  <string name="desc_verse_attribute_multiple_bookmarks">%s markeringen zijn aan dit paragraaf gekoppeld.</string>
+  <string name="pasal_sebelumangka">Blz.</string>
 </resources>

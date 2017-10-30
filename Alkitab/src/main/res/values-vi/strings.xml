@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">Chia sẻ cả hai bản</string>
   <string name="tulis_catatan">Ghi chú</string>
   <string name="tambah_pembatas_buku">Đánh dấu</string>
-  <string name="salin_ayat">Sao chép câu</string>
   <string name="copy_split0">Sao chép bản chính</string>
   <string name="copy_split1">Sao chép bản phụ</string>
   <string name="copy_both_splits">Sao chép cả hai bản</string>
-  <string name="search_copy_selected_verses">Sao chép câu</string>
-  <string name="perj_baru">Kiểm tra mới.</string>
-  <string name="perj_lama">Kiểm tra cũ.</string>
   <string name="search_bookname_only">%s Chỉ</string>
-  <string name="ayat_sebelumangka">Câu</string>
-  <string name="pasal_sebelumangka">Chương</string>
+  <string name="ayat_sebelumangka">Đoạn văn</string>
   <string name="jump_to_prompt"><b>ĐI ĐẾN</b></string>
   <string name="belum_ada_pembatas_buku">Chưa có đánh dấu trang nào.\nLựa chon câu để thêm vào.</string>
   <string name="judul_titikdua">Tựa đề</string>
@@ -59,7 +54,6 @@
   <string name="hari_senin">Hai</string>
   <string name="hari_minggu">Chủ nhật</string>
   <string name="size_hasil">%d Kết quả</string>
-  <string name="search_searching_tokens">Tìm câu có chứa%s&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">Chọn ít nhất một cuốn sách để bắt đầu tìm kiếm.</string>
   <string name="pengunduhan_dibatalkan">Huỷ bỏ tải về.</string>
   <string name="sedang_mendekompres_harap_tunggu">Đang giải nén. Làm ơn chờ trong giây lát&#8230;</string>
@@ -70,7 +64,6 @@
   <string name="mengunduh_nama">Đang tải %s</string>
   <string name="tuju_v">Đi tới</string>
   <string name="bagikan_alamat">Chia sẻ %s</string>
-  <string name="search_selected_verse_copied">Đã sao chép câu được chọn.</string>
   <string name="alamat_sudah_disalin">%s đã sao chép.</string>
   <string name="alamat_tidak_sah_alamat">Địa chỉ không đúng:%s</string>
   <string name="no">Không</string>
@@ -84,7 +77,6 @@
   <string name="tidak_bisa_membuat_folder">Không thể tạo thư mục %s</string>
   <string name="menuPengaturan">Cài đặt</string>
   <string name="menuTentang">Thông tin</string>
-  <string name="pengaturan_alkitab">Cài đặt kinh thánh</string>
   <string name="kelola_versi">Hiệu chỉnh phiên bản</string>
   <string name="tambah">Thêm</string>
   <string name="versi_lainnya">Phiên bản khác</string>
@@ -146,7 +138,6 @@
   <string name="menuSort">Sắp xếp</string>
   <string name="menuSortCreateTime">Ngày tạo</string>
   <string name="menuSortModifyTime">Ngày chỉnh sửa</string>
-  <string name="menuSortAri">Địa chỉ câu thơ</string>
   <string name="menuSortCaption">Tựa đề</string>
   <string name="menuSortCaption_color">Màu lưu ý</string>
   <string name="create_edited_modified_time">%1$s\n(sửa %2$s)</string>
@@ -207,8 +198,6 @@
   <string name="text_appearance_bold">In đậm</string>
   <string name="devotion_change_date">Thay đổi ngày tháng</string>
   <string name="bookmark_search">Tìm kiếm</string>
-  <string name="verse_select_one_verse_selected">1 câu được chọn</string>
-  <string name="verse_select_multiple_verse_selected">%s câu được chọn</string>
   <string name="google_play_store_not_installed">Chưa cài đặt Google Play Store.</string>
   <string name="pref_language_label_default">Mặc Định</string>
   <string name="market_short_desc">Ứng dụng Kinh Thánh nhanh chóng, đáng tin cậy và tính năng phong ứng dụng Kinh Thánh.</string>
@@ -219,7 +208,6 @@
   <string name="goto_tab_dialer_label">Quay số</string>
   <string name="goto_tab_direct_label">Trực tiếp</string>
   <string name="goto_tab_grid_label">Lưỡi</string>
-  <string name="menuAskForVerse">Yêu cầu số câu</string>
   <!-- Font Manager -->
   <string name="fm_activity_title">Quản lý font chữ</string>
   <string name="fm_need_to_log_in_to_wifi">Bạn cần đăng nhập mạng (Wifi) của bạn trước.</string>
@@ -270,10 +258,7 @@
   <string name="desc_progress_3">Đánh dấu thứ ba</string>
   <string name="desc_progress_4">Đánh dấu thứ tư</string>
   <string name="desc_progress_5">Đánh dấu thứ năm</string>
-  <string name="desc_verse_attribute_one_bookmark">Một dấu được gắn với câu này.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">%s đánh dấu được gắn liền với câu này.</string>
-  <string name="desc_verse_attribute_one_note">Một ghi chú gắn liền với câu này.</string>
-  <string name="desc_verse_attribute_multiple_notes">%s ghi chú gắn liền với câu này.</string>
+    <string name="desc_verse_attribute_one_note">Một ghi chú gắn liền với câu này.</string>
   <string name="desc_verse_attribute_progress_mark">%s hiện ở đây.</string>
   <string name="desc_progress_mark_list">Danh sách các đánh dấu</string>
   <string name="desc_backspace">Phím xóa lùi</string>
@@ -305,19 +290,16 @@
   <string name="pm_progress_4">Ghim 4</string>
   <string name="pm_progress_5">Ghim 5</string>
   <string name="pm_progress_name">Tên ghim</string>
-  <string name="pm_activate_tutorial">Giữ và kéo ghim để lưu nó vào một câu.</string>
   <string name="pm_delete_progress_confirm">Xóa <b>^1</b>?</string>
   <string name="copy_share">Sao chép hoặc chia sẻ</string>
   <string name="backup_last_time">Sao lưu cuối: %s</string>
   <string name="backup_selection_autobackup_at">Sao lưu tự động tại %s</string>
   <string name="backup_selection_manualbackup_at">Sao lưu tại %s</string>
   <string name="backup_select_file">Chọn thư mục sao lưu</string>
-  <string name="recentverses_not_available">Không có câu gần đây nào.</string>
   <string name="recentverses_just_now">Gần đây</string>
   <string name="recentverses_min_plural_ago">%s phút trước</string>
   <string name="recentverses_today_time">Hôm nay, %s</string>
   <string name="recentverses_yesterday_time">Hôm qua, %s</string>
-  <string name="recentverses_button_hint">(Giữ để thấy câu thơ gần đây)</string>
   <string name="dr_reminder">Nhắc nhở</string>
   <string name="dr_error_contact_reminder">Lỗi khi kết nối với ứng dụng ghi nhớ.</string>
   <string name="dr_timepicker_set">Đặt</string>
@@ -377,7 +359,6 @@
   <string name="song_player_error_description">Một lỗi xảy ra khi chơi bài hát này: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Tìm trong %s</string>
   <string name="search_syntax_tips"><i>Tìm kiếm:</i>\n\n<b>+từ</b>tìm từ chính xác\n<b>[q]city of david[q]</b>tìm chính xác từ khóa</string>
-  <string name="search_no_result">Không tìm thấy câu thơ<b>^1</b>.</string>
   <string name="search_no_result_fallback">Bấm vào đây để đi đến<u>^1</u>.</string>
   <string name="search_clear_history">Xóa lịch sử tìm kiếm</string>
   <string name="marker_transfer_to_device_title">Chuyển đến một thiết bị khác</string>
@@ -388,24 +369,11 @@
   <string name="drawer_open">Mở ngăn kéo</string>
   <string name="drawer_close">Đóng ngăn kéo</string>
   <string name="menuSplitVersion">Chia</string>
-  <string name="menuBible">Kinh Thánh</string>
   <string name="menuProgress">Các ghim</string>
   <string name="sn_menu_copy">Chép bài hát</string>
   <string name="menuPlay">Nghe</string>
   <string name="menuPause">Tạm dừng</string>
   <string name="left_drawer_current_reading_title">Đang đọc</string>
-  <string name="book_filter_old_testament">Cựu Ước</string>
-  <string name="book_filter_old_pentateuch">Năm quyển đầu của cựu kim ước</string>
-  <string name="book_filter_old_history">Lịch sử</string>
-  <string name="book_filter_old_wisdom">Trí tuệ</string>
-  <string name="book_filter_old_major_prophets">Tiên tri chính yếu</string>
-  <string name="book_filter_old_minor_prophets">Tiên tri phụ</string>
-  <string name="book_filter_new_testament">Tân Ước</string>
-  <string name="book_filter_new_gospels">Phúc Âm</string>
-  <string name="book_filter_new_acts">Lịch sử Tông Truyền</string>
-  <string name="book_filter_new_pauline_epistles">Thư của Pauline</string>
-  <string name="book_filter_new_general_epistles">Tổng Thư</string>
-  <string name="book_filter_new_apocalypse">Sách khải huyền</string>
   <string name="search_filter_multiple_books_selected">%s sách được chọn</string>
   <string name="search_version_select_label">Tìm trong:</string>
   <string name="show_hidden_version_warning">Bật tùy chọn này cho phép bạn tải về các phiên bản Kinh Thánh mà có thể bị yêu cầu nhất định khu vực hoặc tiền tệ. Trước khi tải về chúng, hãy chắc chắn rằng bạn được phép làm như vậy. Bạn hoàn toàn chịu trách nhiệm tải và sử dụng các phiên bản như vậy và tôi không thể chịu trách nhiệm cho việc này. Bấm OK nếu bạn đồng ý với các điều khoản trên.</string>
@@ -430,7 +398,6 @@
   <string name="note_actionbar_edit">Chỉnh sửa</string>
   <string name="note_actionbar_delete">Xóa</string>
   <string name="note_actionbar_ok">Hoàn thành</string>
-  <string name="note_activity_cannot_parse_verse">Xin lỗi, chúng tôi không hiểu liên kết câu này.</string>
   <string name="sync_account_not_selected">Chưa đăng nhập</string>
   <string name="pref_syncAccountName_title">Tài khoản</string>
   <string name="sync_logout_warning">Bạn có muốn thoát? Tất cả đánh dấu hiện tại của bạn và các dữ liệu khác sẽ không bị xóa.</string>
@@ -445,7 +412,6 @@
   <string name="sync_category_title_data_types">Loai dữ liệu</string>
   <string name="pref_syncSet_mabel_enabled_title">Đánh dấu và nhãn</string>
   <string name="pref_syncSet_rp_enabled_title">Tiến độ kế hoạch đọc</string>
-  <string name="pref_syncSet_history_enabled_title">Câu thơ gần đây</string>
   <string name="pref_syncSet_pins_enabled_title">Các ghim</string>
   <string name="sync_menu_item_sync_now">Động bộ ngay</string>
   <string name="sync_menu_item_sync_log">Xem nhật kí</string>
@@ -492,8 +458,6 @@
   <string name="sync_login_form_change_password_success">Mật khẩu của bạn đã được thay đổi.</string>
   <string name="pref_textPadding_title">Lề xung quanh văn bản</string>
   <string name="pref_textPadding_summary">Làm cho khoảng cách dòng trong văn bản hẹp lại để dễ dàng đọc</string>
-  <string name="pref_bottomToolbarOnText_title">Chuyển hướng câu</string>
-  <string name="pref_bottomToolbarOnText_summary">Đặt thanh công cụ ở phía dưới trên màn hình Kinh Thánh</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Nhắc nhở</string>
   <string name="dr_notification_title">Sùng kính hàng ngày</string>
@@ -512,7 +476,7 @@
   <string name="about_enable_beta_confirmation">Đăng nhập vào Google và bấm vào BECOME A TESTER để thử phiên bản Beta với các tính năng mới và cải tiến!</string>
   <string name="about_version_name">phiên bản %s</string>
   <string name="about_material_sources">Nguồn nguyên liệu</string>
-  <string name="about_credits">Ghi nhận</string>
+  <string name="about_credits">Liên kết hữu ích</string>
   <string name="about_announcements">Thông báo</string>
   <string name="about_announcements_none">Thông báo (0)</string>
   <string name="about_announcements_number">Thông báo (%s)</string>

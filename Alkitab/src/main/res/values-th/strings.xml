@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">แชร์ทั้งสองเวอร์ชั่น</string>
   <string name="tulis_catatan">เขียนหมายเหตุ</string>
   <string name="tambah_pembatas_buku">เพิ่มบุ๊คมาร์ค</string>
-  <string name="salin_ayat">ก๊อปข้อ</string>
   <string name="copy_split0">ก๊อปเวอร์ชั่นหลัก</string>
   <string name="copy_split1">ก๊อปเวอร์ชั่นที่สอง</string>
   <string name="copy_both_splits">ก๊อปทั้งสองเวอร์ชั่น</string>
-  <string name="search_copy_selected_verses">ก๊อปข้อที่ถูกเลือก</string>
-  <string name="perj_baru">พันธสัญญาใหม่</string>
-  <string name="perj_lama">พันธสัญญาเดิม</string>
   <string name="search_bookname_only">เฉพาะ %s</string>
-  <string name="ayat_sebelumangka">ข้อที่</string>
-  <string name="pasal_sebelumangka">บทที่</string>
+  <string name="ayat_sebelumangka">ย่อหน้า</string>
   <string name="jump_to_prompt"><b>ไปยัง</b> — ตัวอย่าง: ^1</string>
   <string name="belum_ada_pembatas_buku">ยังไม่มีตัวบุ๊คมาร์ค\nกรุณาเลือกข้อก่อนที่จะเพิ่มตัวบุ๊คมาร์ค</string>
   <string name="judul_titikdua">หัวข้อ</string>
@@ -59,7 +54,6 @@
   <string name="hari_senin">จันทร์</string>
   <string name="hari_minggu">อาทิตย์</string>
   <string name="size_hasil">%d ผลลัพธ์</string>
-  <string name="search_searching_tokens">กำลังค้นหาข้อที่มี %s อยู่&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">กรุณาเลือกอย่างน้อยเล่มหนึ่งเพื่อค้นหา</string>
   <string name="pengunduhan_dibatalkan">ยกเลิกการดาวน์โหลดแล้ว</string>
   <string name="sedang_mendekompres_harap_tunggu">กำลังขยายไฟล์ กรุณารอสักครู่&#8230;</string>
@@ -70,7 +64,6 @@
   <string name="mengunduh_nama">กำลังดาวน์โหลด %s</string>
   <string name="tuju_v">ไปยัง</string>
   <string name="bagikan_alamat">แชร์ %s</string>
-  <string name="search_selected_verse_copied">ข้อที่ถูกเลือกก๊อบเป็นที่เรียบร้อยแล้ว</string>
   <string name="alamat_sudah_disalin">ก๊อบ %s เรียบร้อยแล้ว</string>
   <string name="alamat_tidak_sah_alamat">ที่อยู่ %s ไม่ถูกต้อง</string>
   <string name="no">ไม่</string>
@@ -84,7 +77,6 @@
   <string name="tidak_bisa_membuat_folder">ไม่สามารถสร้างโฟลเดอร์ %s</string>
   <string name="menuPengaturan">ตั้งค่า</string>
   <string name="menuTentang">เกี่ยวกับ</string>
-  <string name="pengaturan_alkitab">ตั้งค่าพระคำภีร์</string>
   <string name="kelola_versi">ตั้งค่าเวอร์ชั่น</string>
   <string name="tambah">เพิ่ม</string>
   <string name="versi_lainnya">เวอร์ชั่นอื่นๆ</string>
@@ -146,7 +138,6 @@
   <string name="menuSort">เรียง</string>
   <string name="menuSortCreateTime">วันที่สร้าง</string>
   <string name="menuSortModifyTime">วันที่แก้ไข</string>
-  <string name="menuSortAri">ที่อยู่ของข้อ</string>
   <string name="menuSortCaption">ชื่อ</string>
   <string name="menuSortCaption_color">สีการไฮไลท์</string>
   <string name="create_edited_modified_time">%1$s\n(แก้ไขแล้ว %2$s)</string>
@@ -207,8 +198,6 @@
   <string name="text_appearance_bold">อักษรหนา</string>
   <string name="devotion_change_date">เปลี่ยนวันที่</string>
   <string name="bookmark_search">ค้นหา</string>
-  <string name="verse_select_one_verse_selected">1 ข้อถูกเลือก</string>
-  <string name="verse_select_multiple_verse_selected">%s ข้อถูกเลือก</string>
   <string name="google_play_store_not_installed">ท่านไม่ได้ติดตั้ง Google Play สโตร์</string>
   <string name="pref_language_label_default">ตั้งค่ามาตรฐาน</string>
   <string name="market_short_desc">นี่เป็นพระคำภีร์ที่ร่วดเร็ว วางใจได้ และเต็มด้วยจุดเด่นมากมายที่ไม่ต้องใช้เน็ต</string>
@@ -219,7 +208,6 @@
   <string name="goto_tab_dialer_label">หน้าปัด</string>
   <string name="goto_tab_direct_label">กดตรง</string>
   <string name="goto_tab_grid_label">กริด</string>
-  <string name="menuAskForVerse">ขอหมายเลขข้อพระคำภีร์</string>
   <!-- Font Manager -->
   <string name="fm_activity_title">ตัวจัดการฟอนท์</string>
   <string name="fm_need_to_log_in_to_wifi">ท่านต้องเข้าสู่ระบบอินเทอร์เน็ต (Wi-Fi) ของท่านก่อนค่ะ</string>
@@ -270,10 +258,7 @@
   <string name="desc_progress_3">พินที่สาม</string>
   <string name="desc_progress_4">พินที่สี่</string>
   <string name="desc_progress_5">พินที่ห้า</string>
-  <string name="desc_verse_attribute_one_bookmark">ข้อนี้มีบุ๊คมาร์คแนบมาด้วยค่ะ</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">ข้อนี้มีบุ๊คมาร์คแนบมาด้วยจำนวน %s บุ๊คมาร์คค่ะ</string>
-  <string name="desc_verse_attribute_one_note">ข้อนี้มีโน้ตแนบมาด้วยค่ะ</string>
-  <string name="desc_verse_attribute_multiple_notes">ข้อนี้มีโน้ตจำนวน %s โน้ตแนบมาด้วยค่ะ</string>
+    <string name="desc_verse_attribute_one_note">ข้อนี้มีโน้ตแนบมาด้วยค่ะ</string>
   <string name="desc_verse_attribute_progress_mark">%s อยู่ตรงนี้ที่ปัจจุบัน</string>
   <string name="desc_progress_mark_list">รายการพิน</string>
   <string name="desc_backspace">ลบ</string>
@@ -305,19 +290,16 @@
   <string name="pm_progress_4">พินที่ 4</string>
   <string name="pm_progress_5">พินที่ 5</string>
   <string name="pm_progress_name">ชื่อพิน</string>
-  <string name="pm_activate_tutorial">กดค้างและลากตัวพินว่างบนข้อที่ต้องการ</string>
   <string name="pm_delete_progress_confirm">ต้องการที่จะลบ <b>^1</b>?</string>
   <string name="copy_share">ก๊อบหรือแชร์</string>
   <string name="backup_last_time">แบ็คอัพครั้งล่าสุด: %s</string>
   <string name="backup_selection_autobackup_at">แบ็คอัพโดยอัตโนมัติที่ %s</string>
   <string name="backup_selection_manualbackup_at">แบ็คอัพที่ %s</string>
   <string name="backup_select_file">เลือกไฟล์แบ็คอัพ</string>
-  <string name="recentverses_not_available">ยังไม่มีประวัติข้อล่าสุดค่ะ</string>
   <string name="recentverses_just_now">เมื่อครู่นี้</string>
   <string name="recentverses_min_plural_ago">%s นาทีที่แล้ว</string>
   <string name="recentverses_today_time">วันนี้ %s</string>
   <string name="recentverses_yesterday_time">เมื่อวัน %s</string>
-  <string name="recentverses_button_hint">(กดค้างสำหรับประวัติข้อล่าสุดค่ะ)</string>
   <string name="dr_reminder">การแจ้งเตือน</string>
   <string name="dr_error_contact_reminder">เกิดการผิดพลาดระหว่างที่เชื่อมโยงกับแอปแจ้งเตือนค่ะ</string>
   <string name="dr_timepicker_set">ตั้ง</string>
@@ -377,7 +359,6 @@
   <string name="song_player_error_description">เกิดการผิดพลาดระหว่างที่เปิดฟังเพลงนี้: %1$d, %2$d ค่ะ</string>
   <string name="search_in_version_short_name_placeholder">ค้นหาในเวอร์ชั่น %s</string>
   <string name="search_syntax_tips"><i>เคล็ดลับการค้นหา:</i>\n\n<b>+คำศัพท์</b> เพื่อค้นหาคำนั้นโดยเฉพาะ\n<b>[q]เมืองของดาวิด[q]</b> เพื่อค้นหากลุ่มคำโดยเฉพาะ</string>
-  <string name="search_no_result">ไม่พบผลการค้นหาสำหรับ <b>^1</b> ค่ะ</string>
   <string name="search_no_result_fallback">กดที่นี้เพื่อไปยัง <u>^1</u></string>
   <string name="search_clear_history">ลบประวัติการค้นหา</string>
   <string name="marker_transfer_to_device_title">ย้ายไปอีกเครื่องหนึ่ง</string>
@@ -388,24 +369,11 @@
   <string name="drawer_open">เปิดลิ้นชัก</string>
   <string name="drawer_close">ปิดลิ้นชัก</string>
   <string name="menuSplitVersion">แยกจ้อ</string>
-  <string name="menuBible">พระคำภีร์</string>
   <string name="menuProgress">พิน</string>
   <string name="sn_menu_copy">ก๊อบเพลง</string>
   <string name="menuPlay">ฟัง</string>
   <string name="menuPause">หยุดฟัง</string>
   <string name="left_drawer_current_reading_title">การอ่าน ณ ที่ปัจจุบัน</string>
-  <string name="book_filter_old_testament">พันธสัญญาเดิม</string>
-  <string name="book_filter_old_pentateuch">พระบัญญัติ</string>
-  <string name="book_filter_old_history">ประวัติศาสตร์</string>
-  <string name="book_filter_old_wisdom">หมวดปรีชาญาณ</string>
-  <string name="book_filter_old_major_prophets">หมวดผู้เผยพระวจนะใหญ่</string>
-  <string name="book_filter_old_minor_prophets">หมวดผู้เผยพระวจนะน้อย</string>
-  <string name="book_filter_new_testament">พันธสัญญาใหม่</string>
-  <string name="book_filter_new_gospels">หมวดพระวรสาร</string>
-  <string name="book_filter_new_acts">หมวดประวัติอัครสาวก</string>
-  <string name="book_filter_new_pauline_epistles">หมวดจดหมายของเปาโล</string>
-  <string name="book_filter_new_general_epistles">หมวดจดหมายทั่วไป</string>
-  <string name="book_filter_new_apocalypse">วิวรณ์</string>
   <string name="search_filter_multiple_books_selected">%s หนังสือถูกเลือก</string>
   <string name="search_version_select_label">ค้นหาเวอร์ชั่น:</string>
   <string name="show_hidden_version_warning">การที่ท่านเปิดใช้ตัวเลือกนี้ทำให้ท่านสามารถดาวน์โหลดเวอร์ชั่นพระคำภีร์ซึ่งอาจจะมีค่าใช้จ่ายต่างๆ หรือการห้ามในพื้นที่ต่างๆ ค่ะ  ฉะนั้นก่อนที่ท่านจะทำการดาวน์กรุณาตรวจสอบความถูกต้องเพื่อให้แน่ว่าท่านมีสิทธิ์ในการโหลดหรือไม่  และในการนี้ขาพเจ้าจะไม่รับผิดชอบใดๆ ทั้งสิ้นจากการที่ท่านทำการดาวน์โหลดเหล่านี้ และท่านยินยอมความผิดชอบทั้งหมดในการกระทำดังกล่าวค่ะ  ถ้าท่านเห็นด้วยกรุณากดปุ่มเลือก \"ตกลง\" เพื่อยินยอมเงื่อนไขทั้งหมดนี้ค่ะ</string>
@@ -430,7 +398,6 @@
   <string name="note_actionbar_edit">แก้ไข</string>
   <string name="note_actionbar_delete">ลบ</string>
   <string name="note_actionbar_ok">เสร็จ</string>
-  <string name="note_activity_cannot_parse_verse">ข้อโทษค่ะ แอปไม่สามารถเข้าใจลิงค์ข้อได้ค่ะ</string>
   <string name="sync_account_not_selected">ไม่ได้เข้าสู่ระบบ</string>
   <string name="pref_syncAccountName_title">บัญชี</string>
   <string name="sync_logout_warning">ท่านต้องการออกจากระบบหรือไม่ค่ะ? ไม่ต้องห่วง มาร์กเกอร์ปัจจุบันและข้อมูลท้องถิ่นอื่นๆ ของท่านจะไม่ถูกลบออกค่ะ</string>
@@ -445,7 +412,6 @@
   <string name="sync_category_title_data_types">ชนิดข้อมูล</string>
   <string name="pref_syncSet_mabel_enabled_title">มาร์กเกอร์และป้ายกำกับ</string>
   <string name="pref_syncSet_rp_enabled_title">การรุดหน้าในแผนการอ่าน</string>
-  <string name="pref_syncSet_history_enabled_title">ข้อล่าสุด</string>
   <string name="pref_syncSet_pins_enabled_title">พิน</string>
   <string name="sync_menu_item_sync_now">ซิงค์ตอนนี้</string>
   <string name="sync_menu_item_sync_log">ดูล็อกการซิงค์</string>
@@ -492,8 +458,6 @@
   <string name="sync_login_form_change_password_success">เปลี่ยนรหัสผ่านของท่านเรียบร้อยแล้ว</string>
   <string name="pref_textPadding_title">ระยะขอบรอบตัวบท</string>
   <string name="pref_textPadding_summary">ทำให้ตัวอักษรที่อยู่เส้นเดียวกันให้แคบลงเพื่อการอ่านที่สะดวกขึ้น</string>
-  <string name="pref_bottomToolbarOnText_title">ให้ระบบการนำทางข้ออยู่ด้านหลัง</string>
-  <string name="pref_bottomToolbarOnText_summary">ให้แถบเครื่องมือนำทางข้ออยู่ด้านหลังของหน้าจอในจอพระคัมภีร์</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">ตัวเตือนความจำ</string>
   <string name="dr_notification_title">บทความประจำวัน</string>
@@ -512,7 +476,7 @@
   <string name="about_enable_beta_confirmation">เข้าสู่ระบบ Google แล้วกดปุ่ม BECOME A TESTER เพื่อลองรุ่นเบต้าพร้อมด้วยฟิเช่อร์ใหม่ๆ และการปรับปรุงอย่างล่าสุดได้ค่ะ</string>
   <string name="about_version_name">เวอร์ชั่น %s</string>
   <string name="about_material_sources">แหล่งข้อมูล</string>
-  <string name="about_credits">เครดิต</string>
+  <string name="about_credits">ลิงค์ที่เป็นประโยชน์</string>
   <string name="about_announcements">การประกาศ</string>
   <string name="about_announcements_none">การประกาศ (0)</string>
   <string name="about_announcements_number">การประกาศ (%s)</string>

@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">Del begge versioner</string>
   <string name="tulis_catatan">Skriv note</string>
   <string name="tambah_pembatas_buku">Tilføj bogmærke</string>
-  <string name="salin_ayat">Kopier vers</string>
   <string name="copy_split0">Kopier primære version</string>
   <string name="copy_split1">Kopier sekundære version</string>
   <string name="copy_both_splits">Kopier begge versioner</string>
-  <string name="search_copy_selected_verses">Kopier valgte vers</string>
-  <string name="perj_baru">Nye Test.</string>
-  <string name="perj_lama">Gamle Test.</string>
   <string name="search_bookname_only">Kun %s</string>
-  <string name="ayat_sebelumangka">Vers</string>
-  <string name="pasal_sebelumangka">Kapitel</string>
+  <string name="ayat_sebelumangka">Afsnit</string>
   <string name="jump_to_prompt"><b>Spring til</b> — Eksempel: ^1</string>
   <string name="belum_ada_pembatas_buku">Ingen bogmærker endnu.\n Vælg et vers for at tilføje et bogmærke.</string>
   <string name="judul_titikdua">Titel</string>
@@ -59,7 +54,6 @@
   <string name="hari_senin">man</string>
   <string name="hari_minggu">søn</string>
   <string name="size_hasil">%d resultater</string>
-  <string name="search_searching_tokens">Søgning efter vers indeholdende %s&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">Vælg mindst en bog at søge efter.</string>
   <string name="pengunduhan_dibatalkan">Nedtagning annulleret.</string>
   <string name="sedang_mendekompres_harap_tunggu">Dekomprimering. Vent venligst&#8230;</string>
@@ -70,7 +64,6 @@
   <string name="mengunduh_nama">Nedtagning %s</string>
   <string name="tuju_v">Gå til</string>
   <string name="bagikan_alamat">Del %s</string>
-  <string name="search_selected_verse_copied">De udvalgte vers er blevet kopieret.</string>
   <string name="alamat_sudah_disalin">%s er blevet kopieret.</string>
   <string name="alamat_tidak_sah_alamat">Ugyldig adresse: %s</string>
   <string name="no">Nej</string>
@@ -84,7 +77,6 @@
   <string name="tidak_bisa_membuat_folder">Kunne ikke oprette mappen %s</string>
   <string name="menuPengaturan">Indstillinger</string>
   <string name="menuTentang">Om</string>
-  <string name="pengaturan_alkitab">Bibel indstillinger</string>
   <string name="kelola_versi">Administrer versioner</string>
   <string name="tambah">Tilføj</string>
   <string name="versi_lainnya">Andre versioner</string>
@@ -146,7 +138,6 @@
   <string name="menuSort">Slags</string>
   <string name="menuSortCreateTime">Oprettelsesdato</string>
   <string name="menuSortModifyTime">Ændringsdato</string>
-  <string name="menuSortAri">Vers adresse</string>
   <string name="menuSortCaption">Titel</string>
   <string name="menuSortCaption_color">Markørfarve</string>
   <string name="create_edited_modified_time">%1$s\n(redigeret %2$s)</string>
@@ -207,8 +198,6 @@
   <string name="text_appearance_bold">Fed</string>
   <string name="devotion_change_date">Skift dato</string>
   <string name="bookmark_search">Søg</string>
-  <string name="verse_select_one_verse_selected">1 vers er valgt</string>
-  <string name="verse_select_multiple_verse_selected">%s vers er valgte</string>
   <string name="google_play_store_not_installed">Google Play Store er ikke installeret.</string>
   <string name="pref_language_label_default">Standard</string>
   <string name="market_short_desc">Hurtig, pålidelig og funktionsrig offline Bibel.</string>
@@ -219,8 +208,7 @@
   <string name="goto_tab_dialer_label">Numre</string>
   <string name="goto_tab_direct_label">Direkte</string>
   <string name="goto_tab_grid_label">Tabel</string>
-  <string name="menuAskForVerse">Spørg efter vers nummer</string>
-  <!-- Font Manager -->
+    <!-- Font Manager -->
   <string name="fm_activity_title">Skrifttypestyring</string>
   <string name="fm_need_to_log_in_to_wifi">Du er nød til at logge ind på dit (WiFi) netværk først.</string>
   <string name="fm_do_you_want_to_delete">Slet font %s?</string>
@@ -270,11 +258,8 @@
   <string name="desc_progress_3">Tredje stift</string>
   <string name="desc_progress_4">Fjerde stift</string>
   <string name="desc_progress_5">Femte stift</string>
-  <string name="desc_verse_attribute_one_bookmark">Et bogmærke er knyttet til dette vers.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">%s bogmærker er knyttet til dette vers.</string>
   <string name="desc_verse_attribute_one_note">En note er knyttet til dette vers.</string>
-  <string name="desc_verse_attribute_multiple_notes">%s noter er knyttet til dette vers.</string>
-  <string name="desc_verse_attribute_progress_mark">%s er i øjeblikket her.</string>
+    <string name="desc_verse_attribute_progress_mark">%s er i øjeblikket her.</string>
   <string name="desc_progress_mark_list">Listen over stifter</string>
   <string name="desc_backspace">Baktast</string>
   <string name="intent_filter_open_yes_file">Åben .yes-fil</string>
@@ -305,19 +290,16 @@
   <string name="pm_progress_4">Stift 4</string>
   <string name="pm_progress_5">Stift 5</string>
   <string name="pm_progress_name">Stift navn</string>
-  <string name="pm_activate_tutorial">Langt-tap og træk stiften til et vers.</string>
   <string name="pm_delete_progress_confirm">Fjern <b>^1</b>?</string>
   <string name="copy_share">Kopier eller del</string>
   <string name="backup_last_time">Sidste sikkerhedskopi: %s</string>
   <string name="backup_selection_autobackup_at">Automatisk sikkerhedskopi på %s</string>
   <string name="backup_selection_manualbackup_at">Sikkerhedskopi på %s</string>
   <string name="backup_select_file">Vælg sikkerhedskopi-fil</string>
-  <string name="recentverses_not_available">Ingen seneste vers endnu.</string>
   <string name="recentverses_just_now">Lige nu</string>
   <string name="recentverses_min_plural_ago">%s minutter siden</string>
   <string name="recentverses_today_time">I dag. %s</string>
   <string name="recentverses_yesterday_time">I går %s</string>
-  <string name="recentverses_button_hint">(Lang-tap for de seneste vers)</string>
   <string name="dr_reminder">Påmindelse</string>
   <string name="dr_error_contact_reminder">Fejl ved kontakt til Reminder-app.</string>
   <string name="dr_timepicker_set">Sætte</string>
@@ -377,7 +359,6 @@
   <string name="song_player_error_description">Der opstår en fejl, når denne sang afspilles: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Find med %s</string>
   <string name="search_syntax_tips"><i>Søge tips:</i>\n\n<b>+ord</b> for det eksakte ord\n<b>[q]elsk din næste[q]</b> for den eksakte frase</string>
-  <string name="search_no_result">Ingen vers blev fundet for <b>^1</b>.</string>
   <string name="search_no_result_fallback">Tap her for at gå til <u>^1</u>.</string>
   <string name="search_clear_history">Ryd søgehistorik</string>
   <string name="marker_transfer_to_device_title">Overførsel til en anden enhed</string>
@@ -388,24 +369,11 @@
   <string name="drawer_open">Åben menu</string>
   <string name="drawer_close">Luk menu</string>
   <string name="menuSplitVersion">Split</string>
-  <string name="menuBible">Bibel</string>
   <string name="menuProgress">Stifter</string>
   <string name="sn_menu_copy">Kopier sang</string>
   <string name="menuPlay">Afspil</string>
   <string name="menuPause">Pause</string>
   <string name="left_drawer_current_reading_title">Nuværende læsning</string>
-  <string name="book_filter_old_testament">Det Gamle Testamente</string>
-  <string name="book_filter_old_pentateuch">Mosebøgerne</string>
-  <string name="book_filter_old_history">Historie</string>
-  <string name="book_filter_old_wisdom">Visdom</string>
-  <string name="book_filter_old_major_prophets">Store profeter</string>
-  <string name="book_filter_old_minor_prophets">Små profeter</string>
-  <string name="book_filter_new_testament">Det Nye Testamente</string>
-  <string name="book_filter_new_gospels">Evangelierne</string>
-  <string name="book_filter_new_acts">Apostolsk Historie</string>
-  <string name="book_filter_new_pauline_epistles">Paulus\' breve</string>
-  <string name="book_filter_new_general_epistles">Almindelige breve</string>
-  <string name="book_filter_new_apocalypse">Apocalypse</string>
   <string name="search_filter_multiple_books_selected">%s bøger valgt</string>
   <string name="search_version_select_label">Find med:</string>
   <string name="show_hidden_version_warning">Aktivering af denne indstilling tillader dig at nedtage Bibelversioner, som kan være underlagt visse regionale eller monetære krav. Før du henter dem, skal du sørge for, du har lov til at gøre det. Du er fuldt ansvarlig for, at nedtage og bruge sådanne versioner, og jeg kan ikke drages til ansvar for dette. Tryk på OK, hvis du accepterer ovenstående vilkår.</string>
@@ -430,7 +398,6 @@
   <string name="note_actionbar_edit">Rediger</string>
   <string name="note_actionbar_delete">Slet</string>
   <string name="note_actionbar_ok">Færdig</string>
-  <string name="note_activity_cannot_parse_verse">Beklager, vi ikke forstår dette vers link.</string>
   <string name="sync_account_not_selected">Ikke logget på</string>
   <string name="pref_syncAccountName_title">Konto</string>
   <string name="sync_logout_warning">Ønsker du at logge ud? Dine nuværende markører og andre lokale data vil ikke blive slettet.</string>
@@ -445,7 +412,6 @@
   <string name="sync_category_title_data_types">Data typer</string>
   <string name="pref_syncSet_mabel_enabled_title">Markører og etiketter</string>
   <string name="pref_syncSet_rp_enabled_title">Læseplan fremskridt</string>
-  <string name="pref_syncSet_history_enabled_title">Seneste vers</string>
   <string name="pref_syncSet_pins_enabled_title">Stifter</string>
   <string name="sync_menu_item_sync_now">Synkroniser nu</string>
   <string name="sync_menu_item_sync_log">Vis log</string>
@@ -492,8 +458,6 @@
   <string name="sync_login_form_change_password_success">Din adgangskode er blevet ændret.</string>
   <string name="pref_textPadding_title">Margener omkring tekst</string>
   <string name="pref_textPadding_summary">Lav tekst i en linje smallere, for at lette læsning</string>
-  <string name="pref_bottomToolbarOnText_title">Vers-navigation i bund</string>
-  <string name="pref_bottomToolbarOnText_summary">Sæt vers-navigation værktøjslinjen nederst på skærmen</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Påmindelse</string>
   <string name="dr_notification_title">Daglig andagt</string>
@@ -512,7 +476,7 @@
   <string name="about_enable_beta_confirmation">Log ind på Google og tryk på \"BLIV TESTER\"-knappen for at prøve Beta version med nyere funktioner og forbedringer!</string>
   <string name="about_version_name">version %s</string>
   <string name="about_material_sources">Materiale Kilder</string>
-  <string name="about_credits">Krediteringer</string>
+  <string name="about_credits">nyttige links</string>
   <string name="about_announcements">Meddelelser</string>
   <string name="about_announcements_none">Meddelelser (0)</string>
   <string name="about_announcements_number">Meddelelser (%s)</string>

@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">分享兩個版本</string>
   <string name="tulis_catatan">書寫筆記</string>
   <string name="tambah_pembatas_buku">新增書籤</string>
-  <string name="salin_ayat">複製經節</string>
   <string name="copy_split0">複製原始版本</string>
   <string name="copy_split1">複製第二版本</string>
   <string name="copy_both_splits">複製兩個版本</string>
-  <string name="search_copy_selected_verses">複製所選經節</string>
-  <string name="perj_baru">新約</string>
-  <string name="perj_lama">舊約</string>
   <string name="search_bookname_only">只有%s</string>
-  <string name="ayat_sebelumangka">節</string>
-  <string name="pasal_sebelumangka">章</string>
+  <string name="ayat_sebelumangka">段</string>
   <string name="jump_to_prompt"><b>跳至</b> — 範例: ^1</string>
   <string name="belum_ada_pembatas_buku">尚未有任何書籤。\n選取一節經文以新增書籤。</string>
   <string name="judul_titikdua">標題</string>
@@ -56,7 +51,6 @@
   <string name="hari_senin">週一</string>
   <string name="hari_minggu">週日</string>
   <string name="size_hasil">%d個結果</string>
-  <string name="search_searching_tokens">正在搜尋包含%s的經文&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">選擇至少一本書卷以搜尋</string>
   <string name="pengunduhan_dibatalkan">下載取消.</string>
   <string name="sedang_mendekompres_harap_tunggu">解壓縮中. 請等待....</string>
@@ -67,7 +61,6 @@
   <string name="mengunduh_nama">下載 %s 中</string>
   <string name="tuju_v">前往</string>
   <string name="bagikan_alamat">分享 %s</string>
-  <string name="search_selected_verse_copied">所選經節已被複製</string>
   <string name="alamat_sudah_disalin">%s 已被複製.</string>
   <string name="alamat_tidak_sah_alamat">錯誤位置: %s</string>
   <string name="no">否</string>
@@ -81,7 +74,6 @@
   <string name="tidak_bisa_membuat_folder">無法新增資料夾%s</string>
   <string name="menuPengaturan">設定</string>
   <string name="menuTentang">關於</string>
-  <string name="pengaturan_alkitab">聖經設置</string>
   <string name="kelola_versi">版本管理</string>
   <string name="tambah">新增</string>
   <string name="versi_lainnya">其他版本</string>
@@ -143,7 +135,6 @@
   <string name="menuSort">排序</string>
   <string name="menuSortCreateTime">創建日期</string>
   <string name="menuSortModifyTime">修改日期</string>
-  <string name="menuSortAri">經節位置</string>
   <string name="menuSortCaption">標題</string>
   <string name="menuSortCaption_color">標記顏色</string>
   <string name="create_edited_modified_time">%1$s\n（編輯於%2$s）</string>
@@ -204,8 +195,6 @@
   <string name="text_appearance_bold">粗體</string>
   <string name="devotion_change_date">更改日期</string>
   <string name="bookmark_search">搜尋</string>
-  <string name="verse_select_one_verse_selected">選取了1節經文</string>
-  <string name="verse_select_multiple_verse_selected">選取了%s經文</string>
   <string name="google_play_store_not_installed">尚未安裝谷歌商店。</string>
   <string name="pref_language_label_default">預設</string>
   <string name="market_short_desc">快速、可靠與多功能的離線聖經。</string>
@@ -215,7 +204,6 @@
   <string name="goto_tab_dialer_label">撥號按鍵</string>
   <string name="goto_tab_direct_label">直接輸入</string>
   <string name="goto_tab_grid_label">格狀排列</string>
-  <string name="menuAskForVerse">需要節數</string>
   <!-- Font Manager -->
   <string name="fm_activity_title">字型管理</string>
   <string name="fm_need_to_log_in_to_wifi">你必須先登入你的Wi-Fi網路</string>
@@ -265,10 +253,7 @@
   <string name="desc_progress_3">進度三</string>
   <string name="desc_progress_4">進度四</string>
   <string name="desc_progress_5">進度五</string>
-  <string name="desc_verse_attribute_one_bookmark">這經節附有書簽的。</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">這經節附有%s個書簽。</string>
-  <string name="desc_verse_attribute_one_note">這經節附有筆記。</string>
-  <string name="desc_verse_attribute_multiple_notes">這經節附有%s個筆記。</string>
+    <string name="desc_verse_attribute_one_note">這經節附有筆記。</string>
   <string name="desc_verse_attribute_progress_mark">這裏有%s。</string>
   <string name="desc_progress_mark_list">進度標記清單</string>
   <string name="desc_backspace">退格</string>
@@ -299,19 +284,16 @@
   <string name="pm_progress_4">進度四</string>
   <string name="pm_progress_5">進度五</string>
   <string name="pm_progress_name">進度名稱</string>
-  <string name="pm_activate_tutorial">長按並拖曳以在經節上設置進度。</string>
   <string name="pm_delete_progress_confirm">移除<b>^1</b>？</string>
   <string name="copy_share">複製或分享</string>
   <string name="backup_last_time">最後備份：%s</string>
   <string name="backup_selection_autobackup_at">於%s自動備份</string>
   <string name="backup_selection_manualbackup_at">備份於%s</string>
   <string name="backup_select_file">選取備份檔案</string>
-  <string name="recentverses_not_available">暫時未有最近的經文。</string>
   <string name="recentverses_just_now">正在</string>
   <string name="recentverses_min_plural_ago">%s分鐘之前</string>
   <string name="recentverses_today_time">今天，%s</string>
   <string name="recentverses_yesterday_time">昨天，%s</string>
-  <string name="recentverses_button_hint">（長按以顯示最近經文）</string>
   <string name="dr_reminder">提示</string>
   <string name="dr_error_contact_reminder">與提示程式連接時發生錯誤。</string>
   <string name="dr_timepicker_off">停用</string>
@@ -370,7 +352,6 @@
   <string name="song_player_error_description">播放歌曲%1$d, %2$d的時候遇到問題。</string>
   <string name="search_in_version_short_name_placeholder">在%s中搜尋</string>
   <string name="search_syntax_tips"><i>搜尋提示：</i>\n\n<b>+字詞</b>以搜尋準確的單字\n<b>[q]大衛城[q]</b>以搜尋準確的語句</string>
-  <string name="search_no_result">找不到這經節 <b>^1</b>.</string>
   <string name="search_no_result_fallback">點此跳到 <u>^1</u>.</string>
   <string name="search_clear_history">刪除搜尋紀錄</string>
   <string name="marker_transfer_to_device_title">轉移到另一台設備</string>
@@ -381,24 +362,11 @@
   <string name="drawer_open">開啟抽屜</string>
   <string name="drawer_close">關閉抽屜</string>
   <string name="menuSplitVersion">分隔</string>
-  <string name="menuBible">聖經</string>
   <string name="menuProgress">進度</string>
   <string name="sn_menu_copy">複製歌曲</string>
   <string name="menuPlay">播放</string>
   <string name="menuPause">暫停</string>
   <string name="left_drawer_current_reading_title">現正閱讀</string>
-  <string name="book_filter_old_testament">舊約</string>
-  <string name="book_filter_old_pentateuch">摩西五經</string>
-  <string name="book_filter_old_history">歷史書</string>
-  <string name="book_filter_old_wisdom">智慧書</string>
-  <string name="book_filter_old_major_prophets">大先知書</string>
-  <string name="book_filter_old_minor_prophets">小先知書</string>
-  <string name="book_filter_new_testament">新約</string>
-  <string name="book_filter_new_gospels">福音書</string>
-  <string name="book_filter_new_acts">使徒歷史</string>
-  <string name="book_filter_new_pauline_epistles">保羅書信</string>
-  <string name="book_filter_new_general_epistles">一般書信</string>
-  <string name="book_filter_new_apocalypse">啟示書</string>
   <string name="search_filter_multiple_books_selected">已選取%s書</string>
   <string name="search_version_select_label">搜尋範圍：</string>
   <string name="show_hidden_version_warning">啟動此選項能讓你下載某些受區域或財權限制的版本. 在下載前請先確認你能如此做. 你必須為自己下載使用這些版本負全責, 我無法為此負任何責任. 按OK以同意以上條款.</string>
@@ -423,7 +391,6 @@
   <string name="note_actionbar_edit">編輯</string>
   <string name="note_actionbar_delete">刪除</string>
   <string name="note_actionbar_ok">完成</string>
-  <string name="note_activity_cannot_parse_verse">對不起，我們不理解這節經文連結。</string>
   <string name="sync_account_not_selected">並未登入</string>
   <string name="pref_syncAccountName_title">帳戶</string>
   <string name="sync_logout_warning">你要登出嗎？你現在所作的標記和其他儲存於本地的資料將會被刪除。</string>
@@ -438,7 +405,6 @@
   <string name="sync_category_title_data_types">資料類型</string>
   <string name="pref_syncSet_mabel_enabled_title">標記和標簽</string>
   <string name="pref_syncSet_rp_enabled_title">閱讀計劃進度</string>
-  <string name="pref_syncSet_history_enabled_title">最近的經節</string>
   <string name="pref_syncSet_pins_enabled_title">釘選</string>
   <string name="sync_menu_item_sync_now">現在同步</string>
   <string name="sync_menu_item_sync_log">檢視紀錄</string>
@@ -468,7 +434,7 @@
   <string name="sync_login_form_error_required">請填寫。</string>
   <string name="sync_login_form_password_hint">密碼</string>
   <string name="sync_login_form_new_password_hint">新密碼</string>
-  <string name="sync_login_form_intro_text">同步能夠保障你的標記和其他資料。\n<a href="http://www.bibleforandroid.com/guide/sync">更多資料</a></string>
+  <string name="sync_login_form_intro_text">同步能夠保障你的標記和其他資料。</string>
   <string name="sync_login_form_email_hint">電郵</string>
   <string name="sync_login_form_forgot_button">忘記了？</string>
   <string name="sync_login_form_optional_header">例外的</string>
@@ -476,7 +442,7 @@
   <string name="sync_login_form_city">城市</string>
   <string name="sync_login_form_register_button">註冊</string>
   <string name="sync_login_form_login_button">登入</string>
-  <string name="sync_login_form_privacy_text">按下以下任何一個按鈕即代表你同意<a href="http://www.bibleforandroid.com/privacy_policy">私隱政策</a>。</string>
+  <string name="sync_login_form_privacy_text">按下以下任何一個按鈕即代表你同意<a href="https://www.gadsda.com/privacy_statement/">私隱政策</a>。</string>
   <string name="sync_login_form_error_email_pattern">無效的電郵地址。</string>
   <string name="sync_login_form_passwords_do_not_match">請於確認對話中輸入相同的密碼。</string>
   <string name="sync_login_dialog_confirm_password_hint">確認密碼</string>
@@ -504,7 +470,7 @@
   <string name="about_enable_beta_confirmation">登入谷歌並按下「成為測試員」按鈕，以使用有更新的功能和更完善的試用版本！</string>
   <string name="about_version_name">版本 %s</string>
   <string name="about_material_sources">資料來源</string>
-  <string name="about_credits">工作人員</string>
+  <string name="about_credits">有用的链接</string>
   <string name="about_announcements">公告</string>
   <string name="about_announcements_none">公告 (0)</string>
   <string name="about_announcements_number">公告 (%s)</string>

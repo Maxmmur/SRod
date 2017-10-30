@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">Поділитися обома версіями</string>
   <string name="tulis_catatan">Написати нотатку</string>
   <string name="tambah_pembatas_buku">Додати закладку</string>
-  <string name="salin_ayat">Скопіювати вірш</string>
   <string name="copy_split0">Копіювати первинну версію</string>
   <string name="copy_split1">Копіювати вторинну версію</string>
   <string name="copy_both_splits">Копіювати обидві версії</string>
-  <string name="search_copy_selected_verses">Копіювати обрані вірші</string>
-  <string name="perj_baru">Новий Завіт.</string>
-  <string name="perj_lama">Старий Завіт.</string>
   <string name="search_bookname_only">Тільки %s</string>
-  <string name="ayat_sebelumangka">Вірш</string>
-  <string name="pasal_sebelumangka">Розділ</string>
+  <string name="ayat_sebelumangka">Абзац</string>
   <string name="jump_to_prompt"><b>ШВИДКИЙ ПЕРЕХІД</b> — Приклад: ^1</string>
   <string name="belum_ada_pembatas_buku">Ще немає закладок.\nВиберіть вірш щоб додати закладку.</string>
   <string name="judul_titikdua">НАЗВА</string>
@@ -59,7 +54,6 @@
   <string name="hari_senin">Пн</string>
   <string name="hari_minggu">Нд</string>
   <string name="size_hasil">%d результатів</string>
-  <string name="search_searching_tokens">Пошук віршів які містять %s&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">Виберіть принаймі одну книгу для пошуку</string>
   <string name="pengunduhan_dibatalkan">Завантаження відмінено.</string>
   <string name="sedang_mendekompres_harap_tunggu">Витягання. Будь-ласка зачекайте...</string>
@@ -70,7 +64,6 @@
   <string name="mengunduh_nama">Завантаження %s</string>
   <string name="tuju_v">Перейти до</string>
   <string name="bagikan_alamat">Поділитись %s</string>
-  <string name="search_selected_verse_copied">Обрані вірші скопійовано.</string>
   <string name="alamat_sudah_disalin">%s було скопійовано.</string>
   <string name="alamat_tidak_sah_alamat">Недійсна адреса: %s</string>
   <string name="no">Ні</string>
@@ -84,7 +77,6 @@
   <string name="tidak_bisa_membuat_folder">Неможливо створити теку %s</string>
   <string name="menuPengaturan">Налаштування</string>
   <string name="menuTentang">Про</string>
-  <string name="pengaturan_alkitab">Налаштування Біблії</string>
   <string name="kelola_versi">Змінити версії</string>
   <string name="tambah">Додати</string>
   <string name="versi_lainnya">Інші версії</string>
@@ -146,7 +138,6 @@
   <string name="menuSort">Сортувати</string>
   <string name="menuSortCreateTime">Дата створення</string>
   <string name="menuSortModifyTime">Дата редагування</string>
-  <string name="menuSortAri">Адреса вірша</string>
   <string name="menuSortCaption">Заголовок</string>
   <string name="menuSortCaption_color">Колір виділення, підкреслення</string>
   <string name="create_edited_modified_time">%1$s\n(відредаговано %2$s)</string>
@@ -208,8 +199,6 @@
   <string name="text_appearance_bold">Потовщений</string>
   <string name="devotion_change_date">Зміна дати</string>
   <string name="bookmark_search">Пошук</string>
-  <string name="verse_select_one_verse_selected">1 вірш обрано</string>
-  <string name="verse_select_multiple_verse_selected">%s віршів вибрано</string>
   <string name="google_play_store_not_installed">Магазин Google Play не встановлено.</string>
   <string name="pref_language_label_default">За умовчанням</string>
   <string name="market_short_desc">Швидка, надійна та багатофункціональна офлайн Біблія.</string>
@@ -220,8 +209,7 @@
   <string name="goto_tab_dialer_label">Номеронабирач</string>
   <string name="goto_tab_direct_label">Прямолінійний</string>
   <string name="goto_tab_grid_label">Сітка</string>
-  <string name="menuAskForVerse">Запитати номер вірша</string>
-  <!-- Font Manager -->
+    <!-- Font Manager -->
   <string name="fm_activity_title">Налаштування шрифту</string>
   <string name="fm_need_to_log_in_to_wifi">Вам потрібно спочатку підключитися до вашої (Wi-Fi) мережі.</string>
   <string name="fm_do_you_want_to_delete">Видалити шрифт %s?</string>
@@ -294,19 +282,16 @@
   <string name="pm_progress_4">Прогрес 4</string>
   <string name="pm_progress_5">Прогрес 5</string>
   <string name="pm_progress_name">Назва прогресу</string>
-  <string name="pm_activate_tutorial">Довше притримайте та перетягніть щоб розмістити прогрес у вірші.</string>
   <string name="pm_delete_progress_confirm">Видалити <b>^1</b>?</string>
   <string name="copy_share">Копіювати або поділитись</string>
   <string name="backup_last_time">Остання резервна копія: %s</string>
   <string name="backup_selection_autobackup_at">Автоматичне резервне копіювання в %s</string>
   <string name="backup_selection_manualbackup_at">Резервна копія в %s</string>
   <string name="backup_select_file">Виберіть файл резервної копії</string>
-  <string name="recentverses_not_available">Поки що немає недавно прочитаних віршів.</string>
   <string name="recentverses_just_now">Зараз</string>
   <string name="recentverses_min_plural_ago">%s хвилин тому</string>
   <string name="recentverses_today_time">Сьогодні, %s</string>
   <string name="recentverses_yesterday_time">Вчора, %s</string>
-  <string name="recentverses_button_hint">(Притримайте тут для огляду останніх прочитаних віршів)</string>
   <string name="dr_reminder">Нагадування</string>
   <string name="dr_error_contact_reminder">Помилка при контакті Нагадування програми</string>
   <string name="dv_option_transparent_background">Прозорий фон</string>
@@ -352,7 +337,6 @@
   <string name="song_player_error_description">Сталася помилка при відтворенні цієї пісні: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Знайти в %s</string>
   <string name="search_syntax_tips"><i>Поради з пошуку:</i>\n\n<b>+слово</b> для цього точне слово\n<b>[q]місто Давидове[q]</b> для цього точна фраза</string>
-  <string name="search_no_result">Не знайдено вірші які містять <b>^1</b>.</string>
   <string name="search_no_result_fallback">Натисніть тут для переходу до <u>^1</u>.</string>
   <string name="marker_transfer_to_device_title">Передати на інший пристрій</string>
   <string name="marker_transfer_to_device_description">Перемістити всі закладки, замітки, виділення та підкреслення на інший телефон або планшет. Ми рекомендуємо використовувати Gmail / Email.</string>
@@ -362,23 +346,10 @@
   <string name="drawer_open">Відкрити записник</string>
   <string name="drawer_close">Закрити записник</string>
   <string name="menuSplitVersion">Подвійний</string>
-  <string name="menuBible">Біблія</string>
   <string name="menuProgress">Прогрес</string>
   <string name="sn_menu_copy">Скопіювати пісню</string>
   <string name="menuPlay">Грати</string>
   <string name="menuPause">Пауза</string>
-  <string name="book_filter_old_testament">Старий Завіт</string>
-  <string name="book_filter_old_pentateuch">П\'ятикнижжя</string>
-  <string name="book_filter_old_history">Історія</string>
-  <string name="book_filter_old_wisdom">Мудрість</string>
-  <string name="book_filter_old_major_prophets">Великі Пророки</string>
-  <string name="book_filter_old_minor_prophets">Малі Пророки</string>
-  <string name="book_filter_new_testament">Новий Завіт</string>
-  <string name="book_filter_new_gospels">Євангелія</string>
-  <string name="book_filter_new_acts">Діяння Апостолів</string>
-  <string name="book_filter_new_pauline_epistles">Послання Павла</string>
-  <string name="book_filter_new_general_epistles">Соборні послання</string>
-  <string name="book_filter_new_apocalypse">Откровення</string>
   <string name="search_filter_multiple_books_selected">%s книг вибрано</string>
   <string name="search_version_select_label">Шукати в:</string>
   <string name="version_config_updater_error_download_modify_time">Помилка при перевірці списку версії.</string>
@@ -397,7 +368,6 @@
   <string name="note_actionbar_edit">Редагувати</string>
   <string name="note_actionbar_delete">Видалити</string>
   <string name="note_actionbar_ok">Зроблено</string>
-  <string name="note_activity_cannot_parse_verse">Вибачте, це посилання на вірш не розпізнано.</string>
   <string name="pref_syncAccountName_title">Обліковий запис</string>
   <string name="pref_sync_title">Сихнронізувати</string>
   <string name="sync_menu_item_sync_now">Синхронізувати зараз</string>
@@ -429,7 +399,7 @@
   <string name="about_translators">Перекладачі</string>
   <string name="about_user_guide">Керівництво користувача</string>
   <string name="about_version_name">Версія складання %s</string>
-  <string name="about_credits">Подяка</string>
+  <string name="about_credits">корисні посилання</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_no_more">Не питати знову</string>
   <string name="marker_migrate_later">Не тепер</string>

@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">모든 성경 공유</string>
   <string name="tulis_catatan">노트 작성</string>
   <string name="tambah_pembatas_buku">북마크 추가</string>
-  <string name="salin_ayat">구절 복사</string>
   <string name="copy_split0">주 성경 구절 복사</string>
   <string name="copy_split1">보조 성경 구절 복사</string>
   <string name="copy_both_splits">주/보조 성경 구절 복사</string>
-  <string name="search_copy_selected_verses">선택된 구절 복사</string>
-  <string name="perj_baru">신약</string>
-  <string name="perj_lama">구약</string>
   <string name="search_bookname_only">%s 만</string>
   <string name="ayat_sebelumangka">절</string>
-  <string name="pasal_sebelumangka">장</string>
   <string name="jump_to_prompt"><b>바로가기</b> — 예시: ^1</string>
   <string name="belum_ada_pembatas_buku">책갈피가 없습니다.\n책갈피에 추가할 절을 선택하십시오.</string>
   <string name="judul_titikdua">제목</string>
@@ -59,7 +54,6 @@
   <string name="hari_senin">월</string>
   <string name="hari_minggu">일</string>
   <string name="size_hasil">%d 결과</string>
-  <string name="search_searching_tokens">%s가 포함된 구절 검색 중...</string>
   <string name="pilih_setidaknya_satu_kitab">검색 할 책을 최소 하나 선택하십시오.</string>
   <string name="pengunduhan_dibatalkan">다운로드 취소</string>
   <string name="sedang_mendekompres_harap_tunggu">압축해제 중입니다. 잠시만 기다려 주십시오.</string>
@@ -70,7 +64,6 @@
   <string name="mengunduh_nama">%s 다운로드 중</string>
   <string name="tuju_v">이동</string>
   <string name="bagikan_alamat">%s 공유</string>
-  <string name="search_selected_verse_copied">선택한 절을 복사했습니다.</string>
   <string name="alamat_sudah_disalin">%s 을(를) 복사했습니다.</string>
   <string name="alamat_tidak_sah_alamat">잘못된 위치: %s</string>
   <string name="no">아니오</string>
@@ -84,7 +77,6 @@
   <string name="tidak_bisa_membuat_folder">%s 폴더를 생성할 수 없습니다.</string>
   <string name="menuPengaturan">설정</string>
   <string name="menuTentang">About</string>
-  <string name="pengaturan_alkitab">성경 설정</string>
   <string name="kelola_versi">역본 관리</string>
   <string name="tambah">추가</string>
   <string name="versi_lainnya">다른 역본</string>
@@ -146,7 +138,6 @@
   <string name="menuSort">정렬</string>
   <string name="menuSortCreateTime">생성날짜</string>
   <string name="menuSortModifyTime">수정날짜</string>
-  <string name="menuSortAri">구절 위치</string>
   <string name="menuSortCaption">제목</string>
   <string name="menuSortCaption_color">형광펜 색</string>
   <string name="create_edited_modified_time">%1$s\n(수정됨 %2$s)</string>
@@ -207,8 +198,6 @@
   <string name="text_appearance_bold">굵게</string>
   <string name="devotion_change_date">날짜 변경</string>
   <string name="bookmark_search">검색</string>
-  <string name="verse_select_one_verse_selected">1 구절이 선택되었습니다.</string>
-  <string name="verse_select_multiple_verse_selected">%s 구절이 선택되었습니다.</string>
   <string name="google_play_store_not_installed">Google Play Store가 설치되어 있지 않습니다.</string>
   <string name="pref_language_label_default">기본</string>
   <string name="market_short_desc">빠르고, 기능 많은 오프라인 성경.</string>
@@ -218,7 +207,6 @@
   <string name="goto_tab_dialer_label">숫자이동</string>
   <string name="goto_tab_direct_label">입력이동</string>
   <string name="goto_tab_grid_label">터치이동</string>
-  <string name="menuAskForVerse">구절 번호</string>
   <!-- Font Manager -->
   <string name="fm_activity_title">폰트 관리자</string>
   <string name="fm_need_to_log_in_to_wifi">네트워크 로그인이 필요합니다.</string>
@@ -268,10 +256,7 @@
   <string name="desc_progress_3">세번째 핀</string>
   <string name="desc_progress_4">네번째 핀</string>
   <string name="desc_progress_5">다섯번째 핀</string>
-  <string name="desc_verse_attribute_one_bookmark">본 절에 책갈피가 추가했습니다.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">본 절에 %s 책갈피를 추가했습니다.</string>
-  <string name="desc_verse_attribute_one_note">본 절에 노트를 추가했습니다.</string>
-  <string name="desc_verse_attribute_multiple_notes">본 절에 %s 노트를 추가했습니다.</string>
+    <string name="desc_verse_attribute_one_note">본 절에 노트를 추가했습니다.</string>
   <string name="desc_verse_attribute_progress_mark">여기까지 %s(을)를 완료했습니다.</string>
   <string name="desc_progress_mark_list">핀 목록</string>
   <string name="intent_filter_open_yes_file">YES파일 열기</string>
@@ -301,19 +286,16 @@
   <string name="pm_progress_4">핀 4</string>
   <string name="pm_progress_5">핀 5</string>
   <string name="pm_progress_name">핀 이름</string>
-  <string name="pm_activate_tutorial">원하는 절에 핀을 놓으시려면, 핀을 길게 누른 후 드래그 하세요.</string>
   <string name="pm_delete_progress_confirm"><b>^1</b>(을)를 삭제 하시겠습니까?</string>
   <string name="copy_share">복사 또는 공유</string>
   <string name="backup_last_time">마지막 백업: %s</string>
   <string name="backup_selection_autobackup_at">%s 자동 백업</string>
   <string name="backup_selection_manualbackup_at">%s 백업</string>
   <string name="backup_select_file">백업 파일을 선택하십시오.</string>
-  <string name="recentverses_not_available">최근 구절이 없습니다.</string>
   <string name="recentverses_just_now">지금 바로</string>
   <string name="recentverses_min_plural_ago">%s 분 전</string>
   <string name="recentverses_today_time">오늘, %s</string>
   <string name="recentverses_yesterday_time">어제, %s</string>
-  <string name="recentverses_button_hint">(최근 구절, 길게 눌러주세요)</string>
   <string name="dr_reminder">알람</string>
   <string name="dr_error_contact_reminder">알람 앱 접속 중 오류</string>
   <string name="dv_option_transparent_background">투명 배경</string>
@@ -369,7 +351,6 @@
   <string name="song_player_error_description">찬양 재생 중 오류 발생: %1$d,%2$d</string>
   <string name="search_in_version_short_name_placeholder">%s에서 검색</string>
   <string name="search_syntax_tips"><i>검색 방법:</i>\n\n<b>+단어</b> 정확한 단어 매칭\n<b>[q]다윗의 동네[q]</b> 정확한 구절 매칭</string>
-  <string name="search_no_result"><b>^1</b>: 검색된 구절 없음</string>
   <string name="search_no_result_fallback"><u>^1</u> 이동하시려면 선택</string>
   <string name="search_clear_history">검색 기록 삭제</string>
   <string name="marker_transfer_to_device_title">다른 장비로 내보내기</string>
@@ -380,24 +361,11 @@
   <string name="drawer_open">메뉴 열기</string>
   <string name="drawer_close">메뉴 닫기</string>
   <string name="menuSplitVersion">역본대조</string>
-  <string name="menuBible">성경</string>
   <string name="menuProgress">핀</string>
   <string name="sn_menu_copy">찬양 복사</string>
   <string name="menuPlay">재생</string>
   <string name="menuPause">정지</string>
   <string name="left_drawer_current_reading_title">통독 진도</string>
-  <string name="book_filter_old_testament">구약</string>
-  <string name="book_filter_old_pentateuch">모세5경</string>
-  <string name="book_filter_old_history">기록</string>
-  <string name="book_filter_old_wisdom">지혜서</string>
-  <string name="book_filter_old_major_prophets">대선지서</string>
-  <string name="book_filter_old_minor_prophets">소선지서</string>
-  <string name="book_filter_new_testament">신약</string>
-  <string name="book_filter_new_gospels">복음서</string>
-  <string name="book_filter_new_acts">사도행전</string>
-  <string name="book_filter_new_pauline_epistles">바울서신서</string>
-  <string name="book_filter_new_general_epistles">일반서신서</string>
-  <string name="book_filter_new_apocalypse">예언서</string>
   <string name="search_filter_multiple_books_selected">%s 책을 선택했습니다.</string>
   <string name="search_version_select_label">검색범위:</string>
   <string name="show_hidden_version_warning">이 옵션을 활성화 시키면, 특정 지역 및 유료화 정책에 제한된 성경 역본을 다운받을 수 있게 됩니다. 다운받기 전에, 해당 정책에 위배되는 부분이 없는지 먼저 확인해 주십시오. 합법적이지 못한 다운로드에 대한 책임은 사용자에게 있습니다. 본 약관에 동의 하시면 OK를 선택하십시오.</string>
@@ -422,7 +390,6 @@
   <string name="note_actionbar_edit">편집</string>
   <string name="note_actionbar_delete">삭제</string>
   <string name="note_actionbar_ok">완료</string>
-  <string name="note_activity_cannot_parse_verse">죄송합니다. 올바르지 못한 구절 링크입니다.</string>
   <string name="sync_account_not_selected">로그인 먼저 하십시오.</string>
   <string name="pref_syncAccountName_title">계정</string>
   <string name="sync_logout_warning">로그아웃 하시겠습니까? 현재 형광펜 및 데이터가 삭제됩니다.</string>
@@ -437,7 +404,6 @@
   <string name="sync_category_title_data_types">데이터 종류</string>
   <string name="pref_syncSet_mabel_enabled_title">형광펜 및 태그</string>
   <string name="pref_syncSet_rp_enabled_title">성경읽기표 진도</string>
-  <string name="pref_syncSet_history_enabled_title">최근 구절</string>
   <string name="pref_syncSet_pins_enabled_title">핀</string>
   <string name="sync_menu_item_sync_now">지금 동기화</string>
   <string name="sync_menu_item_sync_log">읽은 기록</string>
@@ -483,8 +449,6 @@
   <string name="sync_login_form_change_password_success">비밀번호가 변경되었습니다.</string>
   <string name="pref_textPadding_title">자간 여백</string>
   <string name="pref_textPadding_summary">자간 간격을 좁게 합니다.</string>
-  <string name="pref_bottomToolbarOnText_title">하단 네비게이션 바</string>
-  <string name="pref_bottomToolbarOnText_summary">장/절 이동을 위한 네비게이션 바를 본문 하단에 위치시킵니다.</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">묵상알람</string>
   <string name="dr_notification_title">매일묵상</string>
@@ -504,7 +468,7 @@
   <string name="about_enable_beta_confirmation">새로운 기능이 있는 베타 버전을 테스트 하시려면, 구글에 로그인 하신 후 테스터 되기를 누르십시오.</string>
   <string name="about_version_name">버전 %s</string>
   <string name="about_material_sources">자료 출처</string>
-  <string name="about_credits">Credits</string>
+  <string name="about_credits">유용한 링크</string>
   <string name="about_announcements">공지사항</string>
   <string name="about_announcements_none">공지사항 (0)</string>
   <string name="about_announcements_number">공지사항 (%s)</string>
@@ -539,4 +503,25 @@
   <string name="maps_could_not_open">성경 지도 앱을 열 수 없습니다.</string>
   <!-- File chooser -->
   <string name="filechooser_parent_folder">상위 폴더</string>
+  <string name="menuSortAri"></string>
+  <string name="pengaturan_alkitab"></string>
+  <string name="pm_activate_tutorial"></string>
+  <string name="pref_bottomToolbarOnText_summary"></string>
+  <string name="pref_bottomToolbarOnText_title"></string>
+  <string name="pref_copyWithVerseNumbers_summary"></string>
+  <string name="pref_copyWithVerseNumbers_title"></string>
+  <string name="pref_copyWithVersionName_summary"></string>
+  <string name="pref_layar_tidak_akan_padam_ketika_membaca_teks_alkitab"></string>
+  <string name="pref_selectedVerseBgColor_title"></string>
+  <string name="pref_syncSet_history_enabled_title"></string>
+  <string name="pref_warna_nomor_ayat"></string>
+  <string name="recentverses_button_hint"></string>
+  <string name="recentverses_not_available"></string>
+  <string name="salin_ayat"></string>
+  <string name="search_copy_selected_verses"></string>
+  <string name="search_no_result"></string>
+  <string name="search_searching_tokens"></string>
+  <string name="search_selected_verse_copied"></string>
+  <string name="verse_select_multiple_verse_selected"></string>
+  <string name="verse_select_one_verse_selected"></string>
 </resources>

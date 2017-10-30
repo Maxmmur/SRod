@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">Aus beiden Übersetzungen teilen</string>
   <string name="tulis_catatan">Notiz schreiben</string>
   <string name="tambah_pembatas_buku">Lesezeichen hinfügen</string>
-  <string name="salin_ayat">Vers kopieren</string>
   <string name="copy_split0">Aus erster Übersetzung kopieren</string>
   <string name="copy_split1">Aus zweiter Übersetzung kopieren</string>
   <string name="copy_both_splits">Aus beiden Übersetzungen kopieren</string>
-  <string name="search_copy_selected_verses">Ausgewählte Verse kopieren</string>
-  <string name="perj_baru">Neues Test.</string>
-  <string name="perj_lama">Altes Test.</string>
   <string name="search_bookname_only">Nur %s</string>
-  <string name="ayat_sebelumangka">Vers</string>
-  <string name="pasal_sebelumangka">Kapitel</string>
+  <string name="ayat_sebelumangka">Absatz</string>
   <string name="jump_to_prompt"><b>GEHE ZU</b> — Beispiel: ^1</string>
   <string name="belum_ada_pembatas_buku">Keine Lesezeichen vorhanden.\nSelektiere einen Vers, um ein Lesezeichen hinzufügen.</string>
   <string name="judul_titikdua">TITEL</string>
@@ -59,7 +54,6 @@
   <string name="hari_senin">Montag</string>
   <string name="hari_minggu">Sonntag</string>
   <string name="size_hasil">%d Ergebnis</string>
-  <string name="search_searching_tokens">Suche nach Versen, die %s enthalten&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">Wählen Sie mindestens ein Buch für die Suche aus.</string>
   <string name="pengunduhan_dibatalkan">Herunterladen abgebrochen.</string>
   <string name="sedang_mendekompres_harap_tunggu">Dekomprimiere. Bitte warten&#8230;</string>
@@ -70,7 +64,6 @@
   <string name="mengunduh_nama">Lade %s herunter</string>
   <string name="tuju_v">Gehe zu</string>
   <string name="bagikan_alamat">Mitteilen %s</string>
-  <string name="search_selected_verse_copied">Die ausgewählten Verse wurden kopiert.</string>
   <string name="alamat_sudah_disalin">%s wird mitgeteilt.</string>
   <string name="alamat_tidak_sah_alamat">Adresse ungültig: %s</string>
   <string name="no">Nein</string>
@@ -84,7 +77,6 @@
   <string name="tidak_bisa_membuat_folder">Der Ordner %s konnte kann nicht erstellt werden</string>
   <string name="menuPengaturan">Einstellungen</string>
   <string name="menuTentang">Über uns</string>
-  <string name="pengaturan_alkitab">Einstellungen</string>
   <string name="kelola_versi">Übersetzungen verwalten</string>
   <string name="tambah">Hinfügen</string>
   <string name="versi_lainnya">Weitere Übersetzungen</string>
@@ -146,7 +138,6 @@
   <string name="menuSort">Sortieren nach</string>
   <string name="menuSortCreateTime">Erstelldatum</string>
   <string name="menuSortModifyTime">Änderungsdatum</string>
-  <string name="menuSortAri">Bibelstelle</string>
   <string name="menuSortCaption">Sortieren nach</string>
   <string name="menuSortCaption_color">Hervorhebungsfarbe</string>
   <string name="create_edited_modified_time">%1$s\n(bearbeitet %2$s)</string>
@@ -207,8 +198,6 @@
   <string name="text_appearance_bold">Fett</string>
   <string name="devotion_change_date">Datum ändern</string>
   <string name="bookmark_search">Suchen</string>
-  <string name="verse_select_one_verse_selected">1 Vers ausgewählt</string>
-  <string name="verse_select_multiple_verse_selected">%s Verse ausgewählt</string>
   <string name="google_play_store_not_installed">Der Google Play Store ist nicht installiert.</string>
   <string name="pref_language_label_default">Systemvorgabe</string>
   <string name="market_short_desc">Schnelle, zuverlässige und leistungsfähige Offline-Bibel.</string>
@@ -219,8 +208,7 @@
   <string name="goto_tab_dialer_label">Wähler</string>
   <string name="goto_tab_direct_label">Direkt</string>
   <string name="goto_tab_grid_label">Tabelle</string>
-  <string name="menuAskForVerse">Nach Versnummer fragen</string>
-  <!-- Font Manager -->
+    <!-- Font Manager -->
   <string name="fm_activity_title">Schriftart-Manager</string>
   <string name="fm_need_to_log_in_to_wifi">Sie müssen sich zuerst mit Ihrem (WLAN-)Netzwerk verbinden.</string>
   <string name="fm_do_you_want_to_delete">Schriftart %s löschen?</string>
@@ -270,11 +258,8 @@
   <string name="desc_progress_3">Fortschritt 3</string>
   <string name="desc_progress_4">Fortschritt 4</string>
   <string name="desc_progress_5">Fortschritt 5</string>
-  <string name="desc_verse_attribute_one_bookmark">Zu diesem Vers gibt es ein Lesezeichen.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">Zu diesem Vers gibt es %s Lesezeichen.</string>
   <string name="desc_verse_attribute_one_note">Zu diesem Vers gibt es eine Notiz.</string>
-  <string name="desc_verse_attribute_multiple_notes">Zu diesem Vers gibt es %s Notizen.</string>
-  <string name="desc_verse_attribute_progress_mark">%s befindet sich zurzeit hier.</string>
+    <string name="desc_verse_attribute_progress_mark">%s befindet sich zurzeit hier.</string>
   <string name="desc_progress_mark_list">Lesefortschritts-Liste</string>
   <string name="desc_backspace">Rücktaste</string>
   <string name="intent_filter_open_yes_file">YES-Datei öffnen</string>
@@ -305,19 +290,16 @@
   <string name="pm_progress_4">Lesefortschritt 4</string>
   <string name="pm_progress_5">Lesefortschritt 5</string>
   <string name="pm_progress_name">Lesefortschritt-Name</string>
-  <string name="pm_activate_tutorial">Lang drücken und ziehen, um Lesefortschritt auf ein Vers zu ziehen.</string>
   <string name="pm_delete_progress_confirm"><b>^1</b> entfernen?</string>
   <string name="copy_share">Kopieren oder teilen</string>
   <string name="backup_last_time">Letzte Sicherung: %s</string>
   <string name="backup_selection_autobackup_at">Automatische Sicherung vom %s</string>
   <string name="backup_selection_manualbackup_at">Sicherung vom %s</string>
   <string name="backup_select_file">Sicherungsdatei wählen</string>
-  <string name="recentverses_not_available">Es wurden bisher keine Bibelstellen aufgerufen.</string>
   <string name="recentverses_just_now">Gerade eben</string>
   <string name="recentverses_min_plural_ago">Vor %s Minuten</string>
   <string name="recentverses_today_time">Heute, %s</string>
   <string name="recentverses_yesterday_time">Gestern, %s</string>
-  <string name="recentverses_button_hint">(Lang drücken für Bibelstellen-Historie)</string>
   <string name="dr_reminder">Erinnerung</string>
   <string name="dr_error_contact_reminder">Fehler beim Herstellen der Verbindung zur App für Erinnerungen.</string>
   <string name="dr_timepicker_set">Setzen</string>
@@ -377,7 +359,6 @@
   <string name="song_player_error_description">Beim Abspielen dieses Liedes ist ein Fehler aufgetreten: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">In %s suchen</string>
   <string name="search_syntax_tips"><i>Hinweise für die Suche:</i>\n\n<b>+wort</b> für genau dieses Wort\n<b>[q]Stadt Davids[q]</b> für genau diesen Ausdruck</string>
-  <string name="search_no_result">Kein Verse mit <b>^1</b> gefunden.</string>
   <string name="search_no_result_fallback">Hier tippen, um zu <u>^1</u> zu gehen.</string>
   <string name="search_clear_history">Such-Historie löschen</string>
   <string name="marker_transfer_to_device_title">Auf anderes Gerät übertragen</string>
@@ -388,24 +369,11 @@
   <string name="drawer_open">Seitenmenü öffnen</string>
   <string name="drawer_close">Seitenmenü schließen</string>
   <string name="menuSplitVersion">Geteilte Ansicht</string>
-  <string name="menuBible">Bibel</string>
   <string name="menuProgress">Lesefortschritt</string>
   <string name="sn_menu_copy">Lied kopieren</string>
   <string name="menuPlay">Abspielen</string>
   <string name="menuPause">Pause</string>
   <string name="left_drawer_current_reading_title">Aktueller Bibelabschnitt</string>
-  <string name="book_filter_old_testament">Altes Testament</string>
-  <string name="book_filter_old_pentateuch">Pentateuch</string>
-  <string name="book_filter_old_history">Geschichtsbücher</string>
-  <string name="book_filter_old_wisdom">Lehrbücher</string>
-  <string name="book_filter_old_major_prophets">Große Propheten</string>
-  <string name="book_filter_old_minor_prophets">Kleine Propheten</string>
-  <string name="book_filter_new_testament">Neues Testament</string>
-  <string name="book_filter_new_gospels">Evangelien</string>
-  <string name="book_filter_new_acts">Apostelgeschichte</string>
-  <string name="book_filter_new_pauline_epistles">Paulusbriefe</string>
-  <string name="book_filter_new_general_epistles">Allgemeine Briefe</string>
-  <string name="book_filter_new_apocalypse">Offenbarung</string>
   <string name="search_filter_multiple_books_selected">%s Bücher ausgewählt</string>
   <string name="search_version_select_label">Suche in:</string>
   <string name="show_hidden_version_warning">Wenn Sie diese Option aktivieren, ist es möglich, auch Bibelübersetzungen herunterzuladen, die einem Copyright unterliegen, kostenpflichtig lizensiert werden müssen oder nur in bestimmten Regionen kostenlos genutzt werden dürfen. Bevor Sie diese Übersetzungen herunterladen, stellen Sie bitte sicher, dass der Download für Sie zulässig ist. Durch den Klick auf OK erklären Sie sich voll verantwortlich für das Herunterladen und der Verwendung solcher Bibelübersetzungen.</string>
@@ -430,7 +398,6 @@
   <string name="note_actionbar_edit">Bearbeiten</string>
   <string name="note_actionbar_delete">Löschen</string>
   <string name="note_actionbar_ok">Fertig</string>
-  <string name="note_activity_cannot_parse_verse">Entschuldige, aber diesen Vers-Link kann ich nicht verstehen.</string>
   <string name="sync_account_not_selected">Nicht angemeldet</string>
   <string name="pref_syncAccountName_title">Konto</string>
   <string name="sync_logout_warning">Möchten Sie sich abmelden? Ihre Markierungen und lokale Daten werden nicht gelöscht.</string>
@@ -445,7 +412,6 @@
   <string name="sync_category_title_data_types">Art von Daten</string>
   <string name="pref_syncSet_mabel_enabled_title">Markierungen und Stichwörter</string>
   <string name="pref_syncSet_rp_enabled_title">Leseplan-Fortschritt</string>
-  <string name="pref_syncSet_history_enabled_title">Aufgerufene Bibelstellen</string>
   <string name="pref_syncSet_pins_enabled_title">Lesefortschritte</string>
   <string name="sync_menu_item_sync_now">Jetzt synchronisieren</string>
   <string name="sync_menu_item_sync_log">Protokoll anschauen</string>
@@ -492,8 +458,6 @@
   <string name="sync_login_form_change_password_success">Ihr Passwort wurde erfolgreich geändert.</string>
   <string name="pref_textPadding_title">Ränder um den Text</string>
   <string name="pref_textPadding_summary">Text in einer Zeile schmaler machen für eine bessere Lesbarkeit</string>
-  <string name="pref_bottomToolbarOnText_title">Versnavigation unten</string>
-  <string name="pref_bottomToolbarOnText_summary">Toolbar für die Versnavigation am unteren Rand der Bibelanzeige anzeigen</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Erinnerung</string>
   <string name="dr_notification_title">Tägliche Andacht</string>
@@ -512,7 +476,7 @@
   <string name="about_enable_beta_confirmation">Melden Sie sich bei Google an und tippen Sie auf den Button BECOME A TESTER, um die Beta-Version mit neuen Features und Erweiterungen auszuprobieren!</string>
   <string name="about_version_name">Version %s</string>
   <string name="about_material_sources">Material-Quellen</string>
-  <string name="about_credits">Danksagungen</string>
+  <string name="about_credits">Nützliche Links</string>
   <string name="about_announcements">Meldungen</string>
   <string name="about_announcements_none">Meldungen (0)</string>
   <string name="about_announcements_number">Meldungen (%s)</string>

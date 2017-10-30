@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">Podziel się obiema wersjami</string>
   <string name="tulis_catatan">Utwórz notatkę</string>
   <string name="tambah_pembatas_buku">Dodaj zakładkę</string>
-  <string name="salin_ayat">Skopiuj wers</string>
   <string name="copy_split0">Kopiuj pierwszy przekład</string>
   <string name="copy_split1">Kopiuj drugi przekład</string>
   <string name="copy_both_splits">Skopiuj obie wersje</string>
-  <string name="search_copy_selected_verses">Skopiuj wybrane wersy</string>
-  <string name="perj_baru">NT</string>
-  <string name="perj_lama">ST</string>
   <string name="search_bookname_only">Tylko %s</string>
-  <string name="ayat_sebelumangka">Wers</string>
-  <string name="pasal_sebelumangka">Rozdział</string>
+  <string name="ayat_sebelumangka">Ustęp</string>
   <string name="jump_to_prompt"><b>SKOCZ DO</b> — Przykład: ^1</string>
   <string name="belum_ada_pembatas_buku">Brak zakładek.\nWybierz wers, aby dodać do zakładek.</string>
   <string name="judul_titikdua">TYTUŁ</string>
@@ -59,7 +54,6 @@
   <string name="hari_senin">Poniedziałek</string>
   <string name="hari_minggu">Niedziela</string>
   <string name="size_hasil">%d wyników</string>
-  <string name="search_searching_tokens">Szukaj wersu zawierającego %s&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">Wybierz przynajmniej jedną księgę do przeszukania.</string>
   <string name="pengunduhan_dibatalkan">Anulowano pobieranie.</string>
   <string name="sedang_mendekompres_harap_tunggu">Rozpakowywanie. Proszę czekać&#8230;</string>
@@ -70,7 +64,6 @@
   <string name="mengunduh_nama">Pobieranie %s</string>
   <string name="tuju_v">Idź do</string>
   <string name="bagikan_alamat">Podziel się %s</string>
-  <string name="search_selected_verse_copied">Wybrane wersy zostały skopiowane.</string>
   <string name="alamat_sudah_disalin">%s zostało skopiowane.</string>
   <string name="alamat_tidak_sah_alamat">Niewłaściwy adres: %s</string>
   <string name="no">Nie</string>
@@ -84,7 +77,6 @@
   <string name="tidak_bisa_membuat_folder">Nie można utworzyć folderu %s</string>
   <string name="menuPengaturan">Ustawienia</string>
   <string name="menuTentang">Informacje</string>
-  <string name="pengaturan_alkitab">Ustawienia Biblii</string>
   <string name="kelola_versi">Zarządzaj przekładami</string>
   <string name="tambah">Dodaj</string>
   <string name="versi_lainnya">Inne przekłady</string>
@@ -146,7 +138,6 @@
   <string name="menuSort">Sortuj</string>
   <string name="menuSortCreateTime">Data utworzenia</string>
   <string name="menuSortModifyTime">Data edycji</string>
-  <string name="menuSortAri">Adres wersu</string>
   <string name="menuSortCaption">Tytuł</string>
   <string name="menuSortCaption_color">Kolor podkreślenia</string>
   <string name="create_edited_modified_time">%1$s\n(edytowane %2$s)</string>
@@ -207,8 +198,6 @@
   <string name="text_appearance_bold">Pogrubienie</string>
   <string name="devotion_change_date">Zmień datę</string>
   <string name="bookmark_search">Szukaj</string>
-  <string name="verse_select_one_verse_selected">Zaznaczono 1 wers</string>
-  <string name="verse_select_multiple_verse_selected">Zaznaczono %s wersów</string>
   <string name="google_play_store_not_installed">Sklep Google Play nie jest zainstalowany.</string>
   <string name="pref_language_label_default">Domyślny</string>
   <string name="market_short_desc">Szybki, niezawodny i bogaty w funkcje program Biblijny.</string>
@@ -219,7 +208,6 @@
   <string name="goto_tab_dialer_label">Dialer</string>
   <string name="goto_tab_direct_label">Bezpośrednio</string>
   <string name="goto_tab_grid_label">Siatka</string>
-  <string name="menuAskForVerse">Pytaj o numer wersu</string>
   <!-- Font Manager -->
   <string name="fm_activity_title">Zarządca czcionek</string>
   <string name="fm_need_to_log_in_to_wifi">Musisz zalogować się do swojej sieci (Wi-Fi).</string>
@@ -270,10 +258,7 @@
   <string name="desc_progress_3">Trzeci postęp</string>
   <string name="desc_progress_4">Czwarty postęp</string>
   <string name="desc_progress_5">Piąty postęp</string>
-  <string name="desc_verse_attribute_one_bookmark">Do tego wersu dołączona jest zakładka.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">%s zakładek jest dołączonych do tego wersu.</string>
-  <string name="desc_verse_attribute_one_note">Do tego wersu dołączona jest notatka.</string>
-  <string name="desc_verse_attribute_multiple_notes">%s notatek jest dołączonych do tego wersu.</string>
+    <string name="desc_verse_attribute_one_note">Do tego wersu dołączona jest notatka.</string>
   <string name="desc_verse_attribute_progress_mark">%s jest w tym miejscu.</string>
   <string name="desc_progress_mark_list">Lista wskaźników postępów</string>
   <string name="desc_backspace">Cofnij</string>
@@ -305,19 +290,16 @@
   <string name="pm_progress_4">Postęp 4</string>
   <string name="pm_progress_5">Postęp 5</string>
   <string name="pm_progress_name">Nazwa dla postępu</string>
-  <string name="pm_activate_tutorial">Przytrzymaj i przeciągnij na wers, aby wskazać postęp.</string>
   <string name="pm_delete_progress_confirm">Usunąć <b>^1</b>?</string>
   <string name="copy_share">Skopiuj lub podziel się</string>
   <string name="backup_last_time">Ostatnia kopia: %s</string>
   <string name="backup_selection_autobackup_at">Automatyczna kopia z %s</string>
   <string name="backup_selection_manualbackup_at">Kopia z %s</string>
   <string name="backup_select_file">Wybierz plik kopii</string>
-  <string name="recentverses_not_available">Nie masz jeszcze historii.</string>
   <string name="recentverses_just_now">Teraz</string>
   <string name="recentverses_min_plural_ago">%s minut temu</string>
   <string name="recentverses_today_time">Dziś, %s</string>
   <string name="recentverses_yesterday_time">Wczoraj, %s</string>
-  <string name="recentverses_button_hint">(Długie przyciśnięcie pokaże historię)</string>
   <string name="dr_reminder">Przypomnienie</string>
   <string name="dr_error_contact_reminder">Błąd podczas łączenia się z aplikacją Przypominacz.</string>
   <string name="dr_timepicker_set">Ustaw</string>
@@ -377,7 +359,6 @@
   <string name="song_player_error_description">Wystąpił błąd podczas odtwarzania pieśni: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Znajdź w %s</string>
   <string name="search_syntax_tips"><i>Wskazówki szukania:</i>\n\n<b>+słowo</b> dla konkretnego słowa\n<b>[q]miasto dawida[q]</b> dla konkretnego wyrażenia</string>
-  <string name="search_no_result">Nie znaleziono wersu dla <b>^1</b>.</string>
   <string name="search_no_result_fallback">Naciśnij tutaj, aby przejść do <u>^1</u>.</string>
   <string name="search_clear_history">Wyczyść historię szukania</string>
   <string name="marker_transfer_to_device_title">Prześlij na inne urządzenie</string>
@@ -388,24 +369,11 @@
   <string name="drawer_open">Otwórz szufladę</string>
   <string name="drawer_close">Zamknij szufladę</string>
   <string name="menuSplitVersion">Interlinia</string>
-  <string name="menuBible">Biblia</string>
   <string name="menuProgress">Postęp</string>
   <string name="sn_menu_copy">Kopiuj pieśń</string>
   <string name="menuPlay">Odtwarzaj</string>
   <string name="menuPause">Pauza</string>
   <string name="left_drawer_current_reading_title">Obecnie czytasz</string>
-  <string name="book_filter_old_testament">Stary Testament</string>
-  <string name="book_filter_old_pentateuch">Pięcioksiąg</string>
-  <string name="book_filter_old_history">Historyczne</string>
-  <string name="book_filter_old_wisdom">Mądrości</string>
-  <string name="book_filter_old_major_prophets">Prorocy więksi</string>
-  <string name="book_filter_old_minor_prophets">Prorocy mniejsi</string>
-  <string name="book_filter_new_testament">Nowy Testament</string>
-  <string name="book_filter_new_gospels">Ewangelie</string>
-  <string name="book_filter_new_acts">Historia apostolska</string>
-  <string name="book_filter_new_pauline_epistles">Listy Pawła</string>
-  <string name="book_filter_new_general_epistles">Listy powszechne</string>
-  <string name="book_filter_new_apocalypse">Apokalipsa</string>
   <string name="search_filter_multiple_books_selected">%s zaznaczonych ksiąg</string>
   <string name="search_version_select_label">Znajdź w:</string>
   <string name="show_hidden_version_warning">Włączenie tej opcji, pozwala ci pobrać przekłady Biblii, które mogą podlegać pewnym regionalnym lub pieniężnym wymaganiom. Zanim je pobierzesz, proszę, upewnij się, że posiadasz pozwolenie, aby to zrobić. Jesteś w pełni odpowiedzialny za pobieranie i używanie takich przekładów i jako autor tej aplikacji, nie mogę być za to rozliczany. Kliknij OK jeżeli zgadzasz się z powyższymi warunkami.</string>
@@ -430,7 +398,6 @@
   <string name="note_actionbar_edit">Edytuj</string>
   <string name="note_actionbar_delete">Usuń</string>
   <string name="note_actionbar_ok">Gotowe</string>
-  <string name="note_activity_cannot_parse_verse">Przepraszamy, ale nie rozumiemy linku do tego wersu.</string>
   <string name="sync_account_not_selected">Niezalogowany</string>
   <string name="pref_syncAccountName_title">Konto</string>
   <string name="sync_logout_warning">Czy chcesz się wylogować? Twoje obecne znaczniki i inne lokalne dane, nie zostaną usunięte.</string>
@@ -445,7 +412,6 @@
   <string name="sync_category_title_data_types">Typy danych</string>
   <string name="pref_syncSet_mabel_enabled_title">Znaczniki i etykiety</string>
   <string name="pref_syncSet_rp_enabled_title">Postęp planu czytania</string>
-  <string name="pref_syncSet_history_enabled_title">Ostatnie wersy</string>
   <string name="pref_syncSet_pins_enabled_title">Znaczniki postępu</string>
   <string name="sync_menu_item_sync_now">Synchronizuj teraz</string>
   <string name="sync_menu_item_sync_log">Podgląd logu</string>
@@ -476,7 +442,7 @@
   <string name="sync_login_form_error_required">Proszę to wypełnić.</string>
   <string name="sync_login_form_password_hint">Hasło</string>
   <string name="sync_login_form_new_password_hint">Nowe hasło</string>
-  <string name="sync_login_form_intro_text">Synchronizacja chroni twoje znaczniki i inne dane.\n<a href="http://www.bibleforandroid.com/guide/sync">Więcej informacji</a></string>
+  <string name="sync_login_form_intro_text">Synchronizacja chroni twoje znaczniki i inne dane.</string>
   <string name="sync_login_form_email_hint">E-mail</string>
   <string name="sync_login_form_forgot_button">Zapomniałeś?</string>
   <string name="sync_login_form_optional_header">Opcjonalne</string>
@@ -484,7 +450,7 @@
   <string name="sync_login_form_city">Miasto</string>
   <string name="sync_login_form_register_button">Rejestruj</string>
   <string name="sync_login_form_login_button">Zaloguj</string>
-  <string name="sync_login_form_privacy_text">Przez naciśnięcie dowolnego przycisku poniżej, wyrażasz zgodę na <a href="http://www.bibleforandroid.com/privacy_policy">politykę prywatności</a>.</string>
+  <string name="sync_login_form_privacy_text">Przez naciśnięcie dowolnego przycisku poniżej, wyrażasz zgodę na <a href="https://www.gadsda.com/privacy_statement/">politykę prywatności</a>.</string>
   <string name="sync_login_form_error_email_pattern">Niepoprawny adres e-mail.</string>
   <string name="sync_login_form_passwords_do_not_match">Proszę podać to samo hasło w miejscu potwierdzenia.</string>
   <string name="sync_login_dialog_confirm_password_hint">Potwierdzenie hasła</string>
@@ -492,8 +458,6 @@
   <string name="sync_login_form_change_password_success">Twoje hasło zostało zmienione.</string>
   <string name="pref_textPadding_title">Marginesy wokół tekstu</string>
   <string name="pref_textPadding_summary">Uczyń tekst w lini węższym, aby ułatwić czytanie</string>
-  <string name="pref_bottomToolbarOnText_title">Nawigacja na dole ekranu</string>
-  <string name="pref_bottomToolbarOnText_summary">Umieść pasek nawigacji na dole ekranu Biblii</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Przypomnienie</string>
   <string name="dr_notification_title">Codzienne rozważanie</string>
@@ -512,7 +476,7 @@
   <string name="about_enable_beta_confirmation">Zaloguj się do konta Google i naciśnij przycisk BECOME A TESTER, aby wypróbować wersję Beta z nowymi funkcjami i udogodnieniami!</string>
   <string name="about_version_name">wersja %s</string>
   <string name="about_material_sources">Źródła materiałów</string>
-  <string name="about_credits">Podziękowania</string>
+  <string name="about_credits">Przydatne linki</string>
   <string name="about_announcements">Ogłoszenia</string>
   <string name="about_announcements_none">Ogłoszenia (0)</string>
   <string name="about_announcements_number">Ogłoszenia (%s)</string>

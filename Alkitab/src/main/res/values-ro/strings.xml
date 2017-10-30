@@ -29,13 +29,8 @@
   <string name="menuShare">Trimite</string>
   <string name="tulis_catatan">Scrie o notă</string>
   <string name="tambah_pembatas_buku">Adaugă la favorite</string>
-  <string name="salin_ayat">Copiază versetul</string>
-  <string name="search_copy_selected_verses">Copiază versetele slectate</string>
-  <string name="perj_baru">Noul Test.</string>
-  <string name="perj_lama">Vechiul Test.</string>
   <string name="search_bookname_only">Numai %s</string>
-  <string name="ayat_sebelumangka">Verset</string>
-  <string name="pasal_sebelumangka">Capitol</string>
+  <string name="ayat_sebelumangka">Paragraf</string>
   <string name="jump_to_prompt"><b>MERGI LA</b> — Exemplu: ^1</string>
   <string name="belum_ada_pembatas_buku">Nu sunt marcaje.\nSelectează un verset pentru adăugare în marcaje.</string>
   <string name="judul_titikdua">TITLU</string>
@@ -49,7 +44,6 @@
   <string name="hari_senin">Lun</string>
   <string name="hari_minggu">Dum</string>
   <string name="size_hasil">%d rezultate</string>
-  <string name="search_searching_tokens">Caută versetele ce conțin %s&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">Alege cel puţin o carte pentru a căuta.</string>
   <string name="pengunduhan_dibatalkan">Descărcare anulată.</string>
   <string name="sedang_mendekompres_harap_tunggu">Dezarhivare. Vă rog să aşteptaţi&#8230;</string>
@@ -60,7 +54,6 @@
   <string name="mengunduh_nama">Descărcare %s</string>
   <string name="tuju_v">Alege</string>
   <string name="bagikan_alamat">Partajează %s</string>
-  <string name="search_selected_verse_copied">Versetele copiate au fost selectate.</string>
   <string name="alamat_sudah_disalin">%s au fost copiate.</string>
   <string name="alamat_tidak_sah_alamat">Adresă greşită: %s</string>
   <string name="no">Nu</string>
@@ -74,7 +67,6 @@
   <string name="tidak_bisa_membuat_folder">Nu pot crea dosarul %s</string>
   <string name="menuPengaturan">Setări</string>
   <string name="menuTentang">Despre</string>
-  <string name="pengaturan_alkitab">Setări Biblie</string>
   <string name="kelola_versi">Administrează versiuni</string>
   <string name="tambah">Adaugă</string>
   <string name="versi_lainnya">Alte versiuni</string>
@@ -136,7 +128,6 @@
   <string name="menuSort">Sortează</string>
   <string name="menuSortCreateTime">Dată creată</string>
   <string name="menuSortModifyTime">Editează data</string>
-  <string name="menuSortAri">Adresă verset</string>
   <string name="menuSortCaption">Titlu</string>
   <string name="menuSortCaption_color">Culoare marcaj</string>
   <string name="create_edited_modified_time">%1$s\n(editat %2$s)</string>
@@ -197,8 +188,6 @@
   <string name="text_appearance_bold">Aldin</string>
   <string name="devotion_change_date">Schimbă data</string>
   <string name="bookmark_search">Caută</string>
-  <string name="verse_select_one_verse_selected">1 verset selectat</string>
-  <string name="verse_select_multiple_verse_selected">%s versete selectate</string>
   <string name="google_play_store_not_installed">Magazin Google Play nu este instalat.</string>
   <string name="pref_language_label_default">Implicit</string>
   <string name="market_short_desc">O Biblie rapidă, fiabilă și bogată în caracteristici, rulează fără conexiune la internet.</string>
@@ -208,7 +197,6 @@
   <string name="goto_tab_dialer_label">Numeric</string>
   <string name="goto_tab_direct_label">Direct</string>
   <string name="goto_tab_grid_label">Grilă</string>
-  <string name="menuAskForVerse">Cere numărul veretului</string>
   <!-- Font Manager -->
   <string name="fm_activity_title">Gestionare Fonturi</string>
   <string name="fm_need_to_log_in_to_wifi">Trebuie să vă logați mai întâi în rețea (Wi-Fi).</string>
@@ -258,10 +246,7 @@
   <string name="desc_progress_3">Progres 3</string>
   <string name="desc_progress_4">Progres 4</string>
   <string name="desc_progress_5">Progres 5</string>
-  <string name="desc_verse_attribute_one_bookmark">Un marcaj este atașat la acest verset.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">%s marcaje sunt atașate la acest verset.</string>
-  <string name="desc_verse_attribute_one_note">O notă este atașată la acest verset.</string>
-  <string name="desc_verse_attribute_multiple_notes">%s note sunt atașate la acest verset.</string>
+    <string name="desc_verse_attribute_one_note">O notă este atașată la acest verset.</string>
   <string name="desc_verse_attribute_progress_mark">%s este în prezent aici.</string>
   <string name="desc_progress_mark_list">Lista însemne progres</string>
   <string name="intent_filter_open_yes_file">Deschide fişier YES</string>
@@ -291,19 +276,16 @@
   <string name="pm_progress_4">Progres 4</string>
   <string name="pm_progress_5">Progres 5</string>
   <string name="pm_progress_name">Nume progres</string>
-  <string name="pm_activate_tutorial">Apăsați lung și trageți pentru a plasa un progres pe un verset.</string>
   <string name="pm_delete_progress_confirm">Îndepărtează <b>^1</b>?</string>
   <string name="copy_share">Copiază sau partajează</string>
   <string name="backup_last_time">Ultima restaurare: %s</string>
   <string name="backup_selection_autobackup_at">Restaurare automată la %s</string>
   <string name="backup_selection_manualbackup_at">Restaurează la %s</string>
   <string name="backup_select_file">Selectează fișierul de restaurat</string>
-  <string name="recentverses_not_available">Nu sunt versete recente.</string>
   <string name="recentverses_just_now">Doar acum</string>
   <string name="recentverses_min_plural_ago">%s minute în urmă</string>
   <string name="recentverses_today_time">Astăzi, %s</string>
   <string name="recentverses_yesterday_time">Ieri, %s</string>
-  <string name="recentverses_button_hint">(Apasă lung pentru versetele recente)</string>
   <string name="dr_reminder">Memento</string>
   <string name="dr_error_contact_reminder">Eroare la contactarea Memento.</string>
   <string name="dv_option_transparent_background">Fundal transparent</string>
@@ -359,7 +341,6 @@
   <string name="song_player_error_description">O eroare a fost întâlnită în timpul redării acestui cântec: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Găseșe în %s</string>
   <string name="search_syntax_tips"><i>Sfaturi pentru căutare:</i>\n\n<b>+word</b> pentru cuvântul\n<b>[q]city of david[q]</b> pentru fraza</string>
-  <string name="search_no_result">Nu au fost găsite versetele <b>^1</b>.</string>
   <string name="search_no_result_fallback">Apăsați aici pentru a merge la <u>^1</u>.</string>
   <string name="search_clear_history">Șterge istoric de căutare</string>
   <string name="marker_transfer_to_device_title">Transfer pe alt dispozitiv</string>
@@ -370,24 +351,11 @@
   <string name="drawer_open">Deschide folder</string>
   <string name="drawer_close">Închide folder</string>
   <string name="menuSplitVersion">Împarte</string>
-  <string name="menuBible">Biblia</string>
   <string name="menuProgress">Progres</string>
   <string name="sn_menu_copy">Copiază cântec</string>
   <string name="menuPlay">Redă</string>
   <string name="menuPause">Pauză</string>
   <string name="left_drawer_current_reading_title">Lectura curentă</string>
-  <string name="book_filter_old_testament">Vechiul Testament</string>
-  <string name="book_filter_old_pentateuch">Pentateuh</string>
-  <string name="book_filter_old_history">Istoric</string>
-  <string name="book_filter_old_wisdom">Înțelepciunea</string>
-  <string name="book_filter_old_major_prophets">Profeții mari</string>
-  <string name="book_filter_old_minor_prophets">Profeții mici</string>
-  <string name="book_filter_new_testament">Nou Testament</string>
-  <string name="book_filter_new_gospels">Evanghelii</string>
-  <string name="book_filter_new_acts">Istoria Apostolică</string>
-  <string name="book_filter_new_pauline_epistles">Epistolele Pauline</string>
-  <string name="book_filter_new_general_epistles">Epistole în general</string>
-  <string name="book_filter_new_apocalypse">Apocalipsa</string>
   <string name="search_filter_multiple_books_selected">%s cărți selectate</string>
   <string name="search_version_select_label">Găsit în:</string>
   <string name="show_hidden_version_warning">Activarea acestei opțiuni vă permite sa descărcați versiuni ale Bibliei, care pot face obiectul unor cerințe regionale sau monetare. Înainte de a descărca ei, asigurați-vă că vă este permis să faceți acest lucru. Sunteți pe deplin responsabil pentru descărcarea și utilizarea unor astfel de versiuni și nu pot fi tras la răspundere pentru acest lucru. Apăsați OK dacă sunteți de acord cu termenii de mai sus.</string>
@@ -412,7 +380,6 @@
   <string name="note_actionbar_edit">Editare</string>
   <string name="note_actionbar_delete">Şterge</string>
   <string name="note_actionbar_ok">Realizat</string>
-  <string name="note_activity_cannot_parse_verse">Ne pare rău, noi nu înțelegem acest link verset.</string>
   <string name="sync_account_not_selected">Neautentificat</string>
   <string name="pref_syncAccountName_title">Cont</string>
   <string name="sync_logout_warning">Doriți să ieșiți? Marcajele curente și alte date locale nu vor fi șterse.</string>
@@ -427,7 +394,6 @@
   <string name="sync_category_title_data_types">Tip date</string>
   <string name="pref_syncSet_mabel_enabled_title">Marcaje și etichete</string>
   <string name="pref_syncSet_rp_enabled_title">Progres plan de citire</string>
-  <string name="pref_syncSet_history_enabled_title">Versete recente</string>
   <string name="pref_syncSet_pins_enabled_title">Însemne</string>
   <string name="sync_menu_item_sync_now">Sincronizare acum</string>
   <string name="sync_menu_item_sync_log">Vizualizare log</string>
@@ -473,8 +439,6 @@
   <string name="sync_login_form_change_password_success">Parola a fost schimbată.</string>
   <string name="pref_textPadding_title">Marginile în jurul textului</string>
   <string name="pref_textPadding_summary">Modifică textul într-o linie îngustă pentru a ușura lectura</string>
-  <string name="pref_bottomToolbarOnText_title">Navigare verset în jos</string>
-  <string name="pref_bottomToolbarOnText_summary">Pune bara de navigare verset, în partea de jos a ecranului Bibliei</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Memento</string>
   <string name="dr_notification_title">Devoțional zilnic</string>
@@ -493,7 +457,7 @@
   <string name="about_enable_beta_confirmation">Conectați-vă la Google și atingeți butonul DEVIN TESTER pentru a încerca versiunea Beta cu caracteristici noi și îmbunătățiri!</string>
   <string name="about_version_name">versiune %s</string>
   <string name="about_material_sources">Surse materiale</string>
-  <string name="about_credits">Credite</string>
+  <string name="about_credits">Link-uri utile</string>
   <string name="about_announcements">Anunțuri</string>
   <string name="about_announcements_none">Anunțuri (0)</string>
   <string name="about_announcements_number">Anunțuri (%s)</string>

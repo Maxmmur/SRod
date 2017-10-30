@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">Поделиться обеими версиями</string>
   <string name="tulis_catatan">Написать примечание</string>
   <string name="tambah_pembatas_buku">Добавить закладку</string>
-  <string name="salin_ayat">Скопировать стих</string>
   <string name="copy_split0">Скопировать основную версию</string>
   <string name="copy_split1">Скопировать вторичную версию</string>
   <string name="copy_both_splits">Скопировать обе версии</string>
-  <string name="search_copy_selected_verses">Скопировать выбранные стихи</string>
-  <string name="perj_baru">НЗ</string>
-  <string name="perj_lama">ВЗ</string>
   <string name="search_bookname_only">Только %s</string>
-  <string name="ayat_sebelumangka">Стих</string>
-  <string name="pasal_sebelumangka">Глава</string>
+  <string name="ayat_sebelumangka">Параграф</string>
   <string name="jump_to_prompt"><b>ПЕРЕХОД К</b> — Пример: ^1</string>
   <string name="belum_ada_pembatas_buku">Закладок пока нет.\nЧтобы добавить закладку, выберите стих.</string>
   <string name="judul_titikdua">ЗАГОЛОВОК</string>
@@ -59,7 +54,6 @@
   <string name="hari_senin">Пн</string>
   <string name="hari_minggu">Вск</string>
   <string name="size_hasil">%d результатов</string>
-  <string name="search_searching_tokens">Поиск стихов, содержащих %s&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">Выберите, как минимум, одну книгу для поиска.</string>
   <string name="pengunduhan_dibatalkan">Загрузка отменена.</string>
   <string name="sedang_mendekompres_harap_tunggu">Распаковка. Подождите, пожалуйста&#8230;</string>
@@ -70,7 +64,6 @@
   <string name="mengunduh_nama">Загрузка %s</string>
   <string name="tuju_v">Перейти к</string>
   <string name="bagikan_alamat">Поделиться %s</string>
-  <string name="search_selected_verse_copied">Выбранные стихи скопированы.</string>
   <string name="alamat_sudah_disalin">%s скопировано.</string>
   <string name="alamat_tidak_sah_alamat">Недействительны адрес: %s</string>
   <string name="no">Нет</string>
@@ -84,7 +77,6 @@
   <string name="tidak_bisa_membuat_folder">Не удалось создать каталог %s</string>
   <string name="menuPengaturan">Настройки</string>
   <string name="menuTentang">О программе</string>
-  <string name="pengaturan_alkitab">Настройки Библии</string>
   <string name="kelola_versi">Управление версиями</string>
   <string name="tambah">Добавить</string>
   <string name="versi_lainnya">Другие версии</string>
@@ -146,7 +138,6 @@
   <string name="menuSort">Сортировать</string>
   <string name="menuSortCreateTime">Дата создания</string>
   <string name="menuSortModifyTime">Дата изменения</string>
-  <string name="menuSortAri">Положение стиха</string>
   <string name="menuSortCaption">Заголовок</string>
   <string name="menuSortCaption_color">Цвет выделения</string>
   <string name="create_edited_modified_time">%1$s\n(изменено %2$s)</string>
@@ -207,8 +198,6 @@
   <string name="text_appearance_bold">Полужирный</string>
   <string name="devotion_change_date">Изменить дату</string>
   <string name="bookmark_search">Поиск</string>
-  <string name="verse_select_one_verse_selected">Выбран 1 стих</string>
-  <string name="verse_select_multiple_verse_selected">Выбрано %s стихов</string>
   <string name="google_play_store_not_installed">Не установлено приложение Google Play Store.</string>
   <string name="pref_language_label_default">По умолчанию</string>
   <string name="market_short_desc">Быстрая и надежная Библия с широкой функциональностью, работающая без подключения к Интернету.</string>
@@ -218,7 +207,6 @@
   <string name="goto_tab_dialer_label">Набор номера</string>
   <string name="goto_tab_direct_label">Выбор</string>
   <string name="goto_tab_grid_label">Сетка</string>
-  <string name="menuAskForVerse">Запрашивать номер стиха</string>
   <!-- Font Manager -->
   <string name="fm_activity_title">Мереджер шрифтов</string>
   <string name="fm_need_to_log_in_to_wifi">Пожалуйста, сначала войдите в свою Wi-Fi сеть.</string>
@@ -268,10 +256,7 @@
   <string name="desc_progress_3">Продвижение 3</string>
   <string name="desc_progress_4">Продвижение 4</string>
   <string name="desc_progress_5">Продвижение 5</string>
-  <string name="desc_verse_attribute_one_bookmark">К этому стиху присоединена закладка.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">К этому стиху присоединено %s закладок.</string>
-  <string name="desc_verse_attribute_one_note">К этому стиху присоединена заметка.</string>
-  <string name="desc_verse_attribute_multiple_notes">К этому стиху присоединено %s заметок.</string>
+    <string name="desc_verse_attribute_one_note">К этому стиху присоединена заметка.</string>
   <string name="desc_verse_attribute_progress_mark">В настоящее время здесь %s.</string>
   <string name="desc_progress_mark_list">Список маркеров продвижения</string>
   <string name="desc_backspace">бекспейс</string>
@@ -303,19 +288,16 @@
   <string name="pm_progress_4">Местоположение 4</string>
   <string name="pm_progress_5">Местоположение 5</string>
   <string name="pm_progress_name">Название местоположения</string>
-  <string name="pm_activate_tutorial">Для указания прогресса нажмите долго и протащите.</string>
   <string name="pm_delete_progress_confirm">Удалить <b>^1</b>?</string>
   <string name="copy_share">Копировать или поделиться</string>
   <string name="backup_last_time">Последняя резервная копия: %s</string>
   <string name="backup_selection_autobackup_at">Автоматическая резервная копия сделана %s</string>
   <string name="backup_selection_manualbackup_at">Резервная копия сделана %s</string>
   <string name="backup_select_file">Выберите файл резервной копии</string>
-  <string name="recentverses_not_available">Пока нет недавно просмотренных стихов.</string>
   <string name="recentverses_just_now">Сейчас</string>
   <string name="recentverses_min_plural_ago">%s минут назад</string>
   <string name="recentverses_today_time">Сегодня, %s</string>
   <string name="recentverses_yesterday_time">Вчера, %s</string>
-  <string name="recentverses_button_hint">(Удерживайте для отображения недавних стихов)</string>
   <string name="dr_reminder">Напоминание</string>
   <string name="dr_error_contact_reminder">Не удалить связаться с приложением напоминания.</string>
   <string name="dr_timepicker_off">Выключить</string>
@@ -373,7 +355,6 @@
   <string name="song_player_error_description">Произошла ошибка при воспроизведении этой песни : %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Найти в файлах %s</string>
   <string name="search_syntax_tips"><i>Подсказки по поиску:</i>\n\n<b>+слово</b> для поиска в точности этого слова\n<b>[q]город Давида[q]</b> для поиска в точности этой фразы</string>
-  <string name="search_no_result">Не найдены стихи, содержащие <b>^1</b>.</string>
   <string name="search_no_result_fallback">Нажмите здесь чтобы перейти к <u>^`</u>.</string>
   <string name="search_clear_history">Очистить историю поиска</string>
   <string name="marker_transfer_to_device_title">Передать на другое устройство</string>
@@ -384,24 +365,11 @@
   <string name="drawer_open">Открыть ящик</string>
   <string name="drawer_close">Закрыть ящик</string>
   <string name="menuSplitVersion">Разделить</string>
-  <string name="menuBible">Библия</string>
   <string name="menuProgress">Продвижение</string>
   <string name="sn_menu_copy">Скопировать песню</string>
   <string name="menuPlay">Воспроизвести</string>
   <string name="menuPause">Пауза</string>
   <string name="left_drawer_current_reading_title">Текущее чтение</string>
-  <string name="book_filter_old_testament">Ветхий Завет</string>
-  <string name="book_filter_old_pentateuch">Пятикнижие</string>
-  <string name="book_filter_old_history">История</string>
-  <string name="book_filter_old_wisdom">Мудрость</string>
-  <string name="book_filter_old_major_prophets">Великие Пророки</string>
-  <string name="book_filter_old_minor_prophets">Малые Пророки</string>
-  <string name="book_filter_new_testament">Новый завет</string>
-  <string name="book_filter_new_gospels">Евангелия</string>
-  <string name="book_filter_new_acts">История Апостолов</string>
-  <string name="book_filter_new_pauline_epistles">Послания Павла</string>
-  <string name="book_filter_new_general_epistles">Соборные послания</string>
-  <string name="book_filter_new_apocalypse">Откровение</string>
   <string name="search_filter_multiple_books_selected">Выбрано %s книг</string>
   <string name="search_version_select_label">Найти в:</string>
   <string name="show_hidden_version_warning">Включение этой настройки позволит Вам загружать версии Библи, которые могут быть предметом определенных региональных или финансовых ограничений. Пожалуйста, убедитесь, что вы не нарушаете такие ограничения, прежде чем загружать эти версии. Ответственность за загрузку таких версий полностью лежит на Вас, а не на мне. Нажмите OK, если вы согласны с этими условиями.</string>
@@ -426,7 +394,6 @@
   <string name="note_actionbar_edit">Изменить</string>
   <string name="note_actionbar_delete">Удалить</string>
   <string name="note_actionbar_ok">Готово</string>
-  <string name="note_activity_cannot_parse_verse">Извините, эта ссылка на стих не распознана.</string>
   <string name="sync_account_not_selected">Вы не вошли в систему</string>
   <string name="pref_syncAccountName_title">Учетная запись</string>
   <string name="sync_logout_warning">Вы хотите выйти из системы? Ваши текущие маркеры и другие локальные данные будут удалены.</string>
@@ -441,7 +408,6 @@
   <string name="sync_category_title_data_types">Типы данных</string>
   <string name="pref_syncSet_mabel_enabled_title">Маркеры и метки</string>
   <string name="pref_syncSet_rp_enabled_title">Продвижение по плану чтения</string>
-  <string name="pref_syncSet_history_enabled_title">Недавние стихи</string>
   <string name="pref_syncSet_pins_enabled_title">Отметки продвижения</string>
   <string name="sync_menu_item_sync_now">Синхронизовать сейчас</string>
   <string name="sync_menu_item_sync_log">Просмотр журнала</string>
@@ -488,8 +454,6 @@
   <string name="sync_login_form_change_password_success">Ваш пароль был изменен.</string>
   <string name="pref_textPadding_title">Границы вокруг текста</string>
   <string name="pref_textPadding_summary">Сделать текст в строке уже для более удобного чтения</string>
-  <string name="pref_bottomToolbarOnText_title">Навигация на нижней панели</string>
-  <string name="pref_bottomToolbarOnText_summary">Разместить панель навигации внизу окна Библии</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Напоминание</string>
   <string name="dr_notification_title">Ежедневое чтение</string>
@@ -508,7 +472,7 @@
   <string name="about_enable_beta_confirmation">Войдите в свой Google-аккаунт и нажмите кнопку \"Стать тестировщиком\", чтобы получить доступ к бета-версии с новыми функциями и усовершенствованиями!</string>
   <string name="about_version_name">версия %s</string>
   <string name="about_material_sources">Источники материалов</string>
-  <string name="about_credits">Благодарности</string>
+  <string name="about_credits">Полезные ссылки</string>
   <string name="about_announcements">Объявления</string>
   <string name="about_announcements_none">Объявления (0)</string>
   <string name="about_announcements_number">Объявления (%s)</string>

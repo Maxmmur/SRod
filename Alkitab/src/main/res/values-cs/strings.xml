@@ -32,16 +32,11 @@
   <string name="menuShareBothSplits">Sdílet obě verze</string>
   <string name="tulis_catatan">Zapsat poznámku</string>
   <string name="tambah_pembatas_buku">Přidat záložku</string>
-  <string name="salin_ayat">Kopírovat verš</string>
   <string name="copy_split0">Kopírovat primární verzi</string>
   <string name="copy_split1">Kopírovat sekundární verzi</string>
   <string name="copy_both_splits">Kopírovat obě verze</string>
-  <string name="search_copy_selected_verses">Kopírovat vybrané verše</string>
-  <string name="perj_baru">Nový zákon</string>
-  <string name="perj_lama">Starý zákon</string>
   <string name="search_bookname_only">%s pouze</string>
-  <string name="ayat_sebelumangka">Verš</string>
-  <string name="pasal_sebelumangka">Kapitola</string>
+  <string name="ayat_sebelumangka">Odstavec</string>
   <string name="jump_to_prompt"><b>Skoč na</b> — Příklad: ^1</string>
   <string name="belum_ada_pembatas_buku">Žádné oblíbené verše. \nVyberte verš k přidání mezi oblíbené.</string>
   <string name="judul_titikdua">Titulek</string>
@@ -58,7 +53,6 @@
   <string name="hari_senin">Po</string>
   <string name="hari_minggu">Ne</string>
   <string name="size_hasil">%d výsledky</string>
-  <string name="search_searching_tokens">Hledat verše obsahující %s&#8230;</string>
   <string name="pilih_setidaknya_satu_kitab">Zvolte alespoň jednu knihu pro vyhledávání.</string>
   <string name="pengunduhan_dibatalkan">Stahování přerušeno.</string>
   <string name="sedang_mendekompres_harap_tunggu">Rozbaluji. Prosím čekejte...</string>
@@ -69,7 +63,6 @@
   <string name="mengunduh_nama">Stahování %s</string>
   <string name="tuju_v">Jděte na</string>
   <string name="bagikan_alamat">Sdílet %s</string>
-  <string name="search_selected_verse_copied">Vybrané verše byly zkopírovány.</string>
   <string name="alamat_sudah_disalin">%s byl zkopírován.</string>
   <string name="alamat_tidak_sah_alamat">Neplatná adresa: %s</string>
   <string name="no">Ne</string>
@@ -83,7 +76,6 @@
   <string name="tidak_bisa_membuat_folder">Nemohu vytvořit adresář %s</string>
   <string name="menuPengaturan">Nastavení</string>
   <string name="menuTentang">O...</string>
-  <string name="pengaturan_alkitab">Nastavení Bible</string>
   <string name="kelola_versi">Správa překladů</string>
   <string name="tambah">Přidat</string>
   <string name="versi_lainnya">Další verze</string>
@@ -145,7 +137,6 @@
   <string name="menuSort">Setřídit</string>
   <string name="menuSortCreateTime">Datum vytvoření</string>
   <string name="menuSortModifyTime">Datum úpravy</string>
-  <string name="menuSortAri">Umístění verše</string>
   <string name="menuSortCaption">Titulek</string>
   <string name="menuSortCaption_color">Barva zvýraznění</string>
   <string name="create_edited_modified_time">%1$s\n(upraveno %2$s)</string>
@@ -206,8 +197,6 @@
   <string name="text_appearance_bold">Tučně</string>
   <string name="devotion_change_date">Změna data</string>
   <string name="bookmark_search">Hledání</string>
-  <string name="verse_select_one_verse_selected">vybrán 1 verš</string>
-  <string name="verse_select_multiple_verse_selected">vybráno %s veršů</string>
   <string name="google_play_store_not_installed">Obchod Google není nainstalován.</string>
   <string name="pref_language_label_default">Výchozí</string>
   <string name="market_short_desc">Rychlý, spolehlivý a na funkce bohatý režim offline Bible.</string>
@@ -217,8 +206,7 @@
   <string name="goto_tab_dialer_label">Číselník</string>
   <string name="goto_tab_direct_label">Posloupně</string>
   <string name="goto_tab_grid_label">Mřížka</string>
-  <string name="menuAskForVerse">Zeptat se na číslo verze</string>
-  <!-- Font Manager -->
+    <!-- Font Manager -->
   <string name="fm_activity_title">Manažer fontů</string>
   <string name="fm_need_to_log_in_to_wifi">Nejdříve se musíte přihlásit do své (Wi-Fi) sítě.</string>
   <string name="fm_do_you_want_to_delete">Smazat písmo %s?</string>
@@ -268,11 +256,8 @@
   <string name="desc_progress_3">Třetí záložka</string>
   <string name="desc_progress_4">Čtvrtá záložka</string>
   <string name="desc_progress_5">Pátá záložka</string>
-  <string name="desc_verse_attribute_one_bookmark">Verš přidán mezi oblíbené.</string>
-  <string name="desc_verse_attribute_multiple_bookmarks">%s oblíbených přiřazeno k tomuto verši.</string>
   <string name="desc_verse_attribute_one_note">Poznámka přiřazená k tomuto verši.</string>
-  <string name="desc_verse_attribute_multiple_notes">%s poznámek přiřazených k tomuto verši.</string>
-  <string name="desc_verse_attribute_progress_mark">%s je nyní zde.</string>
+    <string name="desc_verse_attribute_progress_mark">%s je nyní zde.</string>
   <string name="desc_progress_mark_list">Lišta záložek</string>
   <string name="intent_filter_open_yes_file">Otevřít YES soubor</string>
   <string name="intent_filter_open_pdb_file">Otevřít PDB soubor</string>
@@ -301,19 +286,16 @@
   <string name="pm_progress_4">Záložka 4</string>
   <string name="pm_progress_5">Záložka 5</string>
   <string name="pm_progress_name">Název záložky</string>
-  <string name="pm_activate_tutorial">Podržte a táhněte na místo záložky na verš.</string>
   <string name="pm_delete_progress_confirm">Odstranit <b>^1</b>?</string>
   <string name="copy_share">Kopírovat nebo sdílet</string>
   <string name="backup_last_time">Poslední záloha: %s</string>
   <string name="backup_selection_autobackup_at">Automatická záloha %s</string>
   <string name="backup_selection_manualbackup_at">Záloha %s</string>
   <string name="backup_select_file">Vyberte soubor zálohy</string>
-  <string name="recentverses_not_available">Nemáte žádné současné verše.</string>
   <string name="recentverses_just_now">Nyní</string>
   <string name="recentverses_min_plural_ago">před %s minutami</string>
   <string name="recentverses_today_time">Dnes, %s</string>
   <string name="recentverses_yesterday_time">Včera, %s</string>
-  <string name="recentverses_button_hint">(dlouhý stisk pro současné verše)</string>
   <string name="dr_reminder">Připomínač</string>
   <string name="dr_error_contact_reminder">Chyba během spojení s Připomínačem.</string>
   <string name="dv_option_transparent_background">Průhledné pozadí</string>
@@ -370,7 +352,6 @@
   <string name="song_player_error_description">Chyba při přehrávání: %1$d, %2$d.</string>
   <string name="search_in_version_short_name_placeholder">Najít v %s</string>
   <string name="search_syntax_tips"><i>Tip:</i>\n\n<b>+slovo</b> pro přesnou shodu\n<b>[q]město Davidovo[q]</b> pro přesnou frázi</string>
-  <string name="search_no_result"><b>^1</b> nenalezeno.</string>
   <string name="search_no_result_fallback">Tapněte pro <u>^1</u>.</string>
   <string name="search_clear_history">Vymazat historii vyhledávání</string>
   <string name="marker_transfer_to_device_title">Přesunout na jiné zařízení</string>
@@ -381,24 +362,11 @@
   <string name="drawer_open">Otevřít nabídku</string>
   <string name="drawer_close">Zavřít nabídku</string>
   <string name="menuSplitVersion">Rozdělit</string>
-  <string name="menuBible">Bible</string>
   <string name="menuProgress">Přehled</string>
   <string name="sn_menu_copy">Kopírovat skladbu</string>
   <string name="menuPlay">Přehrát</string>
   <string name="menuPause">Pauza</string>
   <string name="left_drawer_current_reading_title">Nynější čtení</string>
-  <string name="book_filter_old_testament">Starý zákon</string>
-  <string name="book_filter_old_pentateuch">Pentateuch</string>
-  <string name="book_filter_old_history">Historie</string>
-  <string name="book_filter_old_wisdom">Moudrost</string>
-  <string name="book_filter_old_major_prophets">Velcí proroci</string>
-  <string name="book_filter_old_minor_prophets">Malí proroci</string>
-  <string name="book_filter_new_testament">Nový zákon</string>
-  <string name="book_filter_new_gospels">Žalmy</string>
-  <string name="book_filter_new_acts">Apoštolská historie</string>
-  <string name="book_filter_new_pauline_epistles">Pavlovy epištoly</string>
-  <string name="book_filter_new_general_epistles">Obecné epištoly</string>
-  <string name="book_filter_new_apocalypse">Zjevení</string>
   <string name="search_filter_multiple_books_selected">%s knih vybráno</string>
   <string name="search_version_select_label">Najít v:</string>
   <string name="show_hidden_version_warning">Povolení této volby vám umožní stáhnout verze Bible, které ale mohou být v určitých regionech zpoplatněné. Před stažením se ujistěte, že máte ke stažení oprávnění. Za stažení a používání takových verzí je samo plně zodpovědní a já nenesu žádnou odpovědnost. Klikněte na OK, pokud s těmito podmínkami souhlasíte.</string>
@@ -423,7 +391,6 @@
   <string name="note_actionbar_edit">Upravit</string>
   <string name="note_actionbar_delete">Smazat</string>
   <string name="note_actionbar_ok">Hotovo</string>
-  <string name="note_activity_cannot_parse_verse">Nepodporovaný formát odkazu.</string>
   <string name="sync_account_not_selected">Nejste přihlášen</string>
   <string name="pref_syncAccountName_title">Účet</string>
   <string name="sync_logout_warning">Odhlásit? (lokálně uložená data nebudou smazána)</string>
@@ -438,7 +405,6 @@
   <string name="sync_category_title_data_types">Data</string>
   <string name="pref_syncSet_mabel_enabled_title">Označení a štítky</string>
   <string name="pref_syncSet_rp_enabled_title">Stav plánu čtení</string>
-  <string name="pref_syncSet_history_enabled_title">Současné verše</string>
   <string name="pref_syncSet_pins_enabled_title">Záložky</string>
   <string name="sync_menu_item_sync_now">Synchronizovat</string>
   <string name="sync_menu_item_sync_log">Zobrazit log</string>
@@ -484,8 +450,6 @@
   <string name="sync_login_form_change_password_success">Vaše heslo musí být změněno.</string>
   <string name="pref_textPadding_title">Okraje kolem textu</string>
   <string name="pref_textPadding_summary">Užší mezera mezi řádky</string>
-  <string name="pref_bottomToolbarOnText_title">Navigační lišta dole</string>
-  <string name="pref_bottomToolbarOnText_summary">Zobrazovat navigační lištu dole</string>
   <!-- devotion reminder -->
   <string name="dr_app_name">Připomínač</string>
   <string name="dr_notification_title">Denní zbožnost</string>
@@ -504,7 +468,7 @@
   <string name="about_enable_beta_confirmation">Přihlaste se pomocí svého účtu Google a klikněte na tlačítko CHCI SE STÁT TESTEREM, abyste mohli vyzkoušet beta verzi s novějšími funkcemi a vylepšeními!</string>
   <string name="about_version_name">verze %s</string>
   <string name="about_material_sources">Zdroje</string>
-  <string name="about_credits">Kredits</string>
+  <string name="about_credits">užitečné odkazy</string>
   <string name="about_announcements">Oznámení</string>
   <string name="about_announcements_none">Oznámení (0)</string>
   <string name="about_announcements_number">Oznámení (%s)</string>
