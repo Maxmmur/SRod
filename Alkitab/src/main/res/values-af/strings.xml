@@ -469,9 +469,7 @@
   <string name="dr_pref_notification_message">Herinnering boodskap</string>
   <string name="dr_default_sound">Verstek klank</string>
   <!-- about -->
-  <string name="about_text_desc" tools:ignore="AndroidLintStringFormatInvalid">100% gratis Bybel toep, gelisensieerd onder Apache License 2.0</string>
   <string name="about_translators">Vertalers</string>
-  <string name="about_user_guide">Gebruikers Gids</string>
   <string name="about_beta_feedback">Beta Weergawe Terugvoer</string>
   <string name="about_enable_beta">Probeer Beta Weergawe</string>
   <string name="about_enable_beta_confirmation">Teken aan by Google en klik op die \"BECOME A TESTER\" knoppie, om die Beta weergawe met die nuutste funksies en verbeteringe te toets!</string>
@@ -481,8 +479,6 @@
   <string name="about_announcements_none">Aankondigings (0)</string>
   <string name="about_announcements_number">Aankondigings (%s)</string>
   <string name="about_announcement_load_failed">Gefaal om aankondigings te laai.</string>
-  <string name="about_official_website">Offisiële Webwerf </string>
-  <string name="about_project_page">Projek Bladsy</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Ons bemerk \'n rugsteun lêer van die ou v3 Yuku Quick Bible wat boekmerke, notas, ens bevat.\n\nWil jy dit graag invoer dat jy dit kan gebruik in die nuwe weergawe?</string>
   <string name="marker_migrate_no_more">Moet nie weer vra nie</string>
@@ -511,5 +507,4 @@
   <string name="maps_could_not_open">Kon nie die Bybel Kaarte program oopmaak nie.</string>
   <!-- File chooser -->
   <string name="filechooser_parent_folder">Primêre lêer</string>
-  <string name="about_material_sources" translatable="false">Ons doel</string>
 </resources>

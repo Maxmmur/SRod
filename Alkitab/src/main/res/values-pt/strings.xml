@@ -469,21 +469,16 @@
   <string name="dr_pref_notification_message">Mensagem de lembrete</string>
   <string name="dr_default_sound">Som padrão</string>
   <!-- about -->
-  <string name="about_text_desc" tools:ignore="AndroidLintStringFormatInvalid">Aplicativo da Bíblia totalmente gratuito, sob licença da Apache License 2.0</string>
   <string name="about_translators">Tradutores</string>
-  <string name="about_user_guide">Guia do Usuário</string>
   <string name="about_beta_feedback">Feedback da versão beta</string>
   <string name="about_enable_beta">Teste a versão Beta</string>
   <string name="about_enable_beta_confirmation">Entre suas credenciais do Google e clique em TORNAR-SE UM AVALIADOR para avaliar a versão Beta com recursos novos e outras melhorias!</string>
   <string name="about_version_name">versão %s</string>
-  <string name="about_material_sources">Fontes de material</string>
-  <string name="about_credits">Links Úteis</string>
+    <string name="about_credits">Links Úteis</string>
   <string name="about_announcements">Avisos</string>
   <string name="about_announcements_none">Avisos (0)</string>
   <string name="about_announcements_number">Avisos (%s)</string>
   <string name="about_announcement_load_failed">Falha ao carregar anúncios.</string>
-  <string name="about_official_website">Site oficial</string>
-  <string name="about_project_page">Página do projeto</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Detectamos um arquivo de backup da versão 3 do Quick Bible que contém marcadores, anotações, realces, e etiquetas.\n\nVocê deseja importá-lo para utilizá-lo nesta nova versão do aplicativo?</string>
   <string name="marker_migrate_no_more">Não pergunte novamente</string>

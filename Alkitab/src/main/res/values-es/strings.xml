@@ -503,21 +503,16 @@ Usted es completamente responsable al descargar y utilizar dichas versiones y yo
   <string name="dr_pref_notification_message">Mensaje recordatorio</string>
   <string name="dr_default_sound">Sonido por defecto</string>
   <!-- about -->
-  <string name="about_text_desc" tools:ignore="AndroidLintStringFormatInvalid">La Biblia de libre acceso a través de la Licencia Apache 2.0</string>
-  <string name="about_translators">Traductores</string>
-  <string name="about_user_guide">Guía de usuario</string>
+    <string name="about_translators">Traductores</string>
   <string name="about_beta_feedback">Retroalimentación de Versión Beta</string>
   <string name="about_enable_beta">Probar la versión Beta</string>
   <string name="about_enable_beta_confirmation">¡Inicia sesión con Google y selecciona el botón CONVERTIRSE EN BETA TESTER para probar la versión beta con nuevas características y mejoras!</string>
   <string name="about_version_name">versión %s</string>
-  <string name="about_material_sources">Fuentes Materiales</string>
   <string name="about_credits">Enlaces útiles</string>
   <string name="about_announcements">Avisos</string>
   <string name="about_announcements_none">Avisos (0)</string>
   <string name="about_announcements_number">Avisos (%s)</string>
   <string name="about_announcement_load_failed">Fallo al cargar los avisos.</string>
-  <string name="about_official_website">Página web oficial</string>
-  <string name="about_project_page">La Página del Proyecto</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Detectamos un archivo de respaldo de la antigua v3 Yuku Quick Bible que contiene marcadores, notas, resaltos y etiquetas.\n\n¿Desea importarlos para así poder accesarlos desde esta aplicación?</string>
   <string name="marker_migrate_no_more">No preguntar de nuevo</string>

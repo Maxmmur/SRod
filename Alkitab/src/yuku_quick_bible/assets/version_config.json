@@ -46,5 +46,5 @@
 		"pon": "Pohnpeian"
 	},
 
-	"download_url_format": "https://www.gadsda.com/versions/$PRESET_NAME.yes"
+	"download_url_format": "https://www.gadsda.com/versions/1/$PRESET_NAME.yes"
 }

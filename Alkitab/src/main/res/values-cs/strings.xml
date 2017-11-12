@@ -465,19 +465,15 @@
   <string name="dr_default_sound">Defaultní zvuk</string>
   <!-- about -->
   <string name="about_translators">Překladatelé</string>
-  <string name="about_user_guide">Uživatelská příručka</string>
   <string name="about_beta_feedback">Zpětná vazba</string>
   <string name="about_enable_beta">Vyzkoušet beta verzi</string>
   <string name="about_enable_beta_confirmation">Přihlaste se pomocí svého účtu Google a klikněte na tlačítko CHCI SE STÁT TESTEREM, abyste mohli vyzkoušet beta verzi s novějšími funkcemi a vylepšeními!</string>
   <string name="about_version_name">verze %s</string>
-  <string name="about_material_sources">Zdroje</string>
   <string name="about_credits">užitečné odkazy</string>
   <string name="about_announcements">Oznámení</string>
   <string name="about_announcements_none">Oznámení (0)</string>
   <string name="about_announcements_number">Oznámení (%s)</string>
   <string name="about_announcement_load_failed">Chyba při načítání oznámení.</string>
-  <string name="about_official_website">Oficiální webové stránky</string>
-  <string name="about_project_page">Stránka projektů</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Našli jsme zálohu ze staré verze Bible v3, která obsahuje oblíbené verše, poznámky, zvýraznění a tagy.\n\nChtece je naimportovat?</string>
   <string name="marker_migrate_no_more">Neptejte se znovu</string>

@@ -469,21 +469,16 @@
   <string name="dr_pref_notification_message">Erinnerungsmeldung</string>
   <string name="dr_default_sound">Standardton</string>
   <!-- about -->
-  <string name="about_text_desc" tools:ignore="AndroidLintStringFormatInvalid">100% kostenlose Bibel-App, lizenziert unter der Apache Lizenz 2.0</string>
-  <string name="about_translators">Übersetzer</string>
-  <string name="about_user_guide">Handbuch</string>
+    <string name="about_translators">Übersetzer</string>
   <string name="about_beta_feedback">Feedback zur Betaversion</string>
   <string name="about_enable_beta">Beta-Version ausprobieren</string>
   <string name="about_enable_beta_confirmation">Melden Sie sich bei Google an und tippen Sie auf den Button BECOME A TESTER, um die Beta-Version mit neuen Features und Erweiterungen auszuprobieren!</string>
   <string name="about_version_name">Version %s</string>
-  <string name="about_material_sources">Material-Quellen</string>
   <string name="about_credits">Nützliche Links</string>
   <string name="about_announcements">Meldungen</string>
   <string name="about_announcements_none">Meldungen (0)</string>
   <string name="about_announcements_number">Meldungen (%s)</string>
   <string name="about_announcement_load_failed">Laden der Meldungen fehlgeschlagen.</string>
-  <string name="about_official_website">Offizielle Website</string>
-  <string name="about_project_page">Projektseite</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Es wurde eine Backupdatei der alten Quick Bible 3 App von Yuku mit Lesezeichen, Notizen, Hervorhebungen und Stichwörter erkannt.\n\nMöchten Sie diese importieren, sodass sie in dieser App verfügbar sind?</string>
   <string name="marker_migrate_no_more">Nicht noch einmal fragen</string>

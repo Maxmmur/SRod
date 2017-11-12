@@ -473,19 +473,15 @@ Esošās rezerves kopijas tiks pārrakstītas.</string>
   <string name="dr_default_sound">Noklusētā skaņa</string>
   <!-- about -->
   <string name="about_translators">Tulkotāji</string>
-  <string name="about_user_guide">Lietotāja rokasgrāmata</string>
-  <string name="about_beta_feedback">Beta versijas atgriezeniskā saite</string>
+    <string name="about_beta_feedback">Beta versijas atgriezeniskā saite</string>
   <string name="about_enable_beta">Izmēģini Beta versiju</string>
   <string name="about_enable_beta_confirmation">Pievienojies Google and nospied pogu \"KĻŪT PAR TESTĒTĀJU\" un izmēģini Beta versiju ar jaunām funkcijām un uzlabojumiem!</string>
   <string name="about_version_name">versija %s</string>
-  <string name="about_material_sources">Materiālu avoti</string>
   <string name="about_credits">Noderīgas saites</string>
   <string name="about_announcements">Paziņojumi</string>
   <string name="about_announcements_none">Paziņojumi (0)</string>
   <string name="about_announcements_number">Paziņojumi (%s)</string>
   <string name="about_announcement_load_failed">Neizdevās ielādēt paziņojumus.</string>
-  <string name="about_official_website">Oficiālā mājaslapa</string>
-  <string name="about_project_page">Projekta mājas lapa</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Ir atrasts rezerves kopijas fails uz vecajā v3 Yku Quick Bible aplikācijā, kurš satur grāmatzīmes, piezīmes, pasvītrojumus un iezīmes.\n\nVai tu vēlies tās tagad ieimportēt, tad tu varēsi tām pieklūt no šīs aplikācijas?</string>
   <string name="marker_migrate_no_more">Vairāk neprasi</string>

@@ -470,19 +470,15 @@
   <string name="dr_default_sound">Standard lyd</string>
   <!-- about -->
   <string name="about_translators">Oversættere</string>
-  <string name="about_user_guide">Brugervejledning</string>
   <string name="about_beta_feedback">Beta version tilbagemelding</string>
   <string name="about_enable_beta">Prøv Beta version</string>
   <string name="about_enable_beta_confirmation">Log ind på Google og tryk på \"BLIV TESTER\"-knappen for at prøve Beta version med nyere funktioner og forbedringer!</string>
   <string name="about_version_name">version %s</string>
-  <string name="about_material_sources">Materiale Kilder</string>
   <string name="about_credits">nyttige links</string>
   <string name="about_announcements">Meddelelser</string>
   <string name="about_announcements_none">Meddelelser (0)</string>
   <string name="about_announcements_number">Meddelelser (%s)</string>
   <string name="about_announcement_load_failed">Kunne ikke indlæse meddelelser.</string>
-  <string name="about_official_website">Officiel webside</string>
-  <string name="about_project_page">Projekt side</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Vi har registreret en sikkerhedskopi-fil fra den gamle v3 Yuku Quick Bible, der indeholder bogmærker, notater, farvemarkører, og etiketter.\n\nVil du importere dem, så du kan få adgang til dem fra denne app?</string>
   <string name="marker_migrate_no_more">Spørg ikke igen</string>

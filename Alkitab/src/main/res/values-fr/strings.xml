@@ -503,21 +503,16 @@
   <string name="dr_pref_notification_message">Message de rappel</string>
   <string name="dr_default_sound">Son par défaut</string>
   <!-- about -->
-  <string name="about_text_desc" tools:ignore="AndroidLintStringFormatInvalid">Application Biblique 100% gratuite, sous licence Apache License 2.0</string>
-  <string name="about_translators">Traducteurs</string>
-  <string name="about_user_guide">Guide de l\'utilisateur</string>
+    <string name="about_translators">Traducteurs</string>
   <string name="about_beta_feedback">Commentaires de la Version beta</string>
   <string name="about_enable_beta">Essayer la version Beta</string>
   <string name="about_enable_beta_confirmation">Connectez-vous sur votre compte Google et appuyez sur le bouton DEVENIR TESTEUR pour essayer la version bêta avec les nouvelles fonctionnalités et améliorations!</string>
   <string name="about_version_name">version %s</string>
-  <string name="about_material_sources">Sources matérielles</string>
   <string name="about_credits">Liens utiles</string>
   <string name="about_announcements">Annonces</string>
   <string name="about_announcements_none">Annonces (0)</string>
   <string name="about_announcements_number">Annonces (%s)</string>
   <string name="about_announcement_load_failed">Echec lors du chargement des annonces.</string>
-  <string name="about_official_website">Site officiel</string>
-  <string name="about_project_page">Page de projet</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Nous avons détecté une sauvegarde de la version 3 de Yuku Quick Bible qui contient des marque-pages, des notes, des surlignés et des étiquettes.\n\nVoulez-vous les importer, pour pouvoir y accéder depuis cette application?</string>
   <string name="marker_migrate_no_more">Ne plus demander</string>

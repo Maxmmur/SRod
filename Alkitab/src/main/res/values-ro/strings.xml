@@ -451,19 +451,15 @@
   <string name="dr_default_sound">Sunet implicit</string>
   <!-- about -->
   <string name="about_translators">Traducători</string>
-  <string name="about_user_guide">Ghidul utilizatorului</string>
-  <string name="about_beta_feedback">Feedback-ul versiunii Beta</string>
+    <string name="about_beta_feedback">Feedback-ul versiunii Beta</string>
   <string name="about_enable_beta">Încearcă versiunea Beta</string>
   <string name="about_enable_beta_confirmation">Conectați-vă la Google și atingeți butonul DEVIN TESTER pentru a încerca versiunea Beta cu caracteristici noi și îmbunătățiri!</string>
   <string name="about_version_name">versiune %s</string>
-  <string name="about_material_sources">Surse materiale</string>
   <string name="about_credits">Link-uri utile</string>
   <string name="about_announcements">Anunțuri</string>
   <string name="about_announcements_none">Anunțuri (0)</string>
   <string name="about_announcements_number">Anunțuri (%s)</string>
   <string name="about_announcement_load_failed">Eșec la încărcare anunțuri.</string>
-  <string name="about_official_website">Site oficial</string>
-  <string name="about_project_page">Pagina proiect</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Am detectat un fișier de backup de la vechiul v3 Yuku Quick Bible care conține marcaje, note, evidențieri și etichete.\n\nDoriți să le importați, astfel încât să le puteți accesa din această aplicație?</string>
   <string name="marker_migrate_no_more">Nu mai întreba</string>

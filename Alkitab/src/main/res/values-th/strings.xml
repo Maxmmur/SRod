@@ -469,21 +469,16 @@
   <string name="dr_pref_notification_message">ข้อความเตือน</string>
   <string name="dr_default_sound">เสียงดีฟอลต์</string>
   <!-- about -->
-  <string name="about_text_desc" tools:ignore="AndroidLintStringFormatInvalid">แอปพระคัมภีร์ฟรี 100% อนุญาตภายใต้ Apache License 2.0</string>
-  <string name="about_translators">นักแปล</string>
-  <string name="about_user_guide">คู่มือการใช้</string>
+    <string name="about_translators">นักแปล</string>
   <string name="about_beta_feedback">ข้อเสนอแนะรุ่นเบต้า</string>
   <string name="about_enable_beta">ลองรุ่นเบต้า</string>
   <string name="about_enable_beta_confirmation">เข้าสู่ระบบ Google แล้วกดปุ่ม BECOME A TESTER เพื่อลองรุ่นเบต้าพร้อมด้วยฟิเช่อร์ใหม่ๆ และการปรับปรุงอย่างล่าสุดได้ค่ะ</string>
   <string name="about_version_name">เวอร์ชั่น %s</string>
-  <string name="about_material_sources">แหล่งข้อมูล</string>
   <string name="about_credits">ลิงค์ที่เป็นประโยชน์</string>
   <string name="about_announcements">การประกาศ</string>
   <string name="about_announcements_none">การประกาศ (0)</string>
   <string name="about_announcements_number">การประกาศ (%s)</string>
   <string name="about_announcement_load_failed">การโหลดการประกาศล้มเหลวค่ะ</string>
-  <string name="about_official_website">เว็ปไซต์ทางการ</string>
-  <string name="about_project_page">หน้าหลักโครงการ</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">เราได้ตรวจพบไฟล์แบ็คอัพจาก v3 Yuku Quick Bible รุ่นเก่าที่ประกอบด้วยบุ๊คมาร์ค โน้ต การไฮไลท์ และป้ายกำกับค่ะ\n\nท่านต้องการนำเข้าสิ่งเหล่านี้เพื่อใช้ในแอปเวอร์ชั่นปัจจุบันหรือไม่ค่ะ?</string>
   <string name="marker_migrate_no_more">ไม่ต้องถามอีก</string>

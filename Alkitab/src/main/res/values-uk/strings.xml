@@ -397,8 +397,7 @@
   <string name="dr_vibrate">Вібрація</string>
   <!-- about -->
   <string name="about_translators">Перекладачі</string>
-  <string name="about_user_guide">Керівництво користувача</string>
-  <string name="about_version_name">Версія складання %s</string>
+    <string name="about_version_name">Версія складання %s</string>
   <string name="about_credits">корисні посилання</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_no_more">Не питати знову</string>

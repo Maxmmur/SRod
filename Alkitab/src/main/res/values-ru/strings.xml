@@ -466,19 +466,15 @@
   <string name="dr_default_sound">Звук по умолчанию</string>
   <!-- about -->
   <string name="about_translators">Переводчики</string>
-  <string name="about_user_guide">Руководство пользователя</string>
-  <string name="about_beta_feedback">Отзывы о бета-версии</string>
+    <string name="about_beta_feedback">Отзывы о бета-версии</string>
   <string name="about_enable_beta">Попробовать бета-версию</string>
   <string name="about_enable_beta_confirmation">Войдите в свой Google-аккаунт и нажмите кнопку \"Стать тестировщиком\", чтобы получить доступ к бета-версии с новыми функциями и усовершенствованиями!</string>
   <string name="about_version_name">версия %s</string>
-  <string name="about_material_sources">Источники материалов</string>
   <string name="about_credits">Полезные ссылки</string>
   <string name="about_announcements">Объявления</string>
   <string name="about_announcements_none">Объявления (0)</string>
   <string name="about_announcements_number">Объявления (%s)</string>
   <string name="about_announcement_load_failed">Не удалось загрузить объявления.</string>
-  <string name="about_official_website">Официальный сайт</string>
-  <string name="about_project_page">Страница проекта</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Обнаружен файл резервной копии, содержащий закладки, заметки, подкраску и метки, от старой версии Quick Bible v3.\n\nИмпортировать даные из этого файла, чтобы они стали доступны из данного приложения?</string>
   <string name="marker_migrate_no_more">Больше не спрашивать</string>

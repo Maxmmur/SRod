@@ -469,21 +469,16 @@
   <string name="dr_pref_notification_message">Tin nhắn nhắc nhở</string>
   <string name="dr_default_sound">Âm thanh mặc định</string>
   <!-- about -->
-  <string name="about_text_desc" tools:ignore="AndroidLintStringFormatInvalid">100% miễn phí phần mềm Kinh thánh, đăng ký bởi Apache 2.0</string>
   <string name="about_translators">Dịch giả</string>
-  <string name="about_user_guide">Hướng dẫn sử dụng</string>
   <string name="about_beta_feedback">Phiên bản Beta Phản hồi</string>
   <string name="about_enable_beta">Hãy thử Beta</string>
   <string name="about_enable_beta_confirmation">Đăng nhập vào Google và bấm vào BECOME A TESTER để thử phiên bản Beta với các tính năng mới và cải tiến!</string>
   <string name="about_version_name">phiên bản %s</string>
-  <string name="about_material_sources">Nguồn nguyên liệu</string>
   <string name="about_credits">Liên kết hữu ích</string>
   <string name="about_announcements">Thông báo</string>
   <string name="about_announcements_none">Thông báo (0)</string>
   <string name="about_announcements_number">Thông báo (%s)</string>
   <string name="about_announcement_load_failed">Không tải được thông báo.</string>
-  <string name="about_official_website">Trang web chính thức</string>
-  <string name="about_project_page">Trang dự án</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Chúng tôi phát hiện một tập tin sao lưu từ v3 Yuku Kinh Thánh nhanh cũ có chứa dấu, ghi chú, nổi bật, và nhãn.\n\nBạn có muốn nhập chúng, để bạn có thể truy cập chúng từ ứng dụng này?</string>
   <string name="marker_migrate_no_more">Đừng hỏi lại</string>

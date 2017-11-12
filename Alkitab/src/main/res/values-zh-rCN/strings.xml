@@ -472,19 +472,15 @@
   <string name="dr_default_sound">预设声音</string>
   <!-- about -->
   <string name="about_translators">译者</string>
-  <string name="about_user_guide">使用者指引</string>
   <string name="about_beta_feedback">测试版本回馈</string>
   <string name="about_enable_beta">使用试用版本</string>
   <string name="about_enable_beta_confirmation">登入谷歌并按下「成为测试员」按钮，以使用有更新的功能和更完善的试用版本！</string>
   <string name="about_version_name">版本 %s</string>
-  <string name="about_material_sources">资料来源</string>
   <string name="about_credits">有用的链接</string>
   <string name="about_announcements">公告</string>
   <string name="about_announcements_none">公告 (0)</string>
   <string name="about_announcements_number">公告 (%s)</string>
   <string name="about_announcement_load_failed">读取公告失败。</string>
-  <string name="about_official_website">官方网站</string>
-  <string name="about_project_page">计划页面</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">我们侦测到一个含有书签、笔记、标记和标签的v3 Yuku神速圣经旧版本的备份档桉。\n\n你想汇入它们，让你在这个程式存取它们吗？</string>
   <string name="marker_migrate_no_more">不再询问</string>

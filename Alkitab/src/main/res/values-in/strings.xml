@@ -503,21 +503,16 @@
   <string name="dr_pref_notification_message">Pesan pengingat</string>
   <string name="dr_default_sound">Suara default</string>
   <!-- about -->
-  <string name="about_text_desc" tools:ignore="AndroidLintStringFormatInvalid">Aplikasi Alkitab 100% gratis. Terdaftar dibawah Apache License 2.0</string>
   <string name="about_translators">Penerjemah</string>
-  <string name="about_user_guide">Petunjuk Pemakaian</string>
   <string name="about_beta_feedback">Kotak Saran Versi Beta</string>
   <string name="about_enable_beta">Coba Versi Beta</string>
   <string name="about_enable_beta_confirmation">Login ke Google dan klik tombol JADI PENGUJI untuk mencoba versi Beta dengan fitur lebih lengkap dan canggih!</string>
   <string name="about_version_name">versi %s</string>
-  <string name="about_material_sources">Sumber Bahan</string>
-  <string name="about_credits">Link Berguna</string>
+    <string name="about_credits">Link Berguna</string>
   <string name="about_announcements">Pengumuman</string>
   <string name="about_announcements_none">Pengumuman (0)</string>
   <string name="about_announcements_number">Pengumuman (%s)</string>
   <string name="about_announcement_load_failed">Gagal memuat pengumuman.</string>
-  <string name="about_official_website">Situs Resmi</string>
-  <string name="about_project_page">Halaman Proyek</string>
   <!-- marker and label migration -->
   <string name="marker_migrate_introduction">Terdeteksi file cadangan dari Alkitab (Quick Bible) v3 lama yang mengandung pembatas buku, catatan, sorotan, dan label.\n\nMaukah Anda mempergunakan isi file itu?</string>
   <string name="marker_migrate_no_more">Jangan tanyakan lagi</string>
